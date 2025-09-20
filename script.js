@@ -24,3 +24,10 @@ function filterDestinations() {
 
 searchInput.addEventListener("input", filterDestinations);
 filterCategory.addEventListener("change", filterDestinations);
+
+// Just a placeholder for search functionality
+document.querySelector('.btn-search').addEventListener('click', () => {
+  const keyword = document.querySelector('.search-bar input').value;
+  alert(`Searching for: ${keyword}`);
+});
+

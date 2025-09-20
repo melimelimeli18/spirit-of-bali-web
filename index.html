@@ -1,91 +1,114 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Spirit of Bali</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
   <!-- Hero Section -->
   <header class="hero">
     <div class="overlay"></div>
+
+    <!-- Language Switch -->
+    <div class="language-switch">
+      <select>
+        <option value="en">EN</option>
+        <option value="id">ID</option>
+      </select>
+    </div>
+
+    <!-- Logo -->
     <div class="hero-content">
-      <h1>Spirit of Bali</h1>
-      <p>Discover the Stories Behind Every Journey</p>
-      <div class="cta">
-        <a href="#destinations" class="btn primary">Jelajahi Sekarang</a>
-        <a href="#stories" class="btn secondary">Baca Cerita</a>
+      <h1 class="logo">Spirit <span>of</span> Bali</h1>
+      <p class="tagline">Discover the Stories Behind Every Journey</p>
+    </div>
+
+    <!-- Featured Destinations -->
+    <div class="featured-destinations">
+      <div class="destination">
+        <img src="https://via.placeholder.com/120" alt="Desa Panglipuran" />
+        <p class="fact">#1 World’s Cleanest Village</p>
+        <h3>DESA PANGLIPURAN</h3>
       </div>
+      <div class="destination">
+        <img src="https://via.placeholder.com/120" alt="GWK Statue" />
+        <p class="fact">Top 5 Highest Statue</p>
+        <h3>GWK STATUE</h3>
+      </div>
+      <div class="destination">
+        <img src="https://via.placeholder.com/120" alt="Seminyak Beach" />
+        <p class="fact">World-Famous Surfing Spot</p>
+        <h3>SEMINYAK BEACH</h3>
+      </div>
+    </div>
+
+    <!-- Search Bar -->
+    <div class="search-bar">
+      <input type="text" placeholder="Search destinations, culture, or stories..." />
+      <button class="btn-search">🔍</button>
+      <button class="btn-category">All Categories ⌄</button>
     </div>
   </header>
 
-  <!-- Search & Filter -->
-  <section class="search-filter">
-    <input type="text" id="searchInput" placeholder="Cari destinasi, budaya, atau cerita...">
-    <select id="filterCategory">
-      <option value="all">Semua Kategori</option>
-      <option value="pantai">Pantai</option>
-      <option value="budaya">Budaya</option>
-      <option value="desa">Desa Adat</option>
-      <option value="alam">Alam & Sawah</option>
-      <option value="satwa">Satwa</option>
-    </select>
+  <!-- Destinations Section -->
+  <section id="destinations" class="section">
+    <h2>Featured Destinations</h2>
+    <p>Explore Bali’s most iconic places, from stunning beaches to cultural villages.</p>
+    <div class="cards">
+      <div class="card">
+        <img src="https://source.unsplash.com/400x250/?bali,beach" alt="Seminyak Beach" />
+        <h3>Seminyak Beach</h3>
+        <p>Best Sunset in Bali</p>
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/400x250/?bali,temple" alt="GWK Statue" />
+        <h3>GWK Statue</h3>
+        <p>World’s Tallest Statue</p>
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/400x250/?bali,village" alt="Desa Panglipuran" />
+        <h3>Desa Panglipuran</h3>
+        <p>#1 Cleanest Village</p>
+      </div>
+    </div>
   </section>
 
- <!-- Destinations -->
-<section id="destinasi" class="section">
-  <div class="container">
-    <h2 class="section-title">Destinasi Unggulan</h2>
-    <div class="grid">
-      <a href="pantai.html" class="card">
-        <img src="images/pantai1.jpg" alt="Pantai Bali">
-        <div class="card-content">
-          <h3>Pantai</h3>
-          <p>Keindahan pantai eksotis Bali yang memikat hati.</p>
-        </div>
-      </a>
-
-      <a href="gunung.html" class="card">
-        <img src="images/gunung1.jpg" alt="Gunung Bali">
-        <div class="card-content">
-          <h3>Gunung</h3>
-          <p>Menikmati keagungan gunung dan pemandangan menakjubkan.</p>
-        </div>
-      </a>
-
-      <a href="budaya.html" class="card">
-        <img src="images/budaya1.jpg" alt="Budaya Bali">
-        <div class="card-content">
-          <h3>Budaya</h3>
-          <p>Merasakan kearifan lokal dan tradisi Bali.</p>
-        </div>
-      </a>
-
+  <!-- Categories Section -->
+  <section id="categories" class="section">
+    <h2>Explore by Category</h2>
+    <p>Discover Bali’s uniqueness through its nature, culture, villages, and mountains.</p>
+    <div class="cards">
       <a href="alam.html" class="card">
-        <img src="images/alam1.jpg" alt="Alam Bali">
-        <div class="card-content">
-          <h3>Alam</h3>
-          <p>Menyatu dengan pesona alam tropis yang asri.</p>
-        </div>
+        <img src="https://source.unsplash.com/400x250/?bali,nature" alt="Nature" />
+        <h3>Nature</h3>
+        <p>Beaches, rice terraces, waterfalls</p>
+      </a>
+      <a href="budaya.html" class="card">
+        <img src="https://source.unsplash.com/400x250/?bali,culture" alt="Culture" />
+        <h3>Culture</h3>
+        <p>Dances, temples, local traditions</p>
+      </a>
+      <a href="desa.html" class="card">
+        <img src="https://source.unsplash.com/400x250/?bali,village" alt="Village" />
+        <h3>Village</h3>
+        <p>Panglipuran, Ubud, Tenganan</p>
+      </a>
+      <a href="gunung.html" class="card">
+        <img src="https://source.unsplash.com/400x250/?bali,mountain" alt="Mountain" />
+        <h3>Mountain</h3>
+        <p>Batur, Agung, Kintamani</p>
       </a>
     </div>
-  </div>
-</section>
-
-  <!-- Storytelling Section -->
-  <section id="stories" class="stories">
-    <h2>Bali Beyond Destinations</h2>
-    <blockquote>
-      “Di setiap tarian, di setiap sawah bertingkat, Bali berbisik dengan cerita yang tak lekang oleh waktu.”
-    </blockquote>
-    <a href="#" class="btn primary">Baca Cerita Lengkap</a>
   </section>
 
   <!-- Footer -->
   <footer>
-    <p>© Spirit of Bali 2025 | Jelajahi • Rasakan • Ceritakan</p>
+    <p>&copy; 2025 Spirit of Bali. All Rights Reserved.</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
