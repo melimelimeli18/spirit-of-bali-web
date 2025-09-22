@@ -21,6 +21,9 @@
   background-image: url("../asset/img/header.png");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   border: 1px solid #ddd;
   border-radius: 50px;
   overflow: hidden;
@@ -31,6 +34,7 @@
   box-shadow: 0 0 0 10px white,
     /* outline putih keluar */ 16px 26px 40.5px 5px rgba(196, 180, 180, 0.25);
   /* shadow biasa */
+  margin-bottom: 1.5rem;
 }
 
 #destinations .card::before {
