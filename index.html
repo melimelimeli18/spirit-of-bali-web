@@ -4,10 +4,27 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Spirit of Bali</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/footer.css">
+
+  <!-- Home -->
+  <link rel="stylesheet" href="css/home-card.css">
+  <link rel="stylesheet" href="css/home-hero.css">
+  <link rel="stylesheet" href="css/home-destination.css">
+  <link rel="stylesheet" href="css/home-category.css">
+
+  <!-- Icon -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-u5xYnbg6kzKXbPz7n2Bkj3YY4Qmt8n8XQ8kqOn2+6wM6hCkqzTZ5K9bIxEgm+rXr8wEmC2Z6M3GaVWVsf4HzUw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
 </head>
 <body>
-
   <!-- Hero Section -->
   <header class="hero">
     <div class="overlay"></div>
@@ -22,56 +39,72 @@
 
     <!-- Logo -->
     <div class="hero-content">
-      <h1 class="logo">Spirit <span>of</span> Bali</h1>
+      <img src="asset/icon/logo-big-1.png" alt="" srcset="">
+      <!-- <h1 class="logo">Spirit <span>of</span> Bali</h1> -->
       <p class="tagline">Discover the Stories Behind Every Journey</p>
     </div>
 
     <!-- Featured Destinations -->
     <div class="featured-destinations">
       <div class="destination">
-        <img src="https://via.placeholder.com/120" alt="Desa Panglipuran" />
-        <p class="fact">#1 World’s Cleanest Village</p>
-        <h3>DESA PANGLIPURAN</h3>
+        <img src="asset/icon/featured-panglipura.png" alt="Desa Panglipuran" />
+        <div class="featured-info">
+          <p class="fact">#1 World’s Cleanest Village</p>
+          <h3>DESA PANGLIPURAN</h3>
+        </div>
       </div>
       <div class="destination">
-        <img src="https://via.placeholder.com/120" alt="GWK Statue" />
-        <p class="fact">Top 5 Highest Statue</p>
-        <h3>GWK STATUE</h3>
+        <img src="asset/icon/featured-GWK.png" alt="GWK Statue" />
+        <div class="featured-info">
+          <p class="fact">Top 5 Highest Statue</p>
+          <h3>GWK STATUE</h3>
+        </div>
       </div>
       <div class="destination">
-        <img src="https://via.placeholder.com/120" alt="Seminyak Beach" />
-        <p class="fact">World-Famous Surfing Spot</p>
-        <h3>SEMINYAK BEACH</h3>
+        <img src="asset/icon/featured-seminyak.png" alt="Seminyak Beach" />
+        <div class="featured-info">
+          <p class="fact">World-Famous Surfing Spot</p>
+          <h3>SEMINYAK BEACH</h3>
+        </div>
       </div>
     </div>
 
     <!-- Search Bar -->
     <div class="search-bar">
       <input type="text" placeholder="Search destinations, culture, or stories..." />
-      <button class="btn-search">🔍</button>
-      <button class="btn-category">All Categories ⌄</button>
+      <button class="btn-search">
+        <img src="asset/icon/icon-search-bar.png" alt="Search" />
+      </button>
     </div>
+
+
   </header>
 
   <!-- Destinations Section -->
   <section id="destinations" class="section">
     <h2>Featured Destinations</h2>
-    <p>Explore Bali’s most iconic places, from stunning beaches to cultural villages.</p>
+    <p id="destination-decs">Explore Bali’s most iconic places, from stunning beaches to cultural villages.</p>
     <div class="cards">
       <div class="card">
-        <img src="https://source.unsplash.com/400x250/?bali,beach" alt="Seminyak Beach" />
-        <h3>Seminyak Beach</h3>
-        <p>Best Sunset in Bali</p>
+        <div class="card-content">
+          <h3>Desa Panglipuran</h3>
+          <p>#1 Cleanest Village</p>
+          <a class="destination-button" href="">See Destination</a>
+        </div>
       </div>
       <div class="card">
-        <img src="https://source.unsplash.com/400x250/?bali,temple" alt="GWK Statue" />
-        <h3>GWK Statue</h3>
-        <p>World’s Tallest Statue</p>
+        <div class="card-content">
+          <h3>GWK Statue</h3>
+          <p>Top 5 Highest Statue</p>
+          <a class="destination-button" href="">See Destination</a>
+        </div>
       </div>
       <div class="card">
-        <img src="https://source.unsplash.com/400x250/?bali,village" alt="Desa Panglipuran" />
-        <h3>Desa Panglipuran</h3>
-        <p>#1 Cleanest Village</p>
+        <div class="card-content">
+          <h3>Seminyak Beach</h3>
+          <p>Best Sunset in Bali</p>
+          <a class="destination-button" href="">See Destination</a>
+        </div>
       </div>
     </div>
   </section>
@@ -79,25 +112,21 @@
   <!-- Categories Section -->
   <section id="categories" class="section">
     <h2>Explore by Category</h2>
-    <p>Discover Bali’s uniqueness through its nature, culture, villages, and mountains.</p>
+    <p class="category-decs">Discover Bali’s uniqueness through its nature, culture, villages, and mountains.</p>
     <div class="cards">
       <a href="alam.html" class="card">
-        <img src="https://source.unsplash.com/400x250/?bali,nature" alt="Nature" />
         <h3>Nature</h3>
         <p>Beaches, rice terraces, waterfalls</p>
       </a>
       <a href="budaya.html" class="card">
-        <img src="https://source.unsplash.com/400x250/?bali,culture" alt="Culture" />
         <h3>Culture</h3>
         <p>Dances, temples, local traditions</p>
       </a>
       <a href="desa.html" class="card">
-        <img src="https://source.unsplash.com/400x250/?bali,village" alt="Village" />
         <h3>Village</h3>
         <p>Panglipuran, Ubud, Tenganan</p>
       </a>
       <a href="gunung.html" class="card">
-        <img src="https://source.unsplash.com/400x250/?bali,mountain" alt="Mountain" />
         <h3>Mountain</h3>
         <p>Batur, Agung, Kintamani</p>
       </a>
