@@ -13,9 +13,18 @@
   <link rel="stylesheet" href="css/home-hero.css">
   <link rel="stylesheet" href="css/home-destination.css">
   <link rel="stylesheet" href="css/home-category.css">
+
+  <!-- Icon -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-u5xYnbg6kzKXbPz7n2Bkj3YY4Qmt8n8XQ8kqOn2+6wM6hCkqzTZ5K9bIxEgm+rXr8wEmC2Z6M3GaVWVsf4HzUw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
 </head>
 <body>
-
   <!-- Hero Section -->
   <header class="hero">
     <div class="overlay"></div>
@@ -30,35 +39,45 @@
 
     <!-- Logo -->
     <div class="hero-content">
-      <h1 class="logo">Spirit <span>of</span> Bali</h1>
+      <img src="asset/icon/logo-big-1.png" alt="" srcset="">
+      <!-- <h1 class="logo">Spirit <span>of</span> Bali</h1> -->
       <p class="tagline">Discover the Stories Behind Every Journey</p>
     </div>
 
     <!-- Featured Destinations -->
     <div class="featured-destinations">
       <div class="destination">
-        <img src="https://via.placeholder.com/120" alt="Desa Panglipuran" />
-        <p class="fact">#1 World’s Cleanest Village</p>
-        <h3>DESA PANGLIPURAN</h3>
+        <img src="asset/icon/featured-panglipura.png" alt="Desa Panglipuran" />
+        <div class="featured-info">
+          <p class="fact">#1 World’s Cleanest Village</p>
+          <h3>DESA PANGLIPURAN</h3>
+        </div>
       </div>
       <div class="destination">
-        <img src="https://via.placeholder.com/120" alt="GWK Statue" />
-        <p class="fact">Top 5 Highest Statue</p>
-        <h3>GWK STATUE</h3>
+        <img src="asset/icon/featured-GWK.png" alt="GWK Statue" />
+        <div class="featured-info">
+          <p class="fact">Top 5 Highest Statue</p>
+          <h3>GWK STATUE</h3>
+        </div>
       </div>
       <div class="destination">
-        <img src="https://via.placeholder.com/120" alt="Seminyak Beach" />
-        <p class="fact">World-Famous Surfing Spot</p>
-        <h3>SEMINYAK BEACH</h3>
+        <img src="asset/icon/featured-seminyak.png" alt="Seminyak Beach" />
+        <div class="featured-info">
+          <p class="fact">World-Famous Surfing Spot</p>
+          <h3>SEMINYAK BEACH</h3>
+        </div>
       </div>
     </div>
 
     <!-- Search Bar -->
     <div class="search-bar">
       <input type="text" placeholder="Search destinations, culture, or stories..." />
-      <button class="btn-search">🔍</button>
-      <button class="btn-category">All Categories ⌄</button>
+      <button class="btn-search">
+        <img src="asset/icon/icon-search-bar.png" alt="Search" />
+      </button>
     </div>
+
+
   </header>
 
   <!-- Destinations Section -->
