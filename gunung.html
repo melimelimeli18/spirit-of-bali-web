@@ -6,11 +6,12 @@
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/page-style.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/btn.css">
     <title>Gunung Bali - Spirit of Bali</title>
 </head>
 <body>
     <!-- navbar dan header -->
-    <nav>
+    <nav id="top">
         <a href="index.html">Home</a>
         <a href="alam.html">Nature</a>
         <a href="budaya.html">Culture</a>
@@ -22,11 +23,11 @@
         <img src="asset/icon/logo-big-2.png" alt="Icon SoB" class="icon-page">
         <h1>Gunung Bali</h1>
         <h3>Petualangan mendaki dengan panorama menakjubkan.</h3>
-        <img src="asset/icon/icon-arrow-down.png" alt="Icon Arrow Down" class="icon-bottom-page">
+        <a href="#top-page" id="down-btn"><img src="asset/icon/icon-arrow-down.png" alt="Icon Arrow Down" class="icon-bottom-page down-btn"></a>
     </header>
 
     <!-- Content -->
-    <div class="left-content">
+    <div class="left-content" id="top-page">
         <div class="left-text">
             <h1>Mount Batur</h1>
             <h3>Bali's famous sunrise trekking spot</h3>
@@ -34,10 +35,10 @@
             <p>The volcano remains active, adding a sense of thrill and uniqueness to the experience. The caldera surrounding Mount Batur is home to fertile soil, supporting local agriculture and creating a scenic landscape filled with greenery.</p><br>
             <p>Visitors also often explore the nearby hot springs, which provide relaxation after the hike. With its natural beauty and spiritual significance, Mount Batur is one of the must-visit mountain destinations in Bali.</p>
         </div>
-        <img src="asset/img/top-page.jpg" alt="placeholder">
+        <img src="asset/img/top-page.jpg" alt="placeholder" class="image">
     </div>
     <div class="right-content">
-        <img src="asset/img/top-page.jpg" alt="placeholder">
+        <img src="asset/img/top-page.jpg" alt="placeholder" class="image">
         <div class="right-text">
             <h1>Mount Agung</h1>
             <h3>The spiritual heart of Bali</h3>
@@ -55,9 +56,10 @@
             <p>The mountain is also spiritually important, as Pura Luhur Batukaru, one of Bali's key temples, lies on its slopes. This temple is dedicated to the guardian spirit of Mount Batukaru and is visited by many locals for prayer and ceremonies.</p><br>
             <p>Treks to Mount Batukaru provide not only natural beauty but also cultural insight. The dense forest, fresh air, and spiritual atmosphere make it a special destination for travelers who want to connect deeply with Bali's nature and traditions.</p>
         </div>
-        <img src="asset/img/top-page.jpg" alt="placeholder">
+        <img src="asset/img/top-page.jpg" alt="placeholder" class="image">
     </div>
 
+    <a href="#top" id="top-btn"><img src="asset/icon/icon-up.png" alt="Icon Up" class="top-btn toTopAnimation"></a>
     <!-- Footer -->
     <footer>
         <p>&copy; 2025 Spirit of Bali. All Rights Reserved.</p>

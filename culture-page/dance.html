@@ -6,11 +6,13 @@
     <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/page-style.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/btn.css">
+
     <title>Desa Bali - Spirit of Bali</title>
 </head>
 <body>
     <!-- navbar dan header -->
-    <nav>
+    <nav id="top">
         <a href="../index.html">Home</a>
         <a href="../alam.html">Nature</a>
         <a href="../budaya.html" class="active">Culture</a>
@@ -22,11 +24,11 @@
         <img src="../asset/icon/logo-big-2.png" alt="Icon SoB" class="icon-page">
         <h1>Tarian Bali</h1>
         <h3>Menemukan keindahan dari tarian adat Bali.</h3>
-        <img src="../asset/icon/icon-arrow-down.png" alt="Icon Arrow Down" class="icon-bottom-page">
+        <a href="#top-page" id="down-btn"><img src="../asset/icon/icon-arrow-down.png" alt="Icon Arrow Down" class="icon-bottom-page down-btn"></a>
     </header>
 
     <!-- Content -->
-    <div class="left-content">
+    <div class="left-content" id="top-page">
         <div class="left-text">
             <h1>Legong Dance</h1>
             <h3>The Graceful Classical Dance of Bali</h3>
@@ -34,10 +36,10 @@
             <p>Accompanied by a gamelan orchestra, Legong features detailed choreography with finger gestures, expressive faces, and synchronized eye movements—each carrying symbolic meaning in Balinese storytelling. Performances often depict tales from folklore or epics like the Malat, blending drama with elegance.</p><br>
             <p>Today, Legong is performed in temples for religious ceremonies as well as on stage for cultural showcases, bridging sacred ritual and public art. For travelers, it offers a glimpse into the sophistication of Balinese culture and the elegance of its traditions.</p>
         </div>
-        <img src="../asset/img/top-page.jpg" alt="placeholder">
+        <img src="../asset/img/top-page.jpg" alt="placeholder" class="image">
     </div>
     <div class="right-content">
-        <img src="../asset/img/top-page.jpg" alt="placeholder">
+        <img src="../asset/img/top-page.jpg" alt="placeholder" class="image">
         <div class="right-text">
             <h1>Barong Dance</h1>
             <h3>The Eternal Battle Between Good and Evil</h3>
@@ -47,6 +49,7 @@
         </div>
     </div>
 
+    <a href="#top" id="top-btn"><img src="../asset/icon/icon-up.png" alt="Icon Up" class="top-btn toTopAnimation"></a>
     <!-- Footer -->
     <footer>
         <p>&copy; 2025 Spirit of Bali. All Rights Reserved.</p>
