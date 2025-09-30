@@ -6,11 +6,12 @@
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/page-style.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/btn.css">
     <title>Desa Bali - Spirit of Bali</title>
 </head>
 <body>
     <!-- navbar dan header -->
-    <nav>
+    <nav id="top">
         <a href="index.html">Home</a>
         <a href="alam.html">Nature</a>
         <a href="budaya.html">Culture</a>
@@ -22,11 +23,11 @@
         <img src="asset/icon/logo-big-2.png" alt="Icon SoB" class="icon-page">
         <h1>Desa Bali</h1>
         <h3>Menemukan harmoni kehidupan masyarakat Bali.</h3>
-        <img src="asset/icon/icon-arrow-down.png" alt="Icon Arrow Down" class="icon-bottom-page">
+        <a href="#top-page" id="down-btn"><img src="asset/icon/icon-arrow-down.png" alt="Icon Arrow Down" class="icon-bottom-page down-btn"></a>
     </header>
 
     <!-- Content -->
-    <div class="left-content">
+    <div class="left-content" id="top-page">
         <div class="left-text">
             <h1>Tenganan Village</h1>
             <h3>Tenganan Village</h3>
@@ -34,10 +35,10 @@
             <p>The village is most famous for its double ikat weaving called Gringsing, a textile that is believed to have spiritual power. The weaving process is highly complex and only practiced by the women of Tenganan, making it a cultural treasure of Bali.</p><br>
             <p>Beyond its crafts, Tenganan also hosts ancient ceremonies and rituals, such as the Mekare-kare or pandanus war, which attracts many visitors each year. These practices highlight the villagers' strong connection to their heritage and traditions.</p>
         </div>
-        <img src="asset/img/top-page.jpg" alt="placeholder">
+        <img src="asset/img/top-page.jpg" alt="placeholder" class="image">
     </div>
     <div class="right-content">
-        <img src="asset/img/top-page.jpg" alt="placeholder">
+        <img src="asset/img/top-page.jpg" alt="placeholder" class="image">
         <div class="right-text">
             <h1>Ubud Village</h1>
             <h3>Bali's center of art and culture</h3>
@@ -55,10 +56,10 @@
             <p>The village is also deeply rooted in Balinese Hindu traditions. Locals practice strong values of mutual cooperation (gotong royong) and environmental conservation, ensuring that Penglipuran remains clean and sustainable for future generations.</p><br>
             <p>Tourists often admire the neatly arranged bamboo houses and serene pathways. Penglipuran is more than a tourist spot—it is a living example of how tradition, culture, and modern values can coexist in harmony.</p>
         </div>
-        <img src="asset/img/top-page.jpg" alt="placeholder">
+        <img src="asset/img/top-page.jpg" alt="placeholder" class="image">
     </div>
     <div class="right-content">
-        <img src="asset/img/top-page.jpg" alt="placeholder">
+        <img src="asset/img/top-page.jpg" alt="placeholder" class="image">
         <div class="right-text">
             <h1>Jatiluwih Village</h1>
             <h3>UNESCO rice terraces in Bali</h3>
@@ -69,6 +70,7 @@
         </div>
     </div>
 
+    <a href="#top" id="top-btn"><img src="asset/icon/icon-up.png" alt="Icon Up" class="top-btn toTopAnimation"></a>
     <!-- Footer -->
     <footer>
         <p>&copy; 2025 Spirit of Bali. All Rights Reserved.</p>

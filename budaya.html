@@ -6,12 +6,13 @@
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/page-style.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/btn.css">
 
     <title>Budaya Bali - Spirit of Bali</title>
 </head>
 <body>
     <!-- navbar dan header -->
-    <nav>
+    <nav id="top">
         <a href="index.html">Home</a>
         <a href="alam.html">Nature</a>
         <a href="budaya.html" class="active">Culture</a>
@@ -23,11 +24,11 @@
         <img src="asset/icon/logo-big-2.png" alt="Icon SoB" class="icon-page">
         <h1>Budaya Bali</h1>
         <h3>Meresapi budaya yang hidup di Bali.</h3>
-        <img src="asset/icon/icon-arrow-down.png" alt="Icon Arrow Down" class="icon-bottom-page">
+        <a href="#top-page" id="down-btn"><img src="asset/icon/icon-arrow-down.png" alt="Icon Arrow Down" class="icon-bottom-page down-btn"></a>
     </header>
 
     <!-- Content -->
-    <div class="left-content">
+    <div class="left-content" id="top-page">
         <div class="left-text">
             <h1>Keccak Dance</h1>
             <h3>The Mesmerizing Dance of Bali</h3>
@@ -36,10 +37,10 @@
             <p>Often staged outdoors at sunset in temples or clifftops like Uluwatu, the Kecak Dance blends ritual, storytelling, and natural beauty. For audiences, it offers not just entertainment but a deep experience of Bali's cultural and spiritual heritage.</p>
             <a href="culture-page/dance.html" class="btn-left">Learn More</a>
         </div>
-        <img src="asset/img/top-page.jpg" alt="placeholder">
+        <img src="asset/img/top-page.jpg" alt="placeholder" class="image">
     </div>
     <div class="right-content">
-        <img src="asset/img/top-page.jpg" alt="placeholder">
+        <img src="asset/img/top-page.jpg" alt="placeholder" class="image">
         <div class="right-text">
             <h1>Balinese Offerings</h1>
             <h3>The Sacred Tradition of Balinese Offerings</h3>
@@ -58,10 +59,10 @@
             <p>Beyond exhibitions, cultural houses also serve as community hubs, holding workshops on batik, gamelan, and Balinese Hindu philosophy. In this way, they not only safeguard heritage but also nurture togetherness and the values that make Bali unique.</p>
             <a href="culture-page/houses.html" class="btn-left">Learn More</a>
         </div>
-        <img src="asset/img/top-page.jpg" alt="placeholder">
+        <img src="asset/img/top-page.jpg" alt="placeholder" class="image">
     </div>
     <div class="right-content">
-        <img src="asset/img/top-page.jpg" alt="placeholder">
+        <img src="asset/img/top-page.jpg" alt="placeholder" class="image">
         <div class="right-text">
             <h1>GWK Statue</h1>
             <h3>A cultural icon of Bali</h3>
@@ -79,9 +80,10 @@
             <p>For the Balinese, gamelan is also a spiritual offering believed to connect humans with the divine. Its layered rhythms and repeating cycles mirror the island's worldview, where life is understood as a continuous flow of balance, renewal, and interdependence.</p>
             <a href="culture-page/instrument.html" class="btn-left">Learn More</a>
         </div>
-        <img src="asset/img/top-page.jpg" alt="placeholder">
+        <img src="asset/img/top-page.jpg" alt="placeholder" class="image">
     </div>
 
+    <a href="#top" id="top-btn"><img src="asset/icon/icon-up.png" alt="Icon Up" class="top-btn toTopAnimation"></a>
     <!-- Footer -->
     <footer>
         <p>&copy; 2025 Spirit of Bali. All Rights Reserved.</p>

@@ -81,10 +81,10 @@ header h3 {
   height: 40px;
 }
 /* Content */
-img:not(.top-page):not(.icon-page):not(.icon-bottom-page) {
+.image {
   flex: 1;
   width: 50%;
-  height: 100vh;
+  height: auto;
   object-fit: cover;
   display: block;
 }
@@ -98,7 +98,7 @@ img:not(.top-page):not(.icon-page):not(.icon-bottom-page) {
 .left-text,
 .right-text {
   flex: 1;
-  padding: 60px 60px;
+  padding: 60px 60px 80px;
   box-sizing: border-box;
 }
 .left-text h1,

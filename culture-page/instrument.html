@@ -6,11 +6,13 @@
     <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/page-style.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/btn.css">
+    
     <title>Desa Bali - Spirit of Bali</title>
 </head>
 <body>
     <!-- navbar dan header -->
-    <nav>
+    <nav id="top">
         <a href="../index.html">Home</a>
         <a href="../alam.html">Nature</a>
         <a href="../budaya.html" class="active">Culture</a>
@@ -22,21 +24,21 @@
         <img src="../asset/icon/logo-big-2.png" alt="Icon SoB" class="icon-page">
         <h1>Alat Music Bali</h1>
         <h3>Menemukan kemerduan dari alat musik adat Bali.</h3>
-        <img src="../asset/icon/icon-arrow-down.png" alt="Icon Arrow Down" class="icon-bottom-page">
+        <a href="#top-page" id="down-btn"><img src="../asset/icon/icon-arrow-down.png" alt="Icon Arrow Down" class="icon-bottom-page down-btn"></a>
     </header>
 
     <!-- Content -->
-    <div class="left-content">
+    <div class="left-content" id="top-page">
         <div class="left-text">
             <h1>Rindik</h1>
             <h3>The Gentle Melodies of Bamboo</h3>
             <p>Rindik is a traditional Balinese instrument made of bamboo tubes struck with mallets, producing soft, soothing tones that evoke a sense of peace and harmony. Often played in pairs or small ensembles, rindik is commonly performed at community gatherings, festivals, and weddings, creating a relaxed and joyful ambiance. Its gentle melodies provide the perfect background for social interaction, symbolizing hospitality and togetherness.</p><br>
             <p>Unlike the grandeur of gamelan, rindik is intimate and calming. It is sometimes accompanied by vocals or traditional dances such as the Joged Bumbung, a lively social dance. Through its simplicity and warmth, rindik represents the Balinese way of blending music into everyday life, turning ordinary moments into expressions of art and culture.</p>
         </div>
-        <img src="../asset/img/top-page.jpg" alt="placeholder">
+        <img src="../asset/img/top-page.jpg" alt="placeholder" class="image">
     </div>
     <div class="right-content">
-        <img src="../asset/img/top-page.jpg" alt="placeholder">
+        <img src="../asset/img/top-page.jpg" alt="placeholder" class="image">
         <div class="right-text">
             <h1>Kendang Bali</h1>
             <h3>The Pulse and Tempo Keeper</h3>
@@ -46,6 +48,7 @@
         </div>
     </div>
 
+    <a href="#top" id="top-btn"><img src="../asset/icon/icon-up.png" alt="Icon Up" class="top-btn toTopAnimation"></a>
     <!-- Footer -->
     <footer>
         <p>&copy; 2025 Spirit of Bali. All Rights Reserved.</p>

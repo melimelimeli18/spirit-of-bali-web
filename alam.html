@@ -6,12 +6,13 @@
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/page-style.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/btn.css">
 
     <title>Alam Bali - Spirit of Bali</title>
 </head>
 <body>
     <!-- navbar dan header -->
-    <nav>
+    <nav id="top">
         <a href="index.html">Home</a>
         <a href="alam.html" class="active">Nature</a>
         <a href="budaya.html">Culture</a>
@@ -23,11 +24,11 @@
         <img src="asset/icon/logo-big-2.png" alt="Icon SoB" class="icon-page">
         <h1>Nature</h1>
         <h3>Meresapi tradisi dan kesenian yang hidup di Bali.</h3>
-        <img src="asset/icon/icon-arrow-down.png" alt="Icon Arrow Down" class="icon-bottom-page">
+        <a href="#top-page" id="down-btn"><img src="asset/icon/icon-arrow-down.png" alt="Icon Arrow Down" class="icon-bottom-page down-btn"></a>
     </header>
 
     <!-- Content -->
-    <div class="left-content">
+    <div class="left-content" id="top-page">
         <div class="left-text">
             <h1>Seminyak Beach</h1>
             <h3>A vibrant coastal paradise in Bali</h3>
@@ -35,10 +36,10 @@
             <p>Aside from its natural beauty, Seminyak is also famous for its upscale resorts, stylish boutiques, and beach clubs. This makes it an ideal spot for travelers looking to experience a more modern and luxurious side of Bali while staying connected to its coastal charm</p><br>
             <p>For surf enthusiasts, Seminyak Beach offers gentle waves suitable for beginners as well as more advanced surfers. Combined with its lively nightlife and culinary experiences, Seminyak remains a must-visit destination for anyone exploring Bali.</p>
         </div>
-        <img src="asset/img/top-page.jpg" alt="placeholder">
+        <img src="asset/img/top-page.jpg" alt="placeholder" class="image">
     </div>
     <div class="right-content">
-        <img src="asset/img/top-page.jpg" alt="placeholder">
+        <img src="asset/img/top-page.jpg" alt="placeholder" class="image">
         <div class="right-text">
             <h1>Melasti Beach</h1>
             <h3>A hidden gem by limestone cliffs</h3>
@@ -56,10 +57,10 @@
             <p>The terraces are not only a beautiful sight but also an important part of the Balinese subak system, a traditional irrigation method that reflects community cooperation and harmony with nature. This unique cultural value has made the terraces a favorite destination for tourists and photographers alike.</p><br>
             <p>Visitors can stroll along narrow paths, interact with local farmers, or simply enjoy the breathtaking scenery from one of the nearby cafes. The blend of natural beauty and cultural tradition makes Ceking Rice Terrace a must-visit for anyone in Bali.</p>
         </div>
-        <img src="asset/img/top-page.jpg" alt="placeholder">
+        <img src="asset/img/top-page.jpg" alt="placeholder" class="image">
     </div>
     <div class="right-content">
-        <img src="asset/img/top-page.jpg" alt="placeholder">
+        <img src="asset/img/top-page.jpg" alt="placeholder" class="image">
         <div class="right-text">
             <h1>Tegenungan Waterfall</h1>
             <h3>Discover Bali's refreshing natural wonders</h3>
@@ -70,6 +71,7 @@
         </div>
     </div>
 
+    <a href="#top" id="top-btn"><img src="asset/icon/icon-up.png" alt="Icon Up" class="top-btn toTopAnimation"></a>
     <!-- Footer -->
     <footer>
         <p>&copy; 2025 Spirit of Bali. All Rights Reserved.</p>
