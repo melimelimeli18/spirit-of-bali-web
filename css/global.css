@@ -6,6 +6,7 @@
   /* Color */
   --primary-color: #ff5e3a;
   --section-color: #faf7f7;
+  --hover-white-btn: rgba(225, 225, 225, 1);
   /* var(--section-color) */
 }
 * {

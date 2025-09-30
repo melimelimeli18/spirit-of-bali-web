@@ -121,7 +121,7 @@ h3 {
 .btn-right {
   position: absolute;
   bottom: 20px;
-  right: 20px;
+  /* right: 20px; */
   z-index: 3;
   color: black;
   border: 2px solid gray;
@@ -134,7 +134,7 @@ h3 {
 .btn-left {
   position: absolute;
   bottom: 20px;
-  left: 37vw;
+  /* left: 37vw; */
   z-index: 3;
   color: black;
   border: 2px solid gray;
@@ -143,4 +143,13 @@ h3 {
   padding: 8px 16px;
   background: white;
   cursor: pointer;
+}
+
+.btn-right, .btn-left{
+  color: background-color: var(--hover-white-btn);
+}
+
+.btn-right:hover, .btn-left:hover{
+  transform: scale(1.05);
+  
 }
