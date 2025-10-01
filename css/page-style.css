@@ -13,23 +13,10 @@ a {
   text-decoration: none;
   background: none;
   padding: 10px;
-  font-size: 24px;
+  font-size: 1remx;
   color: white;
 }
-nav {
-  text-align: center;
-  position: absolute;
-  z-index: 1;
-  display: flex;
-  width: 100%;
-  left: 0;
-  top: 0;
-  justify-content: center;
-  gap: 20px;
-}
-nav a.active {
-  border-bottom: 3px solid white;
-}
+
 .top-page {
   width: 100vw;
   height: 100vh;
@@ -152,4 +139,9 @@ h3 {
 .btn-right:hover, .btn-left:hover{
   transform: scale(1.05);
   
+}
+
+@media (max-width: 768px) {
+
+
 }

@@ -1,0 +1,75 @@
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+
+  display: flex;
+  align-items: center; /* biar semua item sejajar secara vertical */
+  height: 60px; /* atur tinggi navbar */
+}
+
+/* nav links tetap center */
+.nav-links {
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+nav a {
+  text-decoration: none;
+  background: none;
+  padding: 10px;
+  font-size: 1rem;
+  color: white;
+}
+
+nav a.active {
+  border-bottom: 3px solid white;
+}
+
+/* favorite button di kanan, sejajar vertical */
+.favorite-btn {
+  position: absolute;
+  right: 20px;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border: 2px solid white;
+  border-radius: 9999px;
+  background: transparent;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  height: 40px; /* biar konsisten tinggi dengan nav */
+}
+
+.favorite-btn i {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.favorite-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Mobile: hanya icon */
+@media (max-width: 768px) {
+  .favorite-btn span {
+    display: none;
+  }
+
+  .favorite-btn {
+    padding: 8px;
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    justify-content: center;
+  }
+}
