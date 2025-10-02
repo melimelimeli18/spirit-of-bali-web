@@ -3,20 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/global.css">
-    <link rel="stylesheet" href="css/page-style.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/btn.css">
     <title>Gunung Bali - Spirit of Bali</title>
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
-    <!-- navbar dan header -->
     <nav id="top">
-        <a href="index.html">Home</a>
-        <a href="alam.html">Nature</a>
-        <a href="budaya.html">Culture</a>
-        <a href="desa.html">Village</a>
-        <a href="gunung.html" class="active">Mountain</a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="alam.html">Nature</a>
+            <a href="budaya.html">Culture</a>
+            <a href="desa.html">Village</a>
+            <a href="gunung.html" class="active">Mountain</a>
+        </div>
+        <button class="favorite-btn">
+            <i class="fa-solid fa-heart"></i>
+            <span class="text">My Favorite</span>
+        </button>
     </nav>
     <header>
         <img src="asset/img/top-page.jpg" alt="Nature Page Image" class="top-page">
@@ -34,6 +37,10 @@
             <p>Mount Batur is one of Bali's most iconic volcanoes, located in Kintamani. Standing at 1,717 meters, it is a popular destination for adventurous travelers who want to witness a breathtaking sunrise. The trek to the summit usually begins in the early morning, offering a rewarding view of Lake Batur and the surrounding mountains.</p><br>
             <p>The volcano remains active, adding a sense of thrill and uniqueness to the experience. The caldera surrounding Mount Batur is home to fertile soil, supporting local agriculture and creating a scenic landscape filled with greenery.</p><br>
             <p>Visitors also often explore the nearby hot springs, which provide relaxation after the hike. With its natural beauty and spiritual significance, Mount Batur is one of the must-visit mountain destinations in Bali.</p>
+        
+            <button class="love-btn" aria-label="Add to favorite">
+                <i class="fa-regular fa-heart"></i>
+            </button>
         </div>
         <img src="asset/img/top-page.jpg" alt="placeholder" class="image">
     </div>
@@ -46,6 +53,9 @@
             <p>Climbing Mount Agung is a challenging adventure, often reserved for experienced trekkers. The journey to the summit can take several hours, but the reward is an extraordinary panoramic view of the entire island and even neighboring islands on a clear day.</p><br>
             <p>Despite its eruptions in recent history, Mount Agung continues to be a symbol of strength and spirituality for Bali. For locals, it is not just a mountain but also a sacred guardian of the island.</p>
 
+            <button class="love-btn" aria-label="Add to favorite">
+                <i class="fa-regular fa-heart"></i>
+            </button>
         </div>
     </div>
     <div class="left-content">
@@ -55,6 +65,10 @@
             <p>Mount Batukaru, standing at 2,276 meters, is Bali's second-highest volcano and a destination often chosen by those seeking peace and quiet. Unlike the more popular Mount Batur, Batukaru offers a less crowded and more tranquil trekking experience, surrounded by lush rainforest.</p><br>
             <p>The mountain is also spiritually important, as Pura Luhur Batukaru, one of Bali's key temples, lies on its slopes. This temple is dedicated to the guardian spirit of Mount Batukaru and is visited by many locals for prayer and ceremonies.</p><br>
             <p>Treks to Mount Batukaru provide not only natural beauty but also cultural insight. The dense forest, fresh air, and spiritual atmosphere make it a special destination for travelers who want to connect deeply with Bali's nature and traditions.</p>
+        
+            <button class="love-btn" aria-label="Add to favorite">
+                <i class="fa-regular fa-heart"></i>
+            </button>
         </div>
         <img src="asset/img/top-page.jpg" alt="placeholder" class="image">
     </div>
@@ -64,5 +78,8 @@
     <footer>
         <p>&copy; 2025 Spirit of Bali. All Rights Reserved.</p>
     </footer>
+    
+    <script src="script/modal-section.js"></script>
+    <script src="script/modal-favorite.js"></script>
 </body>
 </html>

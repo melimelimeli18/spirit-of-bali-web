@@ -3,20 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/global.css">
-    <link rel="stylesheet" href="css/page-style.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/btn.css">
     <title>Desa Bali - Spirit of Bali</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- navbar dan header -->
     <nav id="top">
-        <a href="index.html">Home</a>
-        <a href="alam.html">Nature</a>
-        <a href="budaya.html">Culture</a>
-        <a href="desa.html" class="active">Village</a>
-        <a href="gunung.html">Mountain</a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="alam.html">Nature</a>
+            <a href="budaya.html">Culture</a>
+            <a href="desa.html" class="active">Village</a>
+            <a href="gunung.html">Mountain</a>
+        </div>
+        <button class="favorite-btn">
+            <i class="fa-solid fa-heart"></i>
+            <span class="text">My Favorite</span>
+        </button>
     </nav>
     <header>
         <img src="asset/img/top-page.jpg" alt="Nature Page Image" class="top-page">
@@ -34,6 +36,10 @@
             <p>Tenganan Village is one of the oldest traditional villages in Bali, known as a Bali Aga village. It has preserved its unique customs, rituals, and architecture for centuries, making it a living cultural museum. Visitors can witness the traditional lifestyle that sets Tenganan apart from other Balinese villages.</p><br>
             <p>The village is most famous for its double ikat weaving called Gringsing, a textile that is believed to have spiritual power. The weaving process is highly complex and only practiced by the women of Tenganan, making it a cultural treasure of Bali.</p><br>
             <p>Beyond its crafts, Tenganan also hosts ancient ceremonies and rituals, such as the Mekare-kare or pandanus war, which attracts many visitors each year. These practices highlight the villagers' strong connection to their heritage and traditions.</p>
+        
+            <button class="love-btn" aria-label="Add to favorite">
+                <i class="fa-regular fa-heart"></i>
+            </button>
         </div>
         <img src="asset/img/top-page.jpg" alt="placeholder" class="image">
     </div>
@@ -46,6 +52,9 @@
             <p>Visitors can explore Ubud Palace, where nightly dance performances showcase the island's artistic heritage. The nearby Ubud Market is also a favorite stop, offering handmade crafts, textiles, and souvenirs created by local artisans.</p><br>
             <p>Beyond art and culture, Ubud is also known for wellness tourism. Yoga retreats, meditation centers, and holistic healing practices have made Ubud a world-famous destination for relaxation and self-discovery.</p>
 
+            <button class="love-btn" aria-label="Add to favorite">
+                <i class="fa-regular fa-heart"></i>
+            </button>
         </div>
     </div>
     <div class="left-content">
@@ -55,6 +64,10 @@
             <p>Penglipuran Village is internationally recognized as one of the cleanest villages in the world. Located in Bangli, it is famous for its well-organized layout, traditional architecture, and commitment to preserving Balinese culture. Walking through the village feels like stepping into a harmonious and peaceful community.</p><br>
             <p>The village is also deeply rooted in Balinese Hindu traditions. Locals practice strong values of mutual cooperation (gotong royong) and environmental conservation, ensuring that Penglipuran remains clean and sustainable for future generations.</p><br>
             <p>Tourists often admire the neatly arranged bamboo houses and serene pathways. Penglipuran is more than a tourist spot—it is a living example of how tradition, culture, and modern values can coexist in harmony.</p>
+        
+            <button class="love-btn" aria-label="Add to favorite">
+                <i class="fa-regular fa-heart"></i>
+            </button>
         </div>
         <img src="asset/img/top-page.jpg" alt="placeholder" class="image">
     </div>
@@ -67,6 +80,9 @@
             <p>Visitors are often amazed by the endless layers of rice fields stretching across the hills. The view changes with the seasons, from bright green young rice shoots to golden harvest fields—offering a picturesque scene all year round.</p><br>
             <p>Jatiluwih is also a great destination for trekking and cycling, allowing travelers to immerse themselves in the natural beauty and rural life of Bali. It is the perfect spot to experience both cultural heritage and the tranquility of the countryside.</p>
 
+            <button class="love-btn" aria-label="Add to favorite">
+                <i class="fa-regular fa-heart"></i>
+            </button>
         </div>
     </div>
 
@@ -75,5 +91,8 @@
     <footer>
         <p>&copy; 2025 Spirit of Bali. All Rights Reserved.</p>
     </footer>
+    
+    <script src="script/modal-section.js"></script>
+    <script src="script/modal-favorite.js"></script>
 </body>
 </html>
