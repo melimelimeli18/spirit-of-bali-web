@@ -3,6 +3,8 @@
 
 /* Icon */
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css");
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap");
 
 /* Pages Global Style */
 @import url("pages/footer.css");
@@ -21,5 +23,3 @@
 
 /* Component */
 @import url("btn.css");
-
-/* Font */

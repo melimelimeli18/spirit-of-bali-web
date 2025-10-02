@@ -82,12 +82,25 @@ header h3 {
   width: 100%;
   position: relative;
 }
-.left-text,
+
+.left-text {
+  display: flex;
+  padding: 60px 60px 80px;
+  flex-direction: column;
+}
+
 .right-text {
   flex: 1;
   padding: 60px 60px 80px;
   box-sizing: border-box;
 }
+
+.section-button {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
 .left-text h1,
 .right-text h1 {
   font-size: 36px;
@@ -104,44 +117,5 @@ h3 {
   margin-bottom: 20px;
 }
 
-/* Button (for Culture Page) */
-.btn-right {
-  position: absolute;
-  bottom: 20px;
-  /* right: 20px; */
-  z-index: 3;
-  color: black;
-  border: 2px solid gray;
-  border-radius: 20px;
-  font-size: 18px;
-  padding: 8px 16px;
-  background: white;
-  cursor: pointer;
-}
-.btn-left {
-  position: absolute;
-  bottom: 20px;
-  /* left: 37vw; */
-  z-index: 3;
-  color: black;
-  border: 2px solid gray;
-  border-radius: 20px;
-  font-size: 18px;
-  padding: 8px 16px;
-  background: white;
-  cursor: pointer;
-}
-
-.btn-right, .btn-left{
-  color: background-color: var(--hover-white-btn);
-}
-
-.btn-right:hover, .btn-left:hover{
-  transform: scale(1.05);
-  
-}
-
 @media (max-width: 768px) {
-
-
 }
