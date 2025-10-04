@@ -9,6 +9,7 @@
 /* Pages Global Style */
 @import url("pages/footer.css");
 @import url("pages/navbar.css");
+@import url("pages/filter-section.css");
 
 /* Home */
 @import url("home-card.css");
