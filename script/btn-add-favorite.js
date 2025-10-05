@@ -1,3 +1,4 @@
+//script/btn-add-favorite.js
 document.addEventListener("DOMContentLoaded", () => {
   const loveButtons = document.querySelectorAll(".love-btn");
 

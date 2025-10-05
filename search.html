@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Search Results</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .results-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .result-card {
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        overflow: hidden;
+        transition: transform 0.2s ease;
+    }
+
+    .result-card:hover {
+        transform: scale(1.03);
+    }
+
+    .result-card img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Search bar tetap di halaman search -->
+  <form id="search-bar">
+    <input type="text" id="search-input" placeholder="Search again..." required>
+    <button type="submit">Search</button>
+  </form>
+
+  <!-- Tempat hasil muncul -->
+  <section id="search-results" class="results-grid"></section>
+
+  <script src="script/search.js"></script>
+</body>
+</html>

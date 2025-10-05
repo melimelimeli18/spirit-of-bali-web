@@ -1,3 +1,4 @@
+// script/modal-favorite.js
 document.addEventListener("DOMContentLoaded", () => {
     const favBtn = document.querySelector(".favorite-btn");
     const overlay = document.createElement("div");
