@@ -61,13 +61,37 @@
     </div>
 
     <!-- Search Bar -->
-    <div class="search-bar">
+    <!-- <div class="search-bar">
       <input type="text" placeholder="Search destinations, culture, or stories..." />
       <button class="btn-search">
         <img src="asset/icon/icon-search-bar.png" alt="Search" />
       </button>
-    </div>
+    </div> -->
 
+    <!-- <div class="search-bar">
+      <form id="search-form">
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Search destinations, culture, or stories..."
+          required
+        />
+        <button type="submit" class="btn-search">
+          <img src="asset/icon/icon-search-bar.png" alt="Search" />
+        </button>
+      </form>
+    </div> -->
+
+<div class="search-bar">
+  <input
+    type="text"
+    id="search-input"
+    placeholder="Search destinations, culture, or stories..."
+  />
+  <button class="btn-search" id="search-button">
+    <img src="asset/icon/icon-search-bar.png" alt="Search" />
+  </button>
+</div>
 
   </header>
 
@@ -142,5 +166,42 @@
   <script src="script.js"></script>
   <script src="script/modal-favorite.js"></script>
   <script src="script/btn-add-favorite.js"></script>
+
+  <script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const input = document.getElementById("search-input");
+    const button = document.getElementById("search-button");
+
+    function goToSearchPage() {
+      const query = input.value.trim();
+      if (query) {
+        window.location.href = `search.html?query=${encodeURIComponent(query)}`;
+      }
+    }
+
+    // Klik tombol search
+    button.addEventListener("click", (e) => {
+      e.preventDefault();
+      goToSearchPage();
+    });
+
+    // Tekan Enter di input
+    input.addEventListener("keypress", (e) => {
+        if (e.key === "Enter") {
+          e.preventDefault();
+          goToSearchPage();
+        }
+      });
+    });
+
+    document.getElementById("search-form").addEventListener("submit", function (e) {
+      e.preventDefault();
+      const query = document.getElementById("search-input").value.trim();
+      if (query) {
+        window.location.href = `search.html?query=${encodeURIComponent(query)}`;
+      }
+    });
+</script>
+
 </body>
 </html>
