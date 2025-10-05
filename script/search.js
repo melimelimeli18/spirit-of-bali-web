@@ -1,77 +1,46 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const params = new URLSearchParams(window.location.search);
-  const query = params.get("query")?.toLowerCase() || "";
-  const searchInput = document.getElementById("search-input");
   const resultsContainer = document.getElementById("search-results");
+  const urlParams = new URLSearchParams(window.location.search);
+  const query = urlParams.get("query")?.toLowerCase() || "";
 
+  const searchInput = document.getElementById("search-input");
   searchInput.value = query;
 
-  // File kategori yang akan dibaca
-  const files = ["alam.html", "budaya.html", "gunung.html", "desa.html"];
+  function renderResults(keyword) {
+    resultsContainer.innerHTML = "";
 
-  if (query) {
-    searchAcrossFiles(query);
-  }
+    const filtered = searchData.filter((item) =>
+      item.title.toLowerCase().includes(keyword) ||
+      item.subtitle.toLowerCase().includes(keyword)
+    );
 
-  // Fungsi utama search
-  async function searchAcrossFiles(keyword) {
-    resultsContainer.innerHTML = "<p>Loading results...</p>";
-
-    const matches = [];
-
-    for (const file of files) {
-      try {
-        const response = await fetch(file);
-        const html = await response.text();
-
-        const parser = new DOMParser();
-        const doc = parser.parseFromString(html, "text/html");
-
-        // Ambil semua konten yang punya h1
-        const sections = doc.querySelectorAll(".left-content, .right-content");
-        sections.forEach((section) => {
-          const text = section.innerText.toLowerCase();
-          if (text.includes(keyword)) {
-            matches.push({
-              title: section.querySelector("h1")?.textContent || "No title",
-              desc: section.querySelector("p")?.textContent || "",
-              img: section.querySelector("img")?.getAttribute("src") || "asset/img/default.jpg",
-              source: file,
-            });
-          }
-        });
-      } catch (err) {
-        console.error(`Failed to fetch ${file}:`, err);
-      }
-    }
-
-    displayResults(matches, keyword);
-  }
-
-  // Tampilkan hasil
-  function displayResults(matches, keyword) {
-    if (matches.length === 0) {
-      resultsContainer.innerHTML = `<p>No results found for "<strong>${keyword}</strong>"</p>`;
+    if (filtered.length === 0) {
+      resultsContainer.innerHTML = `<p style="text-align:center;">No results found for "${keyword}".</p>`;
       return;
     }
 
-    resultsContainer.innerHTML = matches.map(match => `
-      <div class="result-card">
-        <img src="${match.img}" alt="${match.title}">
-        <h2>${match.title}</h2>
-        <p>${match.desc}</p>
-        <small>From: ${match.source}</small>
-      </div>
-    `).join("");
+    filtered.forEach((item) => {
+      const card = document.createElement("div");
+      card.className = "result-card";
+      card.innerHTML = `
+        <img src="${item.img}" alt="${item.title}">
+        <h3>${item.title}</h3>
+        <p>${item.subtitle}</p>
+        <a href="${item.url}" class="btn-view">View Details</a>
+      `;
+      resultsContainer.appendChild(card);
+    });
   }
 
-  // Search ulang dari search bar
-  const form = document.getElementById("search-bar");
-  form.addEventListener("submit", (e) => {
+  renderResults(query);
+
+  // Re-search when typing in search.html
+  document.getElementById("search-form").addEventListener("submit", (e) => {
     e.preventDefault();
-    const newQuery = searchInput.value.trim();
+    const newQuery = searchInput.value.trim().toLowerCase();
     if (newQuery) {
-      window.location.href = `search.html?query=${encodeURIComponent(newQuery)}`;
+      renderResults(newQuery);
+      window.history.replaceState({}, "", `?query=${encodeURIComponent(newQuery)}`);
     }
   });
 });
