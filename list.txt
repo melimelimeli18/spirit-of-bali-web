@@ -1,11 +1,27 @@
 WIP
+1. complete all content + modal in culture section
 
 
 Backlog:
-1. radio button filter (component)
+1. add ID to every section, to help direct from search. 
+2. add 2 language script
 
+make 2 JSON
 
-Modal helper, at budaya.html:
-<a href="#" class="btn-left" data-modal-target="modal-keccak-dance">Learn More</a>
+// en.json
+{
+  "title": "Welcome to Bali",
+  "subtitle": "Discover the Island of Gods",
+  "button_explore": "Explore Now"
+}
 
-<div class="modal-overlay" id="modal-keccak-dance">
+// id.json
+{
+  "title": "Selamat Datang di Bali",
+  "subtitle": "Jelajahi Pulau Dewata",
+  "button_explore": "Jelajahi Sekarang"
+}
+
+<h1 data-key="title"></h1>
+<p data-key="subtitle"></p>
+<button data-key="button_explore"></button>
