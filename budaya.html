@@ -21,16 +21,16 @@
         </button>
     </nav>
 
-    <header>
+    <header class="not-main-page">
         <img src="asset/img/nature-page.jpg" alt="Nature Page Image" class="top-page">
         <img src="asset/icon/logo-big-2.png" alt="Icon SoB" class="icon-page">
         <h1>Budaya Bali</h1>
-        <h3>Meresapi budaya yang hidup di Bali.</h3>
+        <h3>Meresapi budaya yang hidup di Bali</h3>
         <a href="#top-page" id="down-btn"><img src="asset/icon/icon-arrow-down.png" alt="Icon Arrow Down" class="icon-bottom-page down-btn"></a>
     </header>
 
     <!-- Filter button -->
-    <div class="filter-container">
+    <div class="filter-container" id="top-page">
     <button class="filter-btn active" data-filter="all">All</button>
     <button class="filter-btn" data-filter="dance">Dance</button>
     <button class="filter-btn" data-filter="ceremony">Ceremony</button>
@@ -39,17 +39,17 @@
     </div>
 
     <!-- Keccak Dance -->
-    <div class="left-content" id="top-page">
+    <div class="left-content">
         <div class="left-text">
             <h1>Keccak Dance</h1>
             <h3>The Mesmerizing Dance of Bali</h3>
             <p>The Kecak Dance, or “Monkey Chant Dance,” is one of Bali's most unique performances. Instead of gamelan instruments, it features a circle of men chanting “cak-cak-cak” in rhythmic patterns, forming a powerful vocal orchestra. Created in the 1930s, it has since become a symbol of Balinese spirituality and artistry.</p><br> 
             
             <div class="section-button">
-                <a href="#" class="btn-left" data-modal-target="modal-keccak-dance">Learn More</a>
                 <button class="love-btn" aria-label="Add to favorite">
                     <i class="fa-regular fa-heart"></i>
                 </button>
+                <a href="#" class="btn-left" data-modal-target="modal-keccak-dance">Learn More</a>
             </div>
         </div>
         <img src="asset/img/top-page.jpg" alt="placeholder" class="image">
@@ -126,7 +126,7 @@
     <!-- Modal -->
     <div class="modal-overlay" id="modal-legong-dance">
         <div class="modal-container">
-            <button class="close-btn" id="closeModal" aria-label="Close" >
+            <button class="close-btn" id="closeModal" aria-label="Close" data-close-btn>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                 <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round"/>
                 </svg>
@@ -178,7 +178,7 @@
     <!-- Modal -->
     <div class="modal-overlay" id="modal-barong-dance">
         <div class="modal-container">
-            <button class="close-btn" id="closeModal" aria-label="Close" >
+            <button class="close-btn" id="closeModal" aria-label="Close" data-close-btn>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                 <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round"/>
                 </svg>
@@ -231,7 +231,7 @@
     <!-- Modal -->
     <div class="modal-overlay" id="modal-legong-dance">
         <div class="modal-container">
-            <button class="close-btn" id="closeModal" aria-label="Close" >
+            <button class="close-btn" id="closeModal" aria-label="Close" data-close-btn>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                 <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round"/>
                 </svg>
@@ -283,7 +283,7 @@
     <!-- Modal -->
     <div class="modal-overlay" id="modal-barong-dance">
         <div class="modal-container">
-            <button class="close-btn" id="closeModal" aria-label="Close" >
+            <button class="close-btn" id="closeModal" aria-label="Close" data-close-btn>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                 <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round"/>
                 </svg>
@@ -329,7 +329,7 @@
                 <button class="love-btn" aria-label="Add to favorite">
                     <i class="fa-regular fa-heart"></i>
                 </button>
-                <a href="#" class="btn-left" data-modal-target="modal-bali-offering">Learn More</a>
+                <a href="#" class="btn-right" data-modal-target="modal-bali-offering">Learn More</a>
             </div>
         </div>
     </div>
@@ -337,7 +337,7 @@
     <!-- Modal -->
     <div class="modal-overlay" id="modal-bali-offering">
         <div class="modal-container">
-            <button class="close-btn" id="closeModal" aria-label="Close" >
+            <button class="close-btn" id="closeModal" aria-label="Close" data-close-btn>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                 <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round"/>
                 </svg>
@@ -389,7 +389,7 @@
     <!-- Modal -->
     <div class="modal-overlay" id="modal-ngaben">
         <div class="modal-container">
-            <button class="close-btn" id="closeModal" aria-label="Close" >
+            <button class="close-btn" id="closeModal" aria-label="Close" data-close-btn>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                 <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round"/>
                 </svg>
@@ -442,7 +442,7 @@
     <!-- Modal -->
     <div class="modal-overlay" id="modal-melasti">
         <div class="modal-container">
-            <button class="close-btn" id="closeModal" aria-label="Close" >
+            <button class="close-btn" id="closeModal" aria-label="Close" data-close-btn>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                 <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round"/>
                 </svg>
@@ -494,7 +494,7 @@
     <!-- Modal -->
     <div class="modal-overlay" id="modal-galungan-kuningan">
         <div class="modal-container">
-            <button class="close-btn" id="closeModal" aria-label="Close" >
+            <button class="close-btn" id="closeModal" aria-label="Close" data-close-btn>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                 <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round"/>
                 </svg>
@@ -534,11 +534,11 @@
             <p>Cultural houses in Bali are vital spaces that preserve the island's heritage of art, tradition, and philosophy. Inside, visitors can find wood carvings, woven fabrics, and ceremonial items that carry deep spiritual meaning. More than a museum, a cultural house is a place where the younger generation connects with their roots.</p><br>
             <p>These spaces often host artistic performances, such as Legong and Barong dances, offering tourists and locals alike a chance to experience Balinese culture in an authentic setting. The atmosphere created through these shows highlights the warmth and richness of tradition.</p><br> 
             <p>Beyond exhibitions, cultural houses also serve as community hubs, holding workshops on batik, gamelan, and Balinese Hindu philosophy. In this way, they not only safeguard heritage but also nurture togetherness and the values that make Bali unique.</p>
-            
             <div class="section-button">
                 <button class="love-btn" aria-label="Add to favorite">
                     <i class="fa-regular fa-heart"></i>
                 </button>
+                <a href="#" class="btn-right" data-modal-target="modal-galungan-kuningan">Learn More</a>
             </div>
         </div>
     </div>
@@ -564,7 +564,7 @@
     <!-- Modal -->
     <div class="modal-overlay" id="modal-bale-banjar">
         <div class="modal-container">
-            <button class="close-btn" id="closeModal" aria-label="Close" >
+            <button class="close-btn" id="closeModal" aria-label="Close" data-close-btn>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                 <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round"/>
                 </svg>
@@ -616,7 +616,7 @@
     <!-- Modal -->
     <div class="modal-overlay" id="modal-bale-daja">
         <div class="modal-container">
-            <button class="close-btn" id="closeModal" aria-label="Close" >
+            <button class="close-btn" id="closeModal" aria-label="Close" data-close-btn>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                 <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round"/>
                 </svg>
@@ -668,7 +668,7 @@
     <!-- Modal -->
     <div class="modal-overlay" id="modal-candi-bentar">
         <div class="modal-container">
-            <button class="close-btn" id="closeModal" aria-label="Close" >
+            <button class="close-btn" id="closeModal" aria-label="Close" data-close-btn>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                 <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round"/>
                 </svg>
@@ -721,7 +721,7 @@
     <!-- Modal -->
     <div class="modal-overlay" id="modal-gwk-statue">
         <div class="modal-container">
-            <button class="close-btn" id="closeModal" aria-label="Close" >
+            <button class="close-btn" id="closeModal" aria-label="Close" data-close-btn>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                 <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round"/>
                 </svg>
@@ -773,7 +773,7 @@
     <!-- Modal -->
     <div class="modal-overlay" id="modal-pura-besakih">
         <div class="modal-container">
-            <button class="close-btn" id="closeModal" aria-label="Close" >
+            <button class="close-btn" id="closeModal" aria-label="Close" data-close-btn>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                 <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round"/>
                 </svg>
@@ -817,7 +817,7 @@
                 <button class="love-btn" aria-label="Add to favorite">
                     <i class="fa-regular fa-heart"></i>
                 </button>
-                <a href="#" class="btn-left" data-modal-target="modal-tanah-lot">Learn More</a>
+                <a href="#" class="btn-right" data-modal-target="modal-tanah-lot">Learn More</a>
             </div>
         </div>
     </div>
@@ -825,7 +825,7 @@
     <!-- Modal -->
     <div class="modal-overlay" id="modal-tanah-lot">
         <div class="modal-container">
-            <button class="close-btn" id="closeModal" aria-label="Close" >
+            <button class="close-btn" id="closeModal" aria-label="Close" data-close-btn>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                 <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round"/>
                 </svg>
@@ -864,7 +864,6 @@
 
     <script src="script/modal-favorite.js"></script>
     <script src="script/btn-add-favorite.js"></script>
-    <!-- <script src="script/favorite-modal.js"></script> -->
     <script src="script/filter/filter-section-budaya.js"></script>
     <script src="script/modal-section.js"></script>
 </body>

@@ -28,7 +28,6 @@
 
 /* favorite button */
 .love-btn {
-  position: absolute;
   bottom: 20px;
   z-index: 3;
 
@@ -44,6 +43,12 @@
   font-size: 18px;
   padding: 8px 16px;
   cursor: pointer;
+  
+  height: 48px;
+  width: 48px;
+
+  position: absolute;
+  bottom: 25px;
 
   transition: transform 0.2s ease, border-color 0.2s ease;
 }
@@ -56,25 +61,8 @@
   transform: scale(1.2);
 }
 
-/* Button (for Culture Page) */
-.btn-right {
-  /* position: absolute; */
-  bottom: 20px;
-  /* right: 20px; */
-  /* z-index: 3; */
-  color: black;
-  border: 2px solid var(--button-outline);
-  border-radius: 20px;
-  font-size: 18px;
-  padding: 8px 16px;
-  background: white;
-  cursor: pointer;
-}
-.btn-left {
-  /* position: absolute; */
-  bottom: 20px;
-  /* left: 37vw; */
-  /* z-index: 3; */
+.btn-left, 
+.btn-right{
   color: black;
   border: 2px solid var(--button-outline);
   border-radius: 20px;
@@ -84,11 +72,25 @@
   cursor: pointer;
 }
 
+/* Button (for Culture Page) */
+.btn-left, 
+.btn-right {
+  position: absolute;
+  bottom: 25px;
+}
+
+.btn-right {
+  left: 59vw;
+}
+.btn-left {
+  left: 9.7vw;
+}
+
 .btn-right, .btn-left{
-  color: background-color: var(--hover-white-btn);
+  color: var();
 }
 
 .btn-right:hover, .btn-left:hover{
   transform: scale(1.05);
-  
+  color: var(--hover-white-btn);
 }

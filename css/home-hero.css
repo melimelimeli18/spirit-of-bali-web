@@ -98,9 +98,9 @@
 .destination {
   display: flex;
   flex-direction: row; /* gambar kiri, teks kanan */
-  align-items: center; /* sejajarkan vertikal */
-  text-align: left;
   color: white;
+  justify-content: center;
+  align-items: center;
   height: 100%;
   gap: 20px; /* jarak antara img & teks */
 }
@@ -111,12 +111,17 @@
   border-radius: 50%;
   margin-bottom: 15px;
   flex-shrink: 0;
+  margin: 0px;
+  align-self: center;
 }
 
 .featured-info {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   justify-content: center; /* teks rata tengah terhadap img */
+  position: relative;
+  align-items: center;
+  width: 100%;
 }
 
 .destination .fact {
@@ -128,6 +133,8 @@
 .destination h3 {
   margin: 0;
   font-size: 18px;
+  width: 100%;
+  text-align: left;
 }
 
 /* Search Bar */
