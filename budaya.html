@@ -21,16 +21,16 @@
         </button>
     </nav>
 
-    <header>
+    <header class="not-main-page">
         <img src="asset/img/nature-page.jpg" alt="Nature Page Image" class="top-page">
         <img src="asset/icon/logo-big-2.png" alt="Icon SoB" class="icon-page">
         <h1>Budaya Bali</h1>
-        <h3>Meresapi budaya yang hidup di Bali.</h3>
+        <h3>Meresapi budaya yang hidup di Bali</h3>
         <a href="#top-page" id="down-btn"><img src="asset/icon/icon-arrow-down.png" alt="Icon Arrow Down" class="icon-bottom-page down-btn"></a>
     </header>
 
     <!-- Filter button -->
-    <div class="filter-container">
+    <div class="filter-container" id="top-page">
     <button class="filter-btn active" data-filter="all">All</button>
     <button class="filter-btn" data-filter="dance">Dance</button>
     <button class="filter-btn" data-filter="ceremony">Ceremony</button>
@@ -39,17 +39,17 @@
     </div>
 
     <!-- Keccak Dance -->
-    <div class="left-content" id="top-page">
+    <div class="left-content">
         <div class="left-text">
             <h1 data-key="keccak-dance.title">Keccak Dance</h1>
             <h3 data-key="keccak-dance.description">The Mesmerizing Dance of Bali</h3>
             <p data-key="keccak-dance.paragraph-1">The Kecak Dance, or “Monkey Chant Dance,” is one of Bali's most unique performances. Instead of gamelan instruments, it features a circle of men chanting “cak-cak-cak” in rhythmic patterns, forming a powerful vocal orchestra. Created in the 1930s, it has since become a symbol of Balinese spirituality and artistry.</p><br> 
             
             <div class="section-button">
-                <a href="#" class="btn-left" data-modal-target="modal-keccak-dance">Learn More</a>
                 <button class="love-btn" aria-label="Add to favorite">
                     <i class="fa-regular fa-heart"></i>
                 </button>
+                <a href="#" class="btn-left" data-modal-target="modal-keccak-dance">Learn More</a>
             </div>
         </div>
         <img src="asset/img/top-page.jpg" alt="placeholder" class="image">
@@ -123,7 +123,7 @@
     <!-- Modal -->
     <div class="modal-overlay" id="modal-legong-dance">
         <div class="modal-container">
-            <button class="close-btn" id="closeModal" aria-label="Close" >
+            <button class="close-btn" id="closeModal" aria-label="Close" data-close-btn>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                 <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round"/>
                 </svg>
@@ -186,7 +186,7 @@
     <!-- Modal -->
     <div class="modal-overlay" id="modal-barong-dance">
     <div class="modal-container">
-        <button class="close-btn" id="closeModal" aria-label="Close">
+        <button class="close-btn" id="closeModal" aria-label="Close"data-close-btn>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
             <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round" />
         </svg>
@@ -233,58 +233,147 @@
 
     <!-- Balinese Offerings -->
     <div class="right-content">
-    <img src="asset/img/top-page.jpg" alt="placeholder" class="image">
-    <div class="right-text">
-        <h1 data-key="balinese-offerings.title">Balinese Offerings</h1>
-        <h3 data-key="balinese-offerings.description">The Sacred Tradition of Balinese Offerings</h3>
-
-        <p data-key="balinese-offerings.paragraph-1">
-        In Bali, spirituality is woven into daily life, and one of its most visible symbols is the offering called <b>canang sari</b>. Made from coconut leaves and filled with flowers, rice, incense, or coins, these small baskets are placed in temples, shrines, homes, and businesses as gestures of gratitude and harmony between the spiritual and physical worlds.
-        </p><br>
-
-        <p data-key="balinese-offerings.paragraph-2">
-        Preparing offerings is a daily act of devotion, often done by women each morning. Flowers are arranged by symbolic color, accompanied by prayers for blessings and protection. The incense smoke carries these prayers to the divine, turning routine activity into a sacred ritual.
-        </p><br>
-
-        <p data-key="balinese-offerings.paragraph-3">
-        For visitors, the colorful offerings scattered across streets and temples may seem decorative, but for the Balinese, they are a living tradition. This practice blends Hindu beliefs with local customs, showing that spirituality in Bali flows through everyday life.
-        </p>
-
-        <div class="section-button">
-        <button class="love-btn" aria-label="Add to favorite">
-            <i class="fa-regular fa-heart"></i>
-        </button>
-        <a href="#" class="btn-left" data-modal-target="modal-bali-offering" data-key="balinese-offerings.button-learn-more">Learn More</a>
+        <img src="asset/img/top-page.jpg" alt="placeholder" class="image">
+        <div class="right-text">
+            <h1>Legong Dance</h1>
+            <h3>The Graceful Classical Dance of Bali</h3>
+            <p>The Legong Dance is one of Bali's most refined classical dances, known for its intricate movements and deep cultural symbolism. Traditionally performed by young girls before puberty, it serves as both an art form and a rite of passage. The dancers wear vibrant costumes with golden crowns, embodying beauty and grace with precise movements.</p><br> 
+            <p>Accompanied by a gamelan orchestra, Legong features detailed choreography with finger gestures, expressive faces, and synchronized eye movements—each carrying symbolic meaning in Balinese storytelling. Performances often depict tales from folklore or epics like the Malat, blending drama with elegance.</p><br> 
+            <p>Today, Legong is performed in temples for religious ceremonies as well as on stage for cultural showcases, bridging sacred ritual and public art. For travelers, it offers a glimpse into the sophistication of Balinese culture and the elegance of its traditions.</p>
+            
+            <div class="section-button">
+                <button class="love-btn" aria-label="Add to favorite">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+                <a href="#" class="btn-right" data-modal-target="modal-legong-dance">Learn More</a>
+            </div>
         </div>
     </div>
+
+    <!-- Modal -->
+    <div class="modal-overlay" id="modal-legong-dance">
+        <div class="modal-container">
+            <button class="close-btn" id="closeModal" aria-label="Close" >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+            </button>
+            
+            <h1>More About Barong Dance</h1> <br>
+        
+            <img src="asset/img/nature-page.jpg" alt="Nature Page Image" class="top-page"
+            >
+            <h2>Story Behind It</h2>            
+            <p>empty</p><br> 
+            <p>Empty</p><br> 
+            <p>Empty</p><br> 
+            <p>empty</p>
+
+            <!-- YouTube Video Placeholder -->
+            <div class="video-wrapper">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/22XSn6Zz3Xs?si=Ujm1nbrdvhSw0bgL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <br>
+            <h2>Where to Find</h2>
+            <p>
+            If you are interested in witnessing the Kecak Dance, there are several iconic spots in Bali where you can experience this enchanting performance:
+            </p>
+            <ol>
+                <li><strong>Place1</strong> – Description</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- Barong dance -->
+    <div class="left-content" id="top-page">
+        <div class="left-text">
+            <h1>Barong Dance</h1>
+            <h3>The Eternal Battle Between Good and Evil</h3>
+            <p>The Barong Dance is one of Bali's most iconic traditions, portraying the timeless battle between good and evil. Barong, a lion-like protector, represents goodness, while Rangda, the terrifying demon queen, embodies chaos and destruction. Performed by dancers in elaborate costumes with dramatic masks, their confrontation is heightened by powerful gamelan music that builds intensity throughout the story.</p><br> 
+            <p>Beyond performance, the dance is a sacred ritual rooted in the Hindu philosophy of Rwa Bhineda, the balance of life's opposing forces. Chanting, trance states, and spiritual energy often accompany the show, reinforcing its religious significance. Today, the Barong Dance is presented both in temples during ceremonies and on cultural stages, allowing audiences to witness a living expression of Bali's artistry, mythology, and spiritual worldview.</p><br> 
+            
+            <div class="section-button">
+                <button class="love-btn" aria-label="Add to favorite">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+                <a href="#" class="btn-left" data-modal-target="modal-barong-dance">Learn More</a>
+            </div>
+        </div>
+        <img src="asset/img/top-page.jpg" alt="placeholder" class="image">
+    </div>
+
+    <!-- Modal -->
+    <div class="modal-overlay" id="modal-barong-dance">
+        <div class="modal-container">
+            <button class="close-btn" id="closeModal" aria-label="Close" >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+            </button>
+            
+            <h1>More About Barong Dance</h1> <br>
+        
+            <img src="asset/img/nature-page.jpg" alt="Nature Page Image" class="top-page"
+            >
+            <h2>Story Behind It</h2>            
+            <p>empty</p><br> 
+            <p>Empty</p><br> 
+            <p>Empty</p><br> 
+            <p>empty</p>
+
+            <!-- YouTube Video Placeholder -->
+            <div class="video-wrapper">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/22XSn6Zz3Xs?si=Ujm1nbrdvhSw0bgL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <br>
+            <h2>Where to Find</h2>
+            <p>
+            If you are interested in witnessing the Kecak Dance, there are several iconic spots in Bali where you can experience this enchanting performance:
+            </p>
+            <ol>
+                <li><strong>Place1</strong> – Description</li>
+            </ol>
+        </div>
+    </div>
+
+
+    <!-- Balinese Offering -->
+    <div class="right-content">
+        <img src="asset/img/top-page.jpg" alt="placeholder" class="image">
+        <div class="right-text">
+            <h1>Balinese Offerings</h1>
+            <h3>The Sacred Tradition of Balinese Offerings</h3>
+            <p>In Bali, spirituality is woven into daily life, and one of its most visible symbols is the offering called <b>canang sari</b>. Made from coconut leaves and filled with flowers, rice, incense, or coins, these small baskets are placed in temples, shrines, homes, and businesses as gestures of gratitude and harmony between the spiritual and physical worlds.</p><br> 
+            <p>Preparing offerings is a daily act of devotion, often done by women each morning. Flowers are arranged by symbolic color, accompanied by prayers for blessings and protection. The incense smoke carries these prayers to the divine, turning routine activity into a sacred ritual.</p><br> 
+            <p>For visitors, the colorful offerings scattered across streets and temples may seem decorative, but for the Balinese, they are a living tradition. This practice blends Hindu beliefs with local customs, showing that spirituality in Bali flows through everyday life.</p>
+            
+            <div class="section-button">
+                <button class="love-btn" aria-label="Add to favorite">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+                <a href="#" class="btn-left" data-modal-target="modal-bali-offering">Learn More</a>
+            </div>
+        </div>
     </div>
 
     <!-- Modal -->
     <div class="modal-overlay" id="modal-bali-offering">
-    <div class="modal-container">
-        <button class="close-btn" id="closeModal" aria-label="Close">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-            <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round" />
-        </svg>
-        </button>
-
-        <h1 data-key="balinese-offerings.modal.heading-1">More About Balinese Offerings</h1><br>
-
-        <img src="asset/img/nature-page.jpg" alt="Nature Page Image" class="top-page">
-
-        <h2 data-key="balinese-offerings.modal.heading-2">Story Behind It</h2>
-
-        <p data-key="balinese-offerings.modal.paragraph-1">
-        Balinese offerings, known as Canang Sari, are small, handwoven trays made from palm leaves filled with flowers, rice, and incense. These offerings are created daily to express gratitude and maintain harmony between humans, nature, and the divine. Each color and item used holds symbolic meaning — white flowers for Shiva, red for Brahma, and yellow for Vishnu.
-        </p><br>
-
-        <p data-key="balinese-offerings.modal.paragraph-2">
-        The act of making offerings is a spiritual practice passed down through generations. Women usually prepare them in the early morning, a meditative process that brings peace and mindfulness. Once completed, the offerings are placed at temples, shrines, and even on the ground, acknowledging both good and mischievous spirits.
-        </p><br>
-
-        <p data-key="balinese-offerings.modal.paragraph-3">
-        This simple yet profound ritual represents the Balinese way of life — one centered on devotion, respect, and constant balance between the seen and unseen worlds.
-        </p><br>
+        <div class="modal-container">
+            <button class="close-btn" id="closeModal" aria-label="Close" >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+            </button>
+            
+            <h1>More About Balinese Offering</h1> <br>
+        
+            <img src="asset/img/nature-page.jpg" alt="Nature Page Image" class="top-page"
+            >
+            <h2>Story Behind It</h2>            
+            <p>empty</p><br> 
+            <p>Empty</p><br> 
+            <p>Empty</p><br> 
+            <p>empty</p>
 
         <!-- YouTube Video Placeholder -->
         <div class="video-wrapper">
@@ -333,30 +422,22 @@
 
     <!-- Modal -->
     <div class="modal-overlay" id="modal-ngaben">
-    <div class="modal-container">
-        <button class="close-btn" id="closeModal" aria-label="Close">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-            <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round" />
-        </svg>
-        </button>
-
-        <h1 data-key="ngaben.modal.heading-1">More About Ngaben</h1><br>
-
-        <img src="asset/img/nature-page.jpg" alt="Nature Page Image" class="top-page">
-
-        <h2 data-key="ngaben.modal.heading-2">Story Behind It</h2>
-
-        <p data-key="ngaben.modal.paragraph-1">
-        Ngaben, or the Balinese cremation ceremony, is one of the most sacred rituals in Bali. It symbolizes the release of the soul from the physical body to return to the spiritual realm and begin its next journey toward reincarnation.
-        </p><br>
-
-        <p data-key="ngaben.modal.paragraph-2">
-        During Ngaben, a lavishly decorated tower called <b>bade</b> carries the deceased through the village streets, accompanied by gamelan music and chants. The atmosphere, though solemn, is also celebratory — a reflection of the Balinese belief that death is not an end, but a transition.
-        </p><br>
-
-        <p data-key="ngaben.modal.paragraph-3">
-        Families often prepare for months or even years to perform Ngaben properly. It unites the community in a shared expression of respect and joy, honoring both life and the cycle of rebirth.
-        </p><br>
+        <div class="modal-container">
+            <button class="close-btn" id="closeModal" aria-label="Close" >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+            </button>
+            
+            <h1>More About Ngaben</h1> <br>
+        
+            <img src="asset/img/nature-page.jpg" alt="Nature Page Image" class="top-page"
+            >
+            <h2>Story Behind It</h2>            
+            <p>empty</p><br> 
+            <p>Empty</p><br> 
+            <p>Empty</p><br> 
+            <p>empty</p>
 
         <!-- YouTube Video Placeholder -->
         <div class="video-wrapper">
@@ -406,7 +487,7 @@
     <!-- Modal -->
     <div class="modal-overlay" id="modal-melasti">
         <div class="modal-container">
-            <button class="close-btn" id="closeModal" aria-label="Close">
+            <button class="close-btn" id="closeModal" aria-label="Close" >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                     <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round"/>
                 </svg>
@@ -477,7 +558,7 @@
     <!-- Modal -->
     <div class="modal-overlay" id="modal-galungan-kuningan">
         <div class="modal-container">
-            <button class="close-btn" id="closeModal" aria-label="Close">
+            <button class="close-btn" id="closeModal" aria-label="Close" >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                     <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round"/>
                 </svg>
@@ -525,25 +606,17 @@
     <div class="right-content">
         <img src="asset/img/top-page.jpg" alt="placeholder" class="image">
         <div class="right-text">
-            <h1 data-key="cultural-house.title">Cultural House</h1>
-            <h3 data-key="cultural-house.description">Preserving Bali's Identity and Tradition</h3>
-
-            <p data-key="cultural-house.paragraph-1">
-                Cultural houses in Bali are vital spaces that preserve the island's heritage of art, tradition, and philosophy. Inside, visitors can find wood carvings, woven fabrics, and ceremonial items that carry deep spiritual meaning. More than a museum, a cultural house is a place where the younger generation connects with their roots.
-            </p><br>
-
-            <p data-key="cultural-house.paragraph-2">
-                These spaces often host artistic performances, such as Legong and Barong dances, offering tourists and locals alike a chance to experience Balinese culture in an authentic setting. The atmosphere created through these shows highlights the warmth and richness of tradition.
-            </p><br>
-
-            <p data-key="cultural-house.paragraph-3">
-                Beyond exhibitions, cultural houses also serve as community hubs, holding workshops on batik, gamelan, and Balinese Hindu philosophy. In this way, they not only safeguard heritage but also nurture togetherness and the values that make Bali unique.
-            </p><br>
-
+            <h1>Cultural House</h1>
+            <h3>Preserving Bali's Identity and Tradition</h3>
+            <p>Cultural houses in Bali are vital spaces that preserve the island's heritage of art, tradition, and philosophy. Inside, visitors can find wood carvings, woven fabrics, and ceremonial items that carry deep spiritual meaning. More than a museum, a cultural house is a place where the younger generation connects with their roots.</p><br>
+            <p>These spaces often host artistic performances, such as Legong and Barong dances, offering tourists and locals alike a chance to experience Balinese culture in an authentic setting. The atmosphere created through these shows highlights the warmth and richness of tradition.</p><br> 
+            <p>Beyond exhibitions, cultural houses also serve as community hubs, holding workshops on batik, gamelan, and Balinese Hindu philosophy. In this way, they not only safeguard heritage but also nurture togetherness and the values that make Bali unique.</p>
+            
             <div class="section-button">
                 <button class="love-btn" aria-label="Add to favorite">
                     <i class="fa-regular fa-heart"></i>
                 </button>
+                <a href="#" class="btn-right" data-modal-target="modal-galungan-kuningan">Learn More</a>
             </div>
         </div>
     </div>
@@ -576,7 +649,7 @@
     <!-- Modal -->
     <div class="modal-overlay" id="modal-bale-banjar">
         <div class="modal-container">
-            <button class="close-btn" id="closeModal" aria-label="Close">
+            <button class="close-btn" id="closeModal" aria-label="Close" >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                     <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round"/>
                 </svg>
@@ -646,7 +719,7 @@
     <!-- Modal -->
     <div class="modal-overlay" id="modal-bale-daja">
         <div class="modal-container">
-            <button class="close-btn" id="closeModal" aria-label="Close">
+            <button class="close-btn" id="closeModal" aria-label="Close" >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                     <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round"/>
                 </svg>
@@ -717,7 +790,7 @@
     <!-- Modal -->
     <div class="modal-overlay" id="modal-candi-bentar">
         <div class="modal-container">
-            <button class="close-btn" id="closeModal" aria-label="Close">
+            <button class="close-btn" id="closeModal" aria-label="Close" >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                     <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round"/>
                 </svg>
@@ -791,7 +864,7 @@
     <!-- Modal -->
     <div class="modal-overlay" id="modal-gwk-statue">
         <div class="modal-container">
-            <button class="close-btn" id="closeModal" aria-label="Close">
+            <button class="close-btn" id="closeModal" aria-label="Close" >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                     <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round"/>
                 </svg>
@@ -861,7 +934,7 @@
     <!-- Modal -->
     <div class="modal-overlay" id="modal-pura-besakih">
         <div class="modal-container">
-            <button class="close-btn" id="closeModal" aria-label="Close">
+            <button class="close-btn" id="closeModal" aria-label="Close" >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                     <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round"/>
                 </svg>
@@ -923,7 +996,7 @@
                 <button class="love-btn" aria-label="Add to favorite">
                     <i class="fa-regular fa-heart"></i>
                 </button>
-                <a href="#" class="btn-left" data-modal-target="modal-tanah-lot" data-key="tanah-lot.button-learn-more">Learn More</a>
+                <a href="#" class="btn-left" data-modal-target="modal-tanah-lot">Learn More</a>
             </div>
         </div>
     </div>
@@ -931,7 +1004,7 @@
     <!-- Modal -->
     <div class="modal-overlay" id="modal-tanah-lot">
         <div class="modal-container">
-            <button class="close-btn" id="closeModal" aria-label="Close">
+            <button class="close-btn" id="closeModal" aria-label="Close" >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                     <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round"/>
                 </svg>
@@ -983,7 +1056,6 @@
 
     <script src="script/modal-favorite.js"></script>
     <script src="script/btn-add-favorite.js"></script>
-    <!-- <script src="script/favorite-modal.js"></script> -->
     <script src="script/filter/filter-section-budaya.js"></script>
     <script src="script/modal-section.js"></script>
 </body>
