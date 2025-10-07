@@ -1,0 +1,32 @@
+:root {
+    --desa-penglipuran: url("/asset/img/desa-page-img/desa-penglipuran.jpeg");
+    --gwk-statue: url("/asset/img/budaya-page-img/patung-gwk.jpg");
+    --seminyak-beach: url("/asset/img/alam-page-img/pantai-seminyak.jpg");
+
+    --nature: url("/asset/img/alam-page-img/alam-top-img.jpg");
+    --culture: url("/asset/img/budaya-page-img/budaya-top-img.jpg");
+    --village: url("/asset/img/desa-page-img/desa-top-img.jpg");
+    --mountain: url("/asset/img/gunung-page-img/gunung-top-img.webp");
+}
+
+.desa-penglipuran {
+    background-image: var(--desa-penglipuran);
+}
+.patung-gwk {
+    background-image: var(--gwk-statue);
+}
+.pantai-seminyak {
+    background-image: var(--seminyak-beach);
+}
+.alam {
+    background-image: var(--nature);
+}
+.budaya {
+    background-image: var(--culture);
+}
+.desa {
+    background-image: var(--village);
+}
+.gunung {
+    background-image: var(--mountain);
+}

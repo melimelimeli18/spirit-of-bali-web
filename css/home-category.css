@@ -3,8 +3,7 @@
   flex-direction: column;
   text-align: center;
   margin-top: 3rem;
-  padding-top: 3rem;
-  padding-bottom: 8rem;
+  padding: 3rem 0 8rem;
   background-color: var(--section-color);
 }
 
@@ -12,7 +11,6 @@
   width: 586px;
   height: 528px;
   min-height: auto;
-  background-image: url("../asset/img/header.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -22,12 +20,6 @@
 .category-decs {
   margin-top: 30px;
   text-align: center;
-}
-
-#categories .card {
-  width: 586px;
-  height: 528px;
-  min-height: auto;
 }
 
 #categories .card h3,

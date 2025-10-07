@@ -3,22 +3,26 @@
   margin: 0;
   padding: 0;
 }
+
 .top-btn {
-  background: rgb(69, 69, 69);
-  border-radius: 20px;
   position: fixed;
   bottom: 10px;
   right: 10px;
+  
   width: 70px;
   height: 70px;
+  background: rgb(69, 69, 69);
+  border-radius: 20px;
+
   cursor: pointer;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.336);
-  transform: scale(0.9);
   opacity: 80%;
+  transform: scale(0.9);
+  transition: 0.3s ease-in-out transform;
+
   margin: 0;
   padding: 0;
-  transition: 0.3s ease-in-out transform;
 }
+
 .top-btn:hover {
   transform: scale(1);
 }
@@ -28,27 +32,24 @@
 
 /* favorite button */
 .love-btn {
-  bottom: 20px;
+  position: absolute;
+  bottom: 25px;
   z-index: 3;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
+  height: 48px;
+  width: 48px;
+  padding: 8px 16px;
+
   color: red;
   background: white;
   border: 2px solid #ccc; /* outline abu-abu */
   border-radius: 20px;
-
   font-size: 18px;
-  padding: 8px 16px;
   cursor: pointer;
-  
-  height: 48px;
-  width: 48px;
-
-  position: absolute;
-  bottom: 25px;
 
   transition: transform 0.2s ease, border-color 0.2s ease;
 }
@@ -63,20 +64,18 @@
 
 .btn-left, 
 .btn-right{
+  position: absolute;
+  bottom: 25px;
+
+  background: white;
   color: black;
   border: 2px solid var(--button-outline);
   border-radius: 20px;
   font-size: 18px;
   padding: 8px 16px;
-  background: white;
   cursor: pointer;
-}
 
-/* Button (for Culture Page) */
-.btn-left, 
-.btn-right {
-  position: absolute;
-  bottom: 25px;
+  transition: transform 0.2s ease;
 }
 
 .btn-right {
@@ -86,11 +85,8 @@
   left: 9.7vw;
 }
 
-.btn-right, .btn-left{
-  color: var();
-}
-
-.btn-right:hover, .btn-left:hover{
+.btn-right:hover, 
+.btn-left:hover{
   transform: scale(1.05);
   color: var(--hover-white-btn);
 }

@@ -18,7 +18,6 @@
 
 #destinations .card {
   flex: 0 0 250px;
-  background-image: url("../asset/img/header.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

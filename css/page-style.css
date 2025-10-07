@@ -72,8 +72,15 @@ header h1 {
   flex: 1;
   width: 50%;
   height: auto;
-  object-fit: cover;
   display: block;
+  
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+
+  object-fit: cover;
+  object-position: center;
+
+  justify-content: center;
+  align-items: center;
 }
 .left-content,
 .right-content {
@@ -86,10 +93,8 @@ header h1 {
 .left-text, 
 .right-text {
   display: flex;
-  padding: 60px 60px 30vh;
+  padding: 60px 60px 20vh;
   flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
 }
 
 .left-text h1,
