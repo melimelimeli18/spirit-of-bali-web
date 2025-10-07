@@ -8,6 +8,15 @@
 </head>
 <body data-page="index">
     <nav id="top">
+      <!-- Language Dropdown -->
+      <div class="language-switch">
+          <select id="languageSelect" aria-label="Language Switcher">
+              <option value="en">EN </option>
+              <option value="id">ID</option>
+          </select>
+      </div>
+
+      <!-- Link to other Page -->
       <div class="nav-links">
           <a data-key="navbar.home" href="index.html" class="active">Home</a>
           <a data-key="navbar.nature" href="alam.html">Nature</a>
@@ -15,6 +24,8 @@
           <a data-key="navbar.village" href="desa.html">Village</a>
           <a data-key="navbar.mountain" href="gunung.html">Mountain</a>
       </div>
+
+      <!-- My Favorite -->
       <button class="favorite-btn">
           <i class="fa-solid fa-heart"></i>
           <span data-key="navbar.favorite" class="text">My Favorite</span>
@@ -40,22 +51,22 @@
       <div class="destination">
         <img src="asset/icon/featured-panglipura.png" alt="Desa Panglipuran" />
         <div class="featured-info">
-          <p  data-key="hero.featured.description" class="fact">#1 World’s Cleanest Village</p>
-          <h3 data-key="hero.featured.place" >DESA PANGLIPURAN</h3>
+          <p  data-key="hero.featured.description-1" class="fact">#1 World’s Cleanest Village</p>
+          <h3 data-key="hero.featured.place-1" >DESA PANGLIPURAN</h3>
         </div>
       </div>
       <div class="destination">
         <img src="asset/icon/featured-GWK.png" alt="GWK Statue" />
         <div class="featured-info">
-          <p  data-key="hero.featured.description" class="fact">Top 5 Highest Statue</p>
-          <h3 data-key="hero.featured.place" >GWK STATUE</h3>
+          <p  data-key="hero.featured.description-2" class="fact">Top 5 Highest Statue</p>
+          <h3 data-key="hero.featured.place-2" >GWK STATUE</h3>
         </div>
       </div>
       <div class="destination">
         <img src="asset/icon/featured-seminyak.png" alt="Seminyak Beach" />
         <div class="featured-info">
-          <p  data-key="hero.featured.description" class="fact">World-Famous Surfing Spot</p>
-          <h3 data-key="hero.featured.place" >SEMINYAK BEACH</h3>
+          <p  data-key="hero.featured.description-3" class="fact">World-Famous Surfing Spot</p>
+          <h3 data-key="hero.featured.place-3" >SEMINYAK BEACH</h3>
         </div>
       </div>
     </div>
@@ -145,6 +156,7 @@
   <script src="script.js"></script>
   <script src="script/modal-favorite.js"></script>
   <script src="script/btn-add-favorite.js"></script>
+  <script src="script/translate.js"></script>
 
   <script>
   document.addEventListener("DOMContentLoaded", () => {

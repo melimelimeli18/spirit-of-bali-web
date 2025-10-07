@@ -6,8 +6,17 @@
     <title>Desa Bali - Spirit of Bali</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body data-page="village">
     <nav id="top">
+        <!-- Language Dropdown -->
+        <div class="language-switch">
+            <select id="languageSelect" aria-label="Language Switcher">
+                <option value="en">EN</option>
+                <option value="id">ID</option>
+            </select>
+        </div>
+        
+        <!-- Link to other Page -->
         <div class="nav-links">
             <a data-key="navbar.home" href="index.html">Home</a>
             <a data-key="navbar.nature" href="alam.html">Nature</a>
@@ -15,6 +24,8 @@
             <a data-key="navbar.village" class="active" href="desa.html">Village</a>
             <a data-key="navbar.mountain" href="gunung.html">Mountain</a>
         </div>
+        
+        <!-- My Favorite -->
         <button class="favorite-btn">
             <i class="fa-solid fa-heart"></i>
             <span data-key="navbar.favorite" class="text">My Favorite</span>
@@ -23,8 +34,8 @@
     <header class="not-main-page">
         <img src="asset/img/top-page.jpg" alt="Nature Page Image" class="top-page">
         <img src="asset/icon/logo-big-2.png" alt="Icon SoB" class="icon-page">
-        <h1>Desa Bali</h1>
-        <h3>Menemukan harmoni kehidupan masyarakat Bali</h3>
+        <h1>Bali's Village</h1>
+        <h3>Discovering the harmony of Balinese life.</h3>
         <a href="#top-page" id="down-btn"><img src="asset/icon/icon-arrow-down.png" alt="Icon Arrow Down" class="icon-bottom-page down-btn"></a>
     </header>
 
@@ -112,5 +123,7 @@
     <script src="script/modal-section.js"></script>
     <script src="script/modal-favorite.js"></script>
     <script src="script/filter/filter-section-desa.js"></script>
+    <script src="script/translate.js"></script>
+
 </body>
 </html>

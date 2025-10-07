@@ -7,8 +7,17 @@
     <link rel="stylesheet" href="css/style.css">
 
 </head>
-<body>
+<body data-page="nature">
     <nav id="top">
+        <!-- Language Dropdown -->
+        <div class="language-switch">
+            <select id="languageSelect" aria-label="Language Switcher">
+                <option value="en">EN</option>
+                <option value="id">ID</option>
+            </select>
+        </div>
+
+        <!-- Link to other Page -->
         <div class="nav-links">
             <a data-key="navbar.home" href="index.html">Home</a>
             <a data-key="navbar.nature" href="alam.html" class="active">Nature</a>
@@ -16,6 +25,8 @@
             <a data-key="navbar.village" href="desa.html">Village</a>
             <a data-key="navbar.mountain" href="gunung.html">Mountain</a>
         </div>
+        
+        <!-- My Favorite -->
         <button class="favorite-btn">
             <i class="fa-solid fa-heart"></i>
             <span class="text">My Favorite</span>
@@ -24,8 +35,8 @@
     <header class="not-main-page">
         <img src="asset/img/nature-page.jpg" alt="Nature Page Image" class="top-page">
         <img src="asset/icon/logo-big-2.png" alt="Icon SoB" class="icon-page">
-        <h1>Nature</h1>
-        <h3>Meresapi tradisi dan kesenian yang hidup di Bali</h3>
+        <h1>Bali's Nature</h1>
+        <h3>Embracing the living traditions and arts of Bali</h3>
         <a href="#top-page" id="down-btn"><img src="asset/icon/icon-arrow-down.png" alt="Icon Arrow Down" class="icon-bottom-page down-btn"></a>
     </header>
 
@@ -115,5 +126,7 @@
     <script src="script/modal-favorite.js"></script>
     <script src="script/btn-add-favorite.js"></script>
     <script src="script/filter/filter-section-alam.js"></script>
+    <script src="script/translate.js"></script>
+
 </body>
 </html>

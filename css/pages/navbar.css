@@ -10,6 +10,37 @@ nav {
   height: 60px; /* atur tinggi navbar */
 }
 
+/* Language switch di kiri navbar */
+.language-switch {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.language-switch select {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+
+  border-radius: 9999px;
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  appearance: none;
+  outline: none;
+  transition: all 0.2s ease;
+  /* background-color: white; */
+}
+
+.language-switch select:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.language-switch select option {
+  color: black; /* dropdown list tetap terbaca */
+}
+
 /* nav links tetap center */
 .nav-links {
   display: flex;
