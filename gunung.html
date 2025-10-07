@@ -7,18 +7,18 @@
     <link rel="stylesheet" href="css/style.css">
 
 </head>
-<body>
+<body data-page="mountain">
     <nav id="top">
         <div class="nav-links">
-            <a href="index.html">Home</a>
-            <a href="alam.html">Nature</a>
-            <a href="budaya.html">Culture</a>
-            <a href="desa.html">Village</a>
-            <a href="gunung.html" class="active">Mountain</a>
+            <a data-key="navbar.home" href="index.html">Home</a>
+            <a data-key="navbar.nature" href="alam.html">Nature</a>
+            <a data-key="navbar.culture" href="budaya.html">Culture</a>
+            <a data-key="navbar.village" href="desa.html">Village</a>
+            <a data-key="navbar.mountain" class="active" href="gunung.html">Mountain</a>
         </div>
         <button class="favorite-btn">
             <i class="fa-solid fa-heart"></i>
-            <span class="text">My Favorite</span>
+            <span data-key="navbar.favorite" class="text">My Favorite</span>
         </button>
     </nav>
     <header>
@@ -38,13 +38,14 @@
     </div>
 
     <!-- Content -->
+    <!-- Gunung Batur -->
     <div class="left-content" id="top-page">
         <div class="left-text">
-            <h1>Mount Batur</h1>
-            <h3>Bali's famous sunrise trekking spot</h3>
-            <p>Mount Batur is one of Bali's most iconic volcanoes, located in Kintamani. Standing at 1,717 meters, it is a popular destination for adventurous travelers who want to witness a breathtaking sunrise. The trek to the summit usually begins in the early morning, offering a rewarding view of Lake Batur and the surrounding mountains.</p><br>
-            <p>The volcano remains active, adding a sense of thrill and uniqueness to the experience. The caldera surrounding Mount Batur is home to fertile soil, supporting local agriculture and creating a scenic landscape filled with greenery.</p><br>
-            <p>Visitors also often explore the nearby hot springs, which provide relaxation after the hike. With its natural beauty and spiritual significance, Mount Batur is one of the must-visit mountain destinations in Bali.</p>
+            <h1 data-key="gunung-batur.title">Mount Batur</h1>
+            <h3 data-key="gunung-batur.description">Bali's famous sunrise trekking spot</h3>
+            <p data-key="gunung-batur.paragraph-1">Mount Batur is one of Bali's most iconic volcanoes, located in Kintamani. Standing at 1,717 meters, it is a popular destination for adventurous travelers who want to witness a breathtaking sunrise. The trek to the summit usually begins in the early morning, offering a rewarding view of Lake Batur and the surrounding mountains.</p><br>
+            <p data-key="gunung-batur.paragraph-2">The volcano remains active, adding a sense of thrill and uniqueness to the experience. The caldera surrounding Mount Batur is home to fertile soil, supporting local agriculture and creating a scenic landscape filled with greenery.</p><br>
+            <p data-key="gunung-batur.paragraph-3">Visitors also often explore the nearby hot springs, which provide relaxation after the hike. With its natural beauty and spiritual significance, Mount Batur is one of the must-visit mountain destinations in Bali.</p>
         
             <button class="love-btn" aria-label="Add to favorite">
                 <i class="fa-regular fa-heart"></i>
@@ -52,27 +53,31 @@
         </div>
         <img src="asset/img/top-page.jpg" alt="placeholder" class="image">
     </div>
+
+    <!-- Gunung Agung -->
     <div class="right-content">
         <img src="asset/img/top-page.jpg" alt="placeholder" class="image">
         <div class="right-text">
-            <h1>Mount Agung</h1>
-            <h3>The spiritual heart of Bali</h3>
-            <p>Mount Agung is the highest mountain in Bali, reaching 3,142 meters above sea level. It is considered the most sacred mountain by the Balinese people and is believed to be the home of the gods. Pura Besakih, Bali's largest and holiest temple, is located on its slopes.</p><br>
-            <p>Climbing Mount Agung is a challenging adventure, often reserved for experienced trekkers. The journey to the summit can take several hours, but the reward is an extraordinary panoramic view of the entire island and even neighboring islands on a clear day.</p><br>
-            <p>Despite its eruptions in recent history, Mount Agung continues to be a symbol of strength and spirituality for Bali. For locals, it is not just a mountain but also a sacred guardian of the island.</p>
+            <h1 data-key="gunung-agung.title">Mount Agung</h1>
+            <h3 data-key="gunung-agung.description">The spiritual heart of Bali</h3>
+            <p data-key="gunung-agung.paragraph-1">Mount Agung is the highest mountain in Bali, reaching 3,142 meters above sea level. It is considered the most sacred mountain by the Balinese people and is believed to be the home of the gods. Pura Besakih, Bali's largest and holiest temple, is located on its slopes.</p><br>
+            <p data-key="gunung-agung.paragraph-2">Climbing Mount Agung is a challenging adventure, often reserved for experienced trekkers. The journey to the summit can take several hours, but the reward is an extraordinary panoramic view of the entire island and even neighboring islands on a clear day.</p><br>
+            <p data-key="gunung-agung.paragraph-3">Despite its eruptions in recent history, Mount Agung continues to be a symbol of strength and spirituality for Bali. For locals, it is not just a mountain but also a sacred guardian of the island.</p>
 
             <button class="love-btn" aria-label="Add to favorite">
                 <i class="fa-regular fa-heart"></i>
             </button>
         </div>
     </div>
+
+    <!-- Gunung Batukaru -->
     <div class="left-content">
         <div class="left-text">
-            <h1>Mount Batukaru</h1>
-            <h3>Bali's second highest and serene peak</h3>
-            <p>Mount Batukaru, standing at 2,276 meters, is Bali's second-highest volcano and a destination often chosen by those seeking peace and quiet. Unlike the more popular Mount Batur, Batukaru offers a less crowded and more tranquil trekking experience, surrounded by lush rainforest.</p><br>
-            <p>The mountain is also spiritually important, as Pura Luhur Batukaru, one of Bali's key temples, lies on its slopes. This temple is dedicated to the guardian spirit of Mount Batukaru and is visited by many locals for prayer and ceremonies.</p><br>
-            <p>Treks to Mount Batukaru provide not only natural beauty but also cultural insight. The dense forest, fresh air, and spiritual atmosphere make it a special destination for travelers who want to connect deeply with Bali's nature and traditions.</p>
+            <h1 data-key="gunung-batukaru.title">Mount Batukaru</h1>
+            <h3 data-key="gunung-batukaru.description">Bali's second highest and serene peak</h3>
+            <p data-key="gunung-batukaru.paragraph-1">Mount Batukaru, standing at 2,276 meters, is Bali's second-highest volcano and a destination often chosen by those seeking peace and quiet. Unlike the more popular Mount Batur, Batukaru offers a less crowded and more tranquil trekking experience, surrounded by lush rainforest.</p><br>
+            <p data-key="gunung-batukaru.paragraph-2">The mountain is also spiritually important, as Pura Luhur Batukaru, one of Bali's key temples, lies on its slopes. This temple is dedicated to the guardian spirit of Mount Batukaru and is visited by many locals for prayer and ceremonies.</p><br>
+            <p data-key="gunung-batukaru.paragraph-3">Treks to Mount Batukaru provide not only natural beauty but also cultural insight. The dense forest, fresh air, and spiritual atmosphere make it a special destination for travelers who want to connect deeply with Bali's nature and traditions.</p>
         
             <button class="love-btn" aria-label="Add to favorite">
                 <i class="fa-regular fa-heart"></i>

@@ -9,15 +9,15 @@
 <body>
     <nav id="top">
         <div class="nav-links">
-            <a href="index.html">Home</a>
-            <a href="alam.html">Nature</a>
-            <a href="budaya.html">Culture</a>
-            <a href="desa.html" class="active">Village</a>
-            <a href="gunung.html">Mountain</a>
+            <a data-key="navbar.home" href="index.html">Home</a>
+            <a data-key="navbar.nature" href="alam.html">Nature</a>
+            <a data-key="navbar.culture" href="budaya.html">Culture</a>
+            <a data-key="navbar.village" class="active" href="desa.html">Village</a>
+            <a data-key="navbar.mountain" href="gunung.html">Mountain</a>
         </div>
         <button class="favorite-btn">
             <i class="fa-solid fa-heart"></i>
-            <span class="text">My Favorite</span>
+            <span data-key="navbar.favorite" class="text">My Favorite</span>
         </button>
     </nav>
     <header>
@@ -39,13 +39,14 @@
 
 
     <!-- Content -->
+    <!-- Desa Tenganan -->
     <div class="left-content" id="top-page">
         <div class="left-text">
-            <h1>Tenganan Village</h1>
-            <h3>A Village Preserving Traditions</h3>
-            <p>Tenganan Village is one of the oldest traditional villages in Bali, known as a Bali Aga village. It has preserved its unique customs, rituals, and architecture for centuries, making it a living cultural museum. Visitors can witness the traditional lifestyle that sets Tenganan apart from other Balinese villages.</p><br>
-            <p>The village is most famous for its double ikat weaving called Gringsing, a textile that is believed to have spiritual power. The weaving process is highly complex and only practiced by the women of Tenganan, making it a cultural treasure of Bali.</p><br>
-            <p>Beyond its crafts, Tenganan also hosts ancient ceremonies and rituals, such as the Mekare-kare or pandanus war, which attracts many visitors each year. These practices highlight the villagers' strong connection to their heritage and traditions.</p>
+            <h1 data-key="desa-tenganan.title">Tenganan Village</h1>
+            <h3 data-key="desa-tenganan.description">A Village Preserving Traditions</h3>
+            <p data-key="desa-tenganan.paragraph-1">Tenganan Village is one of the oldest traditional villages in Bali, known as a Bali Aga village. It has preserved its unique customs, rituals, and architecture for centuries, making it a living cultural museum. Visitors can witness the traditional lifestyle that sets Tenganan apart from other Balinese villages.</p><br>
+            <p data-key="desa-tenganan.paragraph-2">The village is most famous for its double ikat weaving called Gringsing, a textile that is believed to have spiritual power. The weaving process is highly complex and only practiced by the women of Tenganan, making it a cultural treasure of Bali.</p><br>
+            <p data-key="desa-tenganan.paragraph-3">Beyond its crafts, Tenganan also hosts ancient ceremonies and rituals, such as the Mekare-kare or pandanus war, which attracts many visitors each year. These practices highlight the villagers' strong connection to their heritage and traditions.</p>
         
             <button class="love-btn" aria-label="Add to favorite">
                 <i class="fa-regular fa-heart"></i>
@@ -53,27 +54,31 @@
         </div>
         <img src="asset/img/top-page.jpg" alt="placeholder" class="image">
     </div>
+
+    <!-- Desa Ubud -->
     <div class="right-content">
         <img src="asset/img/top-page.jpg" alt="placeholder" class="image">
         <div class="right-text">
-            <h1>Ubud Village</h1>
-            <h3>Bali's center of art and culture</h3>
-            <p>Ubud Village is often called the cultural heart of Bali. Surrounded by lush rice fields and jungle, Ubud has become a gathering place for artists, healers, and those seeking inspiration. It is home to traditional crafts, galleries, and dance performances that keep Balinese culture alive.</p><br>
-            <p>Visitors can explore Ubud Palace, where nightly dance performances showcase the island's artistic heritage. The nearby Ubud Market is also a favorite stop, offering handmade crafts, textiles, and souvenirs created by local artisans.</p><br>
-            <p>Beyond art and culture, Ubud is also known for wellness tourism. Yoga retreats, meditation centers, and holistic healing practices have made Ubud a world-famous destination for relaxation and self-discovery.</p>
+            <h1 data-key="desa-ubud.title">Ubud Village</h1>
+            <h3 data-key="desa-ubud.description">Bali's center of art and culture</h3>
+            <p data-key="desa-ubud.paragraph-1">Ubud Village is often called the cultural heart of Bali. Surrounded by lush rice fields and jungle, Ubud has become a gathering place for artists, healers, and those seeking inspiration. It is home to traditional crafts, galleries, and dance performances that keep Balinese culture alive.</p><br>
+            <p data-key="desa-ubud.paragraph-2">Visitors can explore Ubud Palace, where nightly dance performances showcase the island's artistic heritage. The nearby Ubud Market is also a favorite stop, offering handmade crafts, textiles, and souvenirs created by local artisans.</p><br>
+            <p data-key="desa-ubud.paragraph-3">Beyond art and culture, Ubud is also known for wellness tourism. Yoga retreats, meditation centers, and holistic healing practices have made Ubud a world-famous destination for relaxation and self-discovery.</p>
 
             <button class="love-btn" aria-label="Add to favorite">
                 <i class="fa-regular fa-heart"></i>
             </button>
         </div>
     </div>
+
+    <!-- Desa Panglipuran -->
     <div class="left-content">
         <div class="left-text">
-            <h1>Penglipuran Village</h1>
-            <h3>The world's cleanest traditional village</h3>
-            <p>Penglipuran Village is internationally recognized as one of the cleanest villages in the world. Located in Bangli, it is famous for its well-organized layout, traditional architecture, and commitment to preserving Balinese culture. Walking through the village feels like stepping into a harmonious and peaceful community.</p><br>
-            <p>The village is also deeply rooted in Balinese Hindu traditions. Locals practice strong values of mutual cooperation (gotong royong) and environmental conservation, ensuring that Penglipuran remains clean and sustainable for future generations.</p><br>
-            <p>Tourists often admire the neatly arranged bamboo houses and serene pathways. Penglipuran is more than a tourist spot—it is a living example of how tradition, culture, and modern values can coexist in harmony.</p>
+            <h1 data-key="desa-panglipuran.title">Penglipuran Village</h1>
+            <h3 data-key="desa-panglipuran.description">The world's cleanest traditional village</h3>
+            <p data-key="desa-panglipuran.paragraph-1">Penglipuran Village is internationally recognized as one of the cleanest villages in the world. Located in Bangli, it is famous for its well-organized layout, traditional architecture, and commitment to preserving Balinese culture. Walking through the village feels like stepping into a harmonious and peaceful community.</p><br>
+            <p data-key="desa-panglipuran.paragraph-2">The village is also deeply rooted in Balinese Hindu traditions. Locals practice strong values of mutual cooperation (gotong royong) and environmental conservation, ensuring that Penglipuran remains clean and sustainable for future generations.</p><br>
+            <p data-key="desa-panglipuran.paragraph-3">Tourists often admire the neatly arranged bamboo houses and serene pathways. Penglipuran is more than a tourist spot—it is a living example of how tradition, culture, and modern values can coexist in harmony.</p>
         
             <button class="love-btn" aria-label="Add to favorite">
                 <i class="fa-regular fa-heart"></i>
@@ -81,14 +86,16 @@
         </div>
         <img src="asset/img/top-page.jpg" alt="placeholder" class="image">
     </div>
+
+    <!-- Desa Jatiluwih -->
     <div class="right-content">
         <img src="asset/img/top-page.jpg" alt="placeholder" class="image">
         <div class="right-text">
-            <h1>Jatiluwih Village</h1>
-            <h3>UNESCO rice terraces in Bali</h3>
-            <p>Jatiluwih Village is renowned for its breathtaking rice terraces, which have been designated a UNESCO World Heritage Site. Located in Tabanan, the vast landscapes of Jatiluwih showcase the traditional subak irrigation system, a centuries-old method that emphasizes community cooperation and harmony with nature.</p><br>
-            <p>Visitors are often amazed by the endless layers of rice fields stretching across the hills. The view changes with the seasons, from bright green young rice shoots to golden harvest fields—offering a picturesque scene all year round.</p><br>
-            <p>Jatiluwih is also a great destination for trekking and cycling, allowing travelers to immerse themselves in the natural beauty and rural life of Bali. It is the perfect spot to experience both cultural heritage and the tranquility of the countryside.</p>
+            <h1 data-key="desa-jatiluwih.title">Jatiluwih Village</h1>
+            <h3 data-key="desa-jatiluwih.description">UNESCO rice terraces in Bali</h3>
+            <p data-key="desa-jatiluwih.paragraph-1">Jatiluwih Village is renowned for its breathtaking rice terraces, which have been designated a UNESCO World Heritage Site. Located in Tabanan, the vast landscapes of Jatiluwih showcase the traditional subak irrigation system, a centuries-old method that emphasizes community cooperation and harmony with nature.</p><br>
+            <p data-key="desa-jatiluwih.paragraph-2">Visitors are often amazed by the endless layers of rice fields stretching across the hills. The view changes with the seasons, from bright green young rice shoots to golden harvest fields—offering a picturesque scene all year round.</p><br>
+            <p data-key="desa-jatiluwih.paragraph-3">Jatiluwih is also a great destination for trekking and cycling, allowing travelers to immerse themselves in the natural beauty and rural life of Bali. It is the perfect spot to experience both cultural heritage and the tranquility of the countryside.</p>
 
             <button class="love-btn" aria-label="Add to favorite">
                 <i class="fa-regular fa-heart"></i>

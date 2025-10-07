@@ -6,18 +6,18 @@
   <title>Spirit of Bali</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body data-page="index">
     <nav id="top">
       <div class="nav-links">
-          <a href="index.html" class="active">Home</a>
-          <a href="alam.html">Nature</a>
-          <a href="budaya.html">Culture</a>
-          <a href="desa.html">Village</a>
-          <a href="gunung.html">Mountain</a>
+          <a data-key="navbar.home" href="index.html" class="active">Home</a>
+          <a data-key="navbar.nature" href="alam.html">Nature</a>
+          <a data-key="navbar.culture" href="budaya.html">Culture</a>
+          <a data-key="navbar.village" href="desa.html">Village</a>
+          <a data-key="navbar.mountain" href="gunung.html">Mountain</a>
       </div>
       <button class="favorite-btn">
           <i class="fa-solid fa-heart"></i>
-          <span class="text">My Favorite</span>
+          <span data-key="navbar.favorite" class="text">My Favorite</span>
       </button>
   </nav>
 
@@ -32,7 +32,7 @@
     <div class="hero-content">
       <img src="asset/icon/logo-big-1.png" alt="" srcset="">
       <!-- <h1 class="logo">Spirit <span>of</span> Bali</h1> -->
-      <p class="tagline">Discover the Stories Behind Every Journey</p>
+      <p data-key="hero.tagline" class="tagline">Discover the Stories Behind Every Journey</p>
     </div>
 
     <!-- Featured Destinations -->
@@ -40,48 +40,27 @@
       <div class="destination">
         <img src="asset/icon/featured-panglipura.png" alt="Desa Panglipuran" />
         <div class="featured-info">
-          <p class="fact">#1 World’s Cleanest Village</p>
-          <h3>DESA PANGLIPURAN</h3>
+          <p  data-key="hero.featured.description" class="fact">#1 World’s Cleanest Village</p>
+          <h3 data-key="hero.featured.place" >DESA PANGLIPURAN</h3>
         </div>
       </div>
       <div class="destination">
         <img src="asset/icon/featured-GWK.png" alt="GWK Statue" />
         <div class="featured-info">
-          <p class="fact">Top 5 Highest Statue</p>
-          <h3>GWK STATUE</h3>
+          <p  data-key="hero.featured.description" class="fact">Top 5 Highest Statue</p>
+          <h3 data-key="hero.featured.place" >GWK STATUE</h3>
         </div>
       </div>
       <div class="destination">
         <img src="asset/icon/featured-seminyak.png" alt="Seminyak Beach" />
         <div class="featured-info">
-          <p class="fact">World-Famous Surfing Spot</p>
-          <h3>SEMINYAK BEACH</h3>
+          <p  data-key="hero.featured.description" class="fact">World-Famous Surfing Spot</p>
+          <h3 data-key="hero.featured.place" >SEMINYAK BEACH</h3>
         </div>
       </div>
     </div>
 
     <!-- Search Bar -->
-    <!-- <div class="search-bar">
-      <input type="text" placeholder="Search destinations, culture, or stories..." />
-      <button class="btn-search">
-        <img src="asset/icon/icon-search-bar.png" alt="Search" />
-      </button>
-    </div> -->
-
-    <!-- <div class="search-bar">
-      <form id="search-form">
-        <input
-          type="text"
-          id="search-input"
-          placeholder="Search destinations, culture, or stories..."
-          required
-        />
-        <button type="submit" class="btn-search">
-          <img src="asset/icon/icon-search-bar.png" alt="Search" />
-        </button>
-      </form>
-    </div> -->
-
     <div class="search-bar">
       <input
         type="text"
@@ -97,28 +76,28 @@
 
   <!-- Destinations Section -->
   <section id="destinations" class="section">
-    <h2>Featured Destinations</h2>
-    <p id="destination-decs">Explore Bali's most iconic places, from stunning beaches to cultural villages.</p>
+    <h2 data-key="featured.title">Featured Destinations</h2>
+    <p data-key="featured.description" id="destination-decs">Explore Bali's most iconic places, from stunning beaches to cultural villages.</p>
     <div class="cards">
       <div class="card">
         <div class="card-content">
-          <h3>Desa Panglipuran</h3>
-          <p>#1 Cleanest Village</p>
-          <a class="destination-button" href="">See Destination</a>
+          <h3 data-key="featured.destination.title">Desa Panglipuran</h3>
+          <p data-key="featured.destination.description">#1 Cleanest Village</p>
+          <a data-key="featured.destination.button" class="destination-button" href="">See Destination</a>
         </div>
       </div>
       <div class="card">
         <div class="card-content">
-          <h3>GWK Statue</h3>
-          <p>Top 5 Highest Statue</p>
-          <a class="destination-button" href="">See Destination</a>
+          <h3 data-key="featured.destination.title">GWK Statue</h3>
+          <p data-key="featured.destination.description">Top 5 Highest Statue</p>
+          <a data-key="featured.destination.button" class="destination-button" href="">See Destination</a>
         </div>
       </div>
       <div class="card">
         <div class="card-content">
-          <h3>Seminyak Beach</h3>
-          <p>Best Sunset in Bali</p>
-          <a class="destination-button" href="">See Destination</a>
+          <h3 data-key="featured.destination.title">Seminyak Beach</h3>
+          <p data-key="featured.destination.description">Best Sunset in Bali</p>
+          <a data-key="featured.destination.button" class="destination-button" href="">See Destination</a>
         </div>
       </div>
     </div>
@@ -126,24 +105,24 @@
 
   <!-- Categories Section -->
   <section id="categories" class="section">
-    <h2>Explore by Category</h2>
-    <p class="category-decs">Discover Bali's uniqueness through its nature, culture, villages, and mountains.</p>
+    <h2 data-key="category.title">Explore by Category</h2>
+    <p data-key="category.description" class="category-decs">Discover Bali's uniqueness through its nature, culture, villages, and mountains.</p>
     <div class="cards">
       <a href="alam.html" class="card">
-        <h3>Nature</h3>
-        <p>Beaches, rice terraces, waterfalls</p>
+        <h3 data-key="category.destination.title">Nature</h3>
+        <p data-key="category.destination.description">Beaches, rice terraces, waterfalls</p>
       </a>
       <a href="budaya.html" class="card">
-        <h3>Culture</h3>
-        <p>Dances, temples, local traditions</p>
+        <h3 data-key="category.destination.title">Culture</h3>
+        <p data-key="category.destination.description">Dances, temples, local traditions</p>
       </a>
       <a href="desa.html" class="card">
-        <h3>Village</h3>
-        <p>Panglipuran, Ubud, Tenganan</p>
+        <h3 data-key="category.destination.title">Village</h3>
+        <p data-key="category.destination.description">Panglipuran, Ubud, Tenganan</p>
       </a>
       <a href="gunung.html" class="card">
-        <h3>Mountain</h3>
-        <p>Batur, Agung, Kintamani</p>
+        <h3 data-key="category.destination.title">Mountain</h3>
+        <p data-key="category.destination.description">Batur, Agung, Kintamani</p>
       </a>
     </div>
   </section>

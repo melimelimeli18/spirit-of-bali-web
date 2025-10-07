@@ -1,0 +1,399 @@
+{
+  "index": {
+    "navbar": {
+      "home": "Beranda",
+      "nature": "Alam",
+      "culture": "Budaya",
+      "village": "Desa",
+      "mountain": "Gunung",
+      "favorite": "Favorit Saya"
+    },
+    "hero": {
+      "tagline": "Temukan Kisah di Balik Setiap Perjalanan",
+      "featured": {
+        "description": "#1 Desa Terbersih di Dunia",
+        "place": "DESA PANGLIPURAN"
+      }
+    },
+    "featured": {
+      "title": "Destinasi Unggulan",
+      "description": "Jelajahi tempat-tempat paling ikonik di Bali, dari pantai yang menakjubkan hingga desa budaya.",
+      "destination": {
+        "title": "Desa Panglipuran",
+        "description": "#1 Desa Terbersih",
+        "button": "Lihat Destinasi"
+      }
+    },
+    "category": {
+      "title": "Jelajahi Berdasarkan Kategori",
+      "description": "Temukan keunikan Bali melalui alam, budaya, desa, dan pegunungannya.",
+      "destination": {
+        "title": "Alam",
+        "description": "Pantai, sawah terasering, air terjun"
+      }
+    }
+  },
+  "nature": {},
+  "culture": {
+    "navbar": {
+      "home": "Beranda",
+      "nature": "Alam",
+      "culture": "Budaya",
+      "village": "Desa",
+      "mountain": "Gunung",
+      "favorite": "Favorit Saya"
+    },
+    "keccak-dance": {
+      "title": "Tari Kecak",
+      "description": "Tarian Bali yang Memukau",
+      "paragraph-1": "Tari Kecak, atau “Tari Monyet,” adalah salah satu pertunjukan paling unik di Bali. Tanpa iringan alat musik gamelan, tarian ini menampilkan lingkaran pria yang menyanyikan “cak-cak-cak” dalam pola ritmis, membentuk orkestra vokal yang kuat. Diciptakan pada tahun 1930-an, tarian ini telah menjadi simbol spiritualitas dan seni Bali.",
+      "modal": {
+        "heading-1": "Lebih Lanjut Tentang Tari Kecak",
+        "heading-2": "Kisah di Baliknya",
+        "paragraph-1": "Tarian ini mendramatisasi wiracarita Hindu Ramayana, di mana Pangeran Rama melawan raja iblis Rahwana dengan bantuan Hanuman, monyet putih. Melalui nyanyian, gerakan ekspresif, dan obor api, cerita ini terungkap sebagai perjuangan hidup antara kebaikan dan kejahatan.",
+        "paragraph-2": "Sering dipentaskan di luar ruangan saat matahari terbenam di pura atau puncak tebing seperti Uluwatu, Tari Kecak memadukan ritual, penceritaan, dan keindahan alam. Bagi penonton, ini bukan hanya hiburan tetapi juga pengalaman mendalam tentang warisan budaya dan spiritual Bali.",
+        "paragraph-3": "Saat pertunjukan mencapai puncaknya, nyanyian menjadi lebih intens, menciptakan suasana seperti trans yang menarik penonton ke dalam cerita. Tarian api, yang biasanya melibatkan Hanuman melompati api, melambangkan penyucian dan kemenangan terang atas kegelapan.",
+        "paragraph-4": "Saat ini, Tari Kecak bukan hanya ritual suci tetapi juga pertunjukan budaya yang memperkenalkan tradisi spiritual Bali kepada dunia. Menonton Kecak seperti mengalami legenda hidup—perpaduan tak terlupakan antara pengabdian, seni, dan jiwa Bali yang mempesona.",
+        "place": {
+          "heading-2": "Tempat untuk Menemukan",
+          "description": "Jika Anda tertarik menyaksikan Tari Kecak, ada beberapa tempat ikonik di Bali di mana Anda dapat mengalami pertunjukan yang mempesona ini:",
+          "list-1": "Pura Uluwatu – Terkenal dengan lokasinya di tepi tebing, di mana Tari Kecak dipentaskan saat matahari terbenam dengan pemandangan laut yang menakjubkan.",
+          "list-2": "GWK Cultural Park – Pusat budaya yang secara teratur menjadi tuan rumah Tari Kecak bersama dengan pertunjukan tradisional Bali lainnya.",
+          "list-3": "Pura Dalem Ubud – Terletak di jantung Ubud, pura ini menawarkan pengalaman Tari Kecak yang lebih intim dan tradisional."
+        }
+      }
+    },
+    "legong-dance": {
+      "title": "Tari Legong",
+      "description": "Tarian Klasik Bali yang Anggun",
+      "paragraph-1": "Tari Legong adalah salah satu tarian klasik Bali yang paling halus, terkenal dengan gerakannya yang rumit dan simbolisme budaya yang mendalam.",
+      "paragraph-2": "Diiringi oleh orkestra gamelan, Legong menampilkan koreografi mendetail dengan gerakan jari, wajah ekspresif, dan gerakan mata yang sinkron—masing-masing membawa makna simbolis dalam penceritaan Bali. Pertunjukan sering menggambarkan kisah-kisah dari cerita rakyat atau wiracarita seperti Malat, memadukan drama dengan keanggunan.",
+      "paragraph-3": "Saat ini, Legong dipentaskan di pura untuk upacara keagamaan serta di atas panggung untuk pertunjukan budaya, menjembatani ritual suci dan seni publik. Bagi para pelancong, ini menawarkan sekilas kecanggihan budaya Bali dan keanggunan tradisinya.",
+      "modal": {
+        "heading-1": "Lebih Lanjut Tentang Tari Legong",
+        "heading-2": "Kisah di Baliknya",
+        "paragraph-1": "Tari Legong adalah salah satu tarian tradisional Bali yang paling halus dan anggun, berasal dari istana kerajaan abad ke-19. Dikatakan bahwa seorang pangeran Bali pernah bermimpi tentang dua bidadari surgawi yang bergerak selaras dengan musik gamelan yang mempesona. Terinspirasi oleh mimpi ini, ia kemudian memerintahkan musisi dan penari istananya untuk menciptakan kembali pemandangan yang memukau itu, melahirkan apa yang sekarang dikenal sebagai Tari Legong.",
+        "paragraph-2": "Selama berabad-abad, Tari Legong menjadi simbol keanggunan dan kehalusan. Secara tradisional, tarian ini dibawakan oleh gadis-gadis muda yang belum mencapai pubertas, dipilih karena kepolosan dan kemurnian mereka. Setiap gerakan, dari kedipan mata hingga kemiringan kepala, membawa makna dan harus selaras sempurna dengan irama orkestra gamelan.",
+        "paragraph-3": "Saat ini, Tari Legong terus mewujudkan pengabdian Bali pada seni dan spiritualitas. Meskipun telah berevolusi menjadi bentuk hiburan budaya bagi pengunjung, pertunjukannya masih mencerminkan keindahan sakral dan seni disiplin dari kehidupan istana klasik Bali.",
+        "place": {
+          "heading-2": "Tempat untuk Menemukan",
+          "description": "Jika Anda tertarik menyaksikan Tari Legong, ada beberapa tempat ikonik di Bali di mana Anda dapat mengalami pertunjukan yang mempesona ini:",
+          "list-1": "Puri Ubud – Tempat paling populer untuk pertunjukan Tari Legong setiap malam.",
+          "list-2": "Desa Peliatan, Ubud – Dikenal dengan kelompok tari tradisionalnya yang terampil.",
+          "list-3": "Balai Budaya Gianyar – Panggung untuk pertunjukan komunitas dan upacara.",
+          "list-4": "Taman Budaya Denpasar – Menjadi tuan rumah Legong selama festival dan acara budaya.",
+          "list-5": "Resor wisata di Nusa Dua – Menawarkan pertunjukan yang dikurasi untuk apresiasi budaya."
+        }
+      }
+    },
+    "barong-dance": {
+      "title": "Tari Barong",
+      "description": "Pertarungan Abadi Antara Kebaikan dan Kejahatan",
+      "paragraph-1": "Tari Barong adalah salah satu tradisi paling ikonik di Bali, yang menggambarkan pertarungan abadi antara kebaikan dan kejahatan. Barong, seorang pelindung mirip singa, melambangkan kebaikan, sementara Rangda, ratu iblis yang menakutkan, mewujudkan kekacauan dan kehancuran. Dibawakan oleh penari dalam kostum rumit dengan topeng dramatis, konfrontasi mereka diperkuat oleh musik gamelan yang kuat yang membangun intensitas sepanjang cerita.",
+      "paragraph-2": "Di luar pertunjukan, tarian ini adalah ritual suci yang berakar pada filosofi Hindu Rwa Bhineda, keseimbangan kekuatan hidup yang berlawanan. Nyanyian, keadaan trans, dan energi spiritual sering menyertai pertunjukan, memperkuat signifikansi keagamaannya. Saat ini, Tari Barong disajikan baik di pura selama upacara maupun di panggung budaya, memungkinkan penonton menyaksikan ekspresi hidup dari seni, mitologi, dan pandangan dunia spiritual Bali.",
+      "button-learn-more": "Pelajari Lebih Lanjut",
+      "modal": {
+        "heading-1": "Lebih Lanjut Tentang Tari Barong",
+        "heading-2": "Kisah di Baliknya",
+        "paragraph-1": "Tari Barong melambangkan pertarungan abadi antara kebaikan dan kejahatan, salah satu cerita paling ikonik dalam mitologi Bali. Barong, makhluk mirip singa, melambangkan perlindungan dan kebajikan, sementara Rangda, ratu iblis, mewujudkan kegelapan dan kekacauan. Tarian ini adalah penceritaan ulang dramatis dari perjuangan kosmik mereka, dilakukan dengan energi yang intens, topeng yang rumit, dan kostum yang semarak.",
+        "paragraph-2": "Secara historis, Barong dianggap sebagai roh penjaga desa, yang diyakini melindungi orang-orang dari penyakit dan kemalangan. Penari sering memasuki keadaan seperti trans selama pertunjukan, mengaburkan batas antara teater dan ritual. Masyarakat melihatnya bukan hanya sebagai tontonan, tetapi sebagai tindakan spiritual untuk menyeimbangkan kekuatan alam semesta.",
+        "paragraph-3": "Tari Barong mencerminkan filosofi Bali Rwa Bhineda, koeksistensi elemen yang berlawanan seperti kebaikan dan kejahatan. Ini mengajarkan bahwa keharmonisan dicapai bukan melalui penghancuran, tetapi melalui menjaga keseimbangan dalam semua aspek kehidupan.",
+        "place": {
+          "heading-2": "Tempat untuk Menemukan",
+          "description": "Jika Anda tertarik menyaksikan Tari Barong, ada beberapa tempat ikonik di Bali di mana Anda dapat mengalami pertunjukan yang mempesona ini:",
+          "list-1": "Desa Batubulan – Tempat paling terkenal untuk pertunjukan Barong setiap hari.",
+          "list-2": "Puri Ubud – Secara teratur menjadi tuan rumah tarian Barong dan Keris.",
+          "list-3": "Teater Panggung Gianyar – Menampilkan versi upacara berskala besar.",
+          "list-4": "Taman Budaya Taman Ayun – Menawarkan pertunjukan Barong dengan latar belakang pura.",
+          "list-5": "Pusat wisata di Kuta dan Sanur – Menyediakan akses mudah ke pertunjukan Barong modern."
+        }
+      }
+    },
+    "balinese-offerings": {
+      "title": "Sesajen Bali",
+      "description": "Tradisi Suci Sesajen Bali",
+      "paragraph-1": "Di Bali, spiritualitas terjalin dalam kehidupan sehari-hari, dan salah satu simbolnya yang paling terlihat adalah sesajen yang disebut canang sari. Terbuat dari daun kelapa dan diisi dengan bunga, nasi, dupa, atau koin, keranjang kecil ini ditempatkan di pura, kuil, rumah, dan bisnis sebagai tanda terima kasih dan keharmonisan antara dunia spiritual dan fisik.",
+      "paragraph-2": "Menyiapkan sesajen adalah tindakan pengabdian sehari-hari, sering dilakukan oleh wanita setiap pagi. Bunga diatur berdasarkan warna simbolis, disertai dengan doa untuk berkat dan perlindungan. Asap dupa membawa doa-doa ini kepada yang ilahi, mengubah aktivitas rutin menjadi ritual suci.",
+      "paragraph-3": "Bagi pengunjung, sesajen berwarna-warni yang tersebar di jalan-jalan dan pura mungkin tampak dekoratif, tetapi bagi orang Bali, itu adalah tradisi yang hidup. Praktik ini memadukan kepercayaan Hindu dengan adat istiadat setempat, menunjukkan bahwa spiritualitas di Bali mengalir melalui kehidupan sehari-hari.",
+      "button-learn-more": "Pelajari Lebih Lanjut",
+      "modal": {
+        "heading-1": "Lebih Lanjut Tentang Sesajen Bali",
+        "heading-2": "Kisah di Baliknya",
+        "paragraph-1": "Sesajen Bali, yang dikenal sebagai Canang Sari, adalah nampan anyaman tangan kecil yang terbuat dari daun lontar yang diisi dengan bunga, nasi, dan dupa. Sesajen ini dibuat setiap hari untuk mengungkapkan rasa syukur dan menjaga keharmonisan antara manusia, alam, dan yang ilahi. Setiap warna dan barang yang digunakan memiliki makna simbolis — bunga putih untuk Siwa, merah untuk Brahma, dan kuning untuk Wisnu.",
+        "paragraph-2": "Tindakan membuat sesajen adalah praktik spiritual yang diturunkan dari generasi ke generasi. Wanita biasanya menyiapkannya di pagi hari, sebuah proses meditatif yang membawa kedamaian dan kesadaran. Setelah selesai, sesajen ditempatkan di pura, kuil, dan bahkan di tanah, mengakui roh baik dan jahat.",
+        "paragraph-3": "Ritual sederhana namun mendalam ini melambangkan cara hidup orang Bali — yang berpusat pada pengabdian, rasa hormat, dan keseimbangan konstan antara dunia yang terlihat dan tidak terlihat.",
+        "place": {
+          "heading-2": "Tempat untuk Menemukan",
+          "description": "Jika Anda tertarik menyaksikan Sesajen Bali, ada beberapa tempat ikonik di Bali di mana Anda dapat menemukannya:",
+          "list-1": "Setiap rumah tangga Bali – Anda akan menemukan sesajen kecil ditempatkan di gerbang dan kuil.",
+          "list-2": "Pasar Ubud – Lihat penduduk setempat menjual sesajen yang dibuat dengan indah.",
+          "list-3": "Desa-desa tradisional seperti Penglipuran – Amati proses persiapan komunal."
+        }
+      }
+    },
+    "ngaben": {
+      "title": "Ngaben",
+      "description": "Upacara Kremasi Suci",
+      "paragraph-1": "Ngaben adalah salah satu upacara paling signifikan dan mencolok secara visual di Bali. Tidak seperti pemakaman di banyak budaya, Ngaben bukanlah ekspresi kesedihan tetapi ritual pembebasan yang menggembirakan. Keluarga membangun sarkofagus atau menara yang rumit, seringkali dalam bentuk binatang atau makhluk mitologis, untuk membawa almarhum dalam prosesi besar. Musik gamelan, nyanyian, dan sesajen menyertai perjalanan, yang berpuncak pada api kremasi yang membebaskan jiwa dari keterikatan duniawi.",
+      "paragraph-2": "Bagi orang Bali, Ngaben adalah perayaan kehidupan dan kematian, yang mewujudkan kepercayaan Hindu pada reinkarnasi. Ini adalah pengingat yang kuat bahwa kematian bukanlah akhir tetapi transisi ke awal yang baru.",
+      "button-learn-more": "Pelajari Lebih Lanjut",
+      "modal": {
+        "heading-1": "Lebih Lanjut Tentang Ngaben",
+        "heading-2": "Kisah di Baliknya",
+        "paragraph-1": "Ngaben, atau upacara kremasi Bali, adalah salah satu ritual paling suci di Bali. Ini melambangkan pelepasan jiwa dari tubuh fisik untuk kembali ke alam spiritual dan memulai perjalanan berikutnya menuju reinkarnasi.",
+        "paragraph-2": "Selama Ngaben, menara yang dihias dengan mewah yang disebut bade membawa almarhum melalui jalan-jalan desa, diiringi oleh musik gamelan dan nyanyian. Suasananya, meskipun khusyuk, juga meriah — cerminan dari kepercayaan Bali bahwa kematian bukanlah akhir, tetapi sebuah transisi.",
+        "paragraph-3": "Keluarga sering mempersiapkan selama berbulan-bulan atau bahkan bertahun-tahun untuk melakukan Ngaben dengan benar. Ini menyatukan komunitas dalam ekspresi rasa hormat dan kegembiraan bersama, menghormati kehidupan dan siklus kelahiran kembali.",
+        "place": {
+          "heading-2": "Tempat untuk Menemukan",
+          "description": "Jika Anda tertarik menyaksikan upacara Ngaben, ada beberapa tempat ikonik di Bali di mana Anda dapat menemukannya:",
+          "list-1": "Wilayah Ubud dan Gianyar – Menjadi tuan rumah upacara Ngaben tradisional yang terbuka untuk pengunjung.",
+          "list-2": "Kabupaten Klungkung – Dikenal dengan upacara Ngaben kerajaan yang megah.",
+          "list-3": "Area Pantai Sanur – Terkadang mengadakan upacara kremasi publik di dekat pantai."
+        }
+      }
+    },
+    "melasti": {
+      "title": "Melasti",
+      "description": "Ritual Penyucian",
+      "paragraph-1": "Melasti adalah upacara suci yang diadakan sebelum Nyepi, Hari Raya Nyepi Bali. Dalam ritual ini, penduduk desa mengenakan pakaian tradisional berwarna putih dan membawa benda-benda suci pura ke laut, danau, atau sungai untuk penyucian. Melalui doa, sesajen, dan perendaman dalam air suci, para peserta membersihkan diri dan lingkungan mereka dari kotoran dan kekuatan negatif.",
+      "paragraph-2": "Pemandangan visual prosesi panjang yang bergerak menuju laut, diiringi oleh musik gamelan dan sesajen berwarna-warni, melambangkan keharmonisan antara manusia, alam, dan yang ilahi. Melasti mencerminkan komitmen Bali terhadap keseimbangan dan pembaruan.",
+      "button-learn-more": "Pelajari Lebih Lanjut",
+      "modal": {
+        "heading-1": "Lebih Lanjut Tentang Melasti",
+        "heading-2": "Kisah di Baliknya",
+        "paragraph-1": "Melasti adalah upacara penyucian yang diadakan beberapa hari sebelum Nyepi, Hari Raya Nyepi Bali. Selama Melasti, penduduk desa membawa pusaka pura dan benda-benda suci ke laut, danau, atau mata air untuk dibersihkan. Ritual ini melambangkan penyucian dunia fisik dan roh manusia.",
+        "paragraph-2": "Peserta mengenakan pakaian putih, membentuk prosesi panjang yang membentang bermeter-kilometer. Pemandangan ratusan orang berjalan menuju air dengan payung berwarna-warni dan musik gamelan sangat menakjubkan — gambaran kuat persatuan dan keyakinan.",
+        "paragraph-3": "Melasti mengingatkan orang Bali bahwa semua bentuk kehidupan harus disucikan secara teratur untuk menjaga keseimbangan dengan yang ilahi.",
+        "place": {
+          "heading-2": "Tempat untuk Menemukan",
+          "description": "Jika Anda tertarik menyaksikan Melasti, ada beberapa tempat ikonik di Bali di mana Anda dapat menemukannya:",
+          "list-1": "Pantai Kuta – Salah satu situs paling terkenal untuk prosesi Melasti besar.",
+          "list-2": "Pantai Sanur – Tempat yang lebih tenang dan spiritual untuk ritual penyucian.",
+          "list-3": "Pantai Candidasa – Tempat berkumpul Melasti yang tenang di Bali Timur."
+        }
+      }
+    },
+    "galungan-kuningan": {
+      "title": "Galungan dan Kuningan",
+      "description": "Perayaan Kemenangan Dharma",
+      "paragraph-1": "Galungan adalah salah satu festival terpenting di Bali, merayakan kemenangan dharma (kebaikan) atas adharma (kejahatan). Ini menandai waktu ketika roh leluhur kembali mengunjungi bumi, disambut oleh keluarga dengan sesajen, doa, dan tiang bambu yang dihias yang disebut penjor. Seluruh pulau berubah menjadi permadani pengabdian, dengan penjor berjejer di jalan-jalan dan rumah tangga menyiapkan ritual yang rumit.",
+      "paragraph-2": "Bagi orang Bali, Ngaben adalah perayaan kehidupan dan kematian, yang mewujudkan kepercayaan Hindu pada reinkarnasi. Ini adalah pengingat yang kuat bahwa kematian bukanlah akhir tetapi transisi ke awal yang baru.",
+      "button-learn-more": "Pelajari Lebih Lanjut",
+      "modal": {
+        "heading-1": "Lebih Lanjut Tentang Galungan dan Kuningan",
+        "heading-2": "Kisah di Baliknya",
+        "paragraph-1": "Galungan dan Kuningan adalah festival besar Bali yang merayakan kemenangan dharma (kebaikan) atas adharma (kejahatan). Selama Galungan, diyakini bahwa roh leluhur kembali mengunjungi rumah mereka, sementara Kuningan menandai kembalinya mereka ke surga.",
+        "paragraph-2": "Rumah dan jalan dihiasi dengan tiang bambu tinggi yang disebut penjor, yang melambangkan kemakmuran dan rasa syukur. Keluarga bersatu kembali, membuat sesajen, dan mengunjungi pura untuk menghormati leluhur mereka.",
+        "paragraph-3": "Festival-festival ini mewujudkan esensi spiritualitas Bali — penghormatan terhadap warisan, keluarga, dan kekuatan tak terlihat yang membimbing kehidupan.",
+        "place": {
+          "heading-2": "Tempat untuk Menemukan",
+          "description": "Jika Anda tertarik menyaksikan Galungan dan Kuningan, ada beberapa tempat ikonik di Bali di mana Anda dapat menemukannya:",
+          "list-1": "Setiap desa Bali – Jalanan dipenuhi penjor selama perayaan.",
+          "list-2": "Pura Besakih – Pura pusat menjadi tuan rumah upacara yang meriah.",
+          "list-3": "Kota Denpasar – Pawai perkotaan dan pertunjukan budaya berlangsung."
+        }
+      }
+    },
+    "cultural-house": {
+      "title": "Rumah Budaya",
+      "description": "Melestarikan Identitas dan Tradisi Bali",
+      "paragraph-1": "Rumah budaya di Bali adalah ruang vital yang melestarikan warisan seni, tradisi, dan filosofi pulau ini. Di dalamnya, pengunjung dapat menemukan ukiran kayu, kain tenun, dan barang-barang upacara yang membawa makna spiritual yang mendalam. Lebih dari sebuah museum, rumah budaya adalah tempat di mana generasi muda terhubung dengan akar mereka.",
+      "paragraph-2": "Ruang-ruang ini sering menjadi tuan rumah pertunjukan seni, seperti tarian Legong dan Barong, menawarkan wisatawan dan penduduk setempat kesempatan untuk mengalami budaya Bali dalam suasana yang otentik. Suasana yang diciptakan melalui pertunjukan ini menyoroti kehangatan dan kekayaan tradisi.",
+      "paragraph-3": "Di luar pameran, rumah budaya juga berfungsi sebagai pusat komunitas, mengadakan lokakarya tentang batik, gamelan, dan filosofi Hindu Bali. Dengan cara ini, mereka tidak hanya menjaga warisan tetapi juga memupuk kebersamaan dan nilai-nilai yang membuat Bali unik."
+    },
+    "bale-banjar": {
+      "title": "Bale Banjar",
+      "description": "Balai Sosial dan Budaya Masyarakat",
+      "paragraph-1": "Bale Banjar adalah jantung kehidupan desa Bali. Berfungsi sebagai balai komunal, ini berfungsi sebagai pusat pertemuan, upacara, dan latihan untuk pertunjukan gamelan atau tari. Dibangun dengan desain paviliun terbuka, Bale Banjar mencerminkan nilai keterbukaan dan kebersamaan Bali, di mana anggota masyarakat berkumpul untuk berdiskusi, merayakan, dan membuat keputusan secara kolektif.",
+      "paragraph-2": "Secara arsitektur sederhana namun bermakna, ini mewujudkan semangat demokrasi dan kerja sama yang mendefinisikan masyarakat Bali. Tanpa Bale Banjar, banyak tradisi budaya tidak akan berkembang, karena di sinilah mereka dipupuk dan dilestarikan.",
+      "button-learn-more": "Pelajari Lebih Lanjut",
+      "modal": {
+        "heading-1": "Lebih Lanjut Tentang Bale Banjar",
+        "heading-2": "Kisah di Baliknya",
+        "paragraph-1": "Bale Banjar adalah jantung kehidupan komunal Bali. Ini berfungsi sebagai balai sosial tempat penduduk desa berkumpul untuk pertemuan, upacara, dan kegiatan seni. Setiap desa memiliki setidaknya satu Bale Banjar, yang melambangkan persatuan dan kerja sama di antara penduduknya.",
+        "paragraph-2": "Di sinilah juga tempat latihan tari, gamelan, dan drama berlangsung. Tata letak terbuka mendorong partisipasi dan dialog, yang mencerminkan nilai kebersamaan Bali.",
+        "paragraph-3": "Bale Banjar mewujudkan semangat gotong royong pulau ini — saling membantu dan keharmonisan masyarakat.",
+        "place": {
+          "heading-2": "Tempat untuk Menemukan",
+          "description": "Jika Anda tertarik menyaksikan Bale Banjar, ada beberapa tempat ikonik di Bali di mana Anda dapat menemukannya:",
+          "list-1": "Setiap desa Bali – Biasanya di dekat pura atau pusat desa.",
+          "list-2": "Ubud dan Gianyar – Menawarkan latihan terbuka seni tradisional.",
+          "list-3": "Balai banjar Denpasar – Digunakan untuk acara budaya dan pendidikan."
+        }
+      }
+    },
+    "bale-daja": {
+      "title": "Bale Daja (Bale Meten)",
+      "description": "Paviliun Keluarga Suci",
+      "paragraph-1": "Bale Daja, juga dikenal sebagai Bale Meten, adalah salah satu paviliun terpenting dalam kompleks rumah tradisional Bali. Diposisikan di area utara, ini didedikasikan untuk anggota keluarga yang dihormati dan ritual suci. Secara tradisional, paviliun ini juga berfungsi sebagai area tidur untuk kepala rumah tangga atau anggota keluarga yang lebih tua, yang melambangkan rasa hormat dan hierarki dalam struktur keluarga.",
+      "paragraph-2": "Desainnya persegi panjang dengan lantai yang ditinggikan, ruang terbuka, dan pilar kayu berukir, yang mencerminkan fungsi praktis dan simbolisme spiritual. Bale Daja menggambarkan bagaimana arsitektur Bali secara mulus mengintegrasikan spiritualitas, nilai-nilai keluarga, dan kehidupan sehari-hari.",
+      "button-learn-more": "Pelajari Lebih Lanjut",
+      "modal": {
+        "heading-1": "Lebih Lanjut Tentang Bale Daja",
+        "heading-2": "Kisah di Baliknya",
+        "paragraph-1": "Bale Daja, juga dikenal sebagai Bale Meten, adalah paviliun utama dalam rumah tangga tradisional Bali. Biasanya terletak di bagian utara kompleks dan digunakan sebagai area tidur untuk kepala keluarga atau tamu yang dihormati.",
+        "paragraph-2": "Di luar fungsinya, Bale Daja membawa makna simbolis — ini melambangkan arah suci yang terkait dengan para dewa dan leluhur. Penempatan dan konstruksinya mengikuti pedoman ritual, selaras dengan keharmonisan kosmik.",
+        "paragraph-3": "Fitur arsitektur ini mencerminkan bagaimana setiap bagian dari kehidupan sehari-hari Bali dipandu oleh prinsip-prinsip spiritual dan kosmik.",
+        "place": {
+          "heading-2": "Tempat untuk Menemukan",
+          "description": "Jika Anda tertarik menyaksikan Bale Daja, ada beberapa tempat ikonik di Bali di mana Anda dapat menemukannya:",
+          "list-1": "Rumah tradisional di Gianyar dan Bangli – Masih dibangun mengikuti aturan kuno.",
+          "list-2": "Museum Bali, Denpasar – Museum Bali, Denpasar",
+          "list-3": "Desa budaya seperti Penglipuran – Menawarkan pemandangan langsung paviliun tradisional."
+        }
+      }
+    },
+    "candi-bentar": {
+      "title": "Candi Bentar",
+      "description": "Gerbang Pemisah Keseimbangan",
+      "paragraph-1": "Candi Bentar, gerbang terbelah ikonik Bali, lebih dari sekadar keajaiban arsitektur—ini adalah pernyataan filosofis. Ditemukan di pintu masuk pura, istana, atau kompleks tradisional, gerbang ini dibagi menjadi dua bagian simetris, yang melambangkan konsep Rwa Bhineda, atau dualitas dalam keseimbangan (baik dan jahat, pria dan wanita, siang dan malam).",
+      "paragraph-2": "Berjalan melalui Candi Bentar bukan hanya memasuki ruang; ini adalah lorong simbolis dari dunia luar yang sekuler ke alam spiritual yang sakral. Ukiran batu gerbang yang menjulang tinggi, sering dihiasi dengan pola rumit, menekankan penguasaan artistik dan pengabdian keagamaan Bali.",
+      "button-learn-more": "Pelajari Lebih Lanjut",
+      "modal": {
+        "heading-1": "Lebih Lanjut Tentang Candi Bentar",
+        "heading-2": "Kisah di Baliknya",
+        "paragraph-1": "Candi Bentar, atau gerbang terbelah, adalah salah satu simbol arsitektur paling dikenal di Bali. Ini berfungsi sebagai pintu masuk ke kompleks pura atau istana, yang melambangkan pemisahan antara alam duniawi luar dan ruang dalam yang sakral.",
+        "paragraph-2": "Strukturnya terdiri dari dua bagian identik yang saling berhadapan, menyerupai gunung yang terbelah dua. Ini melambangkan keseimbangan — konsep sentral dalam kosmologi Bali.",
+        "paragraph-3": "Melewati Candi Bentar bukan hanya gerakan fisik; ini menandakan transisi spiritual dari yang biasa ke yang ilahi.",
+        "place": {
+          "heading-2": "Tempat untuk Menemukan",
+          "description": "Jika Anda tertarik menyaksikan Candi Bentar, ada beberapa tempat ikonik di Bali di mana Anda dapat menemukannya:",
+          "list-1": "Pura Lempuyang – Rumah bagi “Gerbang Surga” yang terkenal.",
+          "list-2": "Pura Besakih – Menampilkan beberapa gerbang tradisional.",
+          "list-3": "Pura Taman Ayun – Contoh bagus dari desain klasik Bali."
+        }
+      }
+    },
+    "gwk-statue": {
+      "title": "Patung GWK",
+      "description": "Ikon budaya Bali",
+      "paragraph-1": "Patung Garuda Wisnu Kencana (GWK) adalah salah satu landmark paling ikonik di Bali, yang terletak di dalam Taman Budaya GWK. Berdiri setinggi 121 meter, ini adalah salah satu patung tertinggi di dunia, yang melambangkan dewa Hindu Wisnu yang mengendarai tunggangannya Garuda. Monumen ini adalah simbol pengabdian, budaya, dan seni, yang memadukan spiritualitas dengan teknik modern.",
+      "paragraph-2": "Lebih dari sekadar patung, Taman Budaya GWK adalah pusat pengalaman budaya. Pengunjung dapat menikmati pertunjukan tari tradisional, pameran seni, dan festival yang diadakan di amfiteater taman. Ini berfungsi sebagai panggung hidup bagi budaya Bali yang semarak dan tempat berkumpul bagi penduduk setempat dan wisatawan.",
+      "paragraph-3": "Patung GWK juga menawarkan pemandangan panorama Bali, dengan ketinggiannya memungkinkan pengunjung melihat jauh ke seluruh pulau. Ini berdiri tidak hanya sebagai mahakarya seni tetapi juga sebagai pengingat dedikasi Bali untuk melestarikan identitas budayanya untuk generasi mendatang.",
+      "button-learn-more": "Pelajari Lebih Lanjut",
+      "modal": {
+        "heading-1": "Lebih Lanjut Tentang Patung GWK",
+        "heading-2": "Kisah di Baliknya",
+        "paragraph-1": "Patung Garuda Wisnu Kencana (GWK) berdiri sebagai ikon modern kebanggaan dan spiritualitas Bali. Menggambarkan dewa Wisnu yang mengendarai burung mitosnya Garuda, patung ini melambangkan perlindungan keharmonisan antara manusia dan alam.",
+        "paragraph-2": "Berdiri lebih dari 120 meter, butuh puluhan tahun untuk menyelesaikannya dan sekarang mendominasi cakrawala Bali selatan. Proyek ini menggabungkan keahlian artistik dengan visi nasional, mengubah cerita mitologis menjadi kenyataan monumental.",
+        "paragraph-3": "GWK bukan hanya landmark budaya tetapi juga tempat belajar, pertunjukan, dan perayaan persatuan Indonesia.",
+        "place": {
+          "heading-2": "Tempat untuk Menemukan",
+          "description": "Jika Anda tertarik menyaksikan Patung GWK, ada beberapa tempat ikonik di Bali di mana Anda dapat menemukannya:",
+          "list-1": "Taman Budaya GWK, Ungasan – Lokasi utama dan satu-satunya patung.",
+          "list-2": "Area Jimbaran – Menawarkan pemandangan panorama GWK yang menakjubkan dari kejauhan."
+        }
+      }
+    },
+    "pura-besakih": {
+      "title": "Pura Besakih",
+      "description": "Pura Ibu Bali",
+      "paragraph-1": "Terletak di lereng megah Gunung Agung, gunung berapi tertinggi dan paling suci di Bali, terletak Pura Besakih, yang sering disebut “Pura Ibu Bali.” Kompleks pura yang luas ini terdiri dari lebih dari 80 pura individu, dengan Pura Penataran Agung sebagai tempat suci utamanya. Sebagai pura Hindu terbesar dan paling suci di Bali, Pura Besakih adalah jantung kehidupan keagamaan, tempat di mana upacara besar dan ziarah diadakan sepanjang tahun.",
+      "paragraph-2": "Secara arsitektur, struktur pura yang bertingkat seperti pagoda, yang dikenal sebagai meru, menjulang secara dramatis dengan latar belakang Gunung Agung, menciptakan lanskap spiritual yang menakjubkan. Setiap tingkat pura melambangkan alam kosmos yang berbeda, yang mencerminkan konsep Hindu Bali tentang keharmonisan antara dunia manusia, alam, dan ilahi. Mengunjungi Pura Besakih bukan hanya pengalaman tamasya tetapi perjalanan spiritual ke dalam jiwa pengabdian keagamaan Bali.",
+      "button-learn-more": "Pelajari Lebih Lanjut",
+      "modal": {
+        "heading-1": "Lebih Lanjut Tentang Pura Besakih",
+        "heading-2": "Kisah di Baliknya",
+        "paragraph-1": "Pura Besakih, yang dikenal sebagai “Pura Ibu” Bali, adalah kompleks pura terbesar dan terpenting di pulau ini. Itu duduk megah di lereng Gunung Agung, gunung tertinggi dan paling suci di Bali.",
+        "paragraph-2": "Menurut legenda, pura ini dibangun di atas kuil prasejarah yang didedikasikan untuk dewa naga Besakih. Seiring waktu, itu menjadi pusat spiritual yang mencakup lebih dari 80 pura yang didedikasikan untuk berbagai dewa Hindu.",
+        "paragraph-3": "Pura Besakih melambangkan jantung Hindu Bali — tempat di mana dunia ilahi, alam, dan manusia bertemu dalam keharmonisan yang sempurna.",
+        "place": {
+          "heading-2": "Tempat untuk Menemukan",
+          "description": "Jika Anda tertarik menyaksikan Pura Besakih, ada beberapa tempat ikonik di Bali di mana Anda dapat menemukannya:",
+          "list-1": "Gunung Agung, Kabupaten Karangasem – Lokasi resmi pura.",
+          "list-2": "Desa Besakih – Berfungsi sebagai titik akses bagi pengunjung dan peziarah."
+        }
+      }
+    },
+    "tanah-lot": {
+      "title": "Pura Tanah Lot",
+      "description": "Pura di Laut",
+      "paragraph-1": "Tanah Lot adalah salah satu pura yang paling banyak difoto dan dihormati secara spiritual di Bali, bertengger secara dramatis di atas singkapan batu yang dikelilingi oleh lautan. Didedikasikan untuk dewa laut, pura ini adalah bagian vital dari mitologi dan spiritualitas Bali. Legenda mengatakan bahwa pura ini didirikan oleh Dang Hyang Nirartha, seorang pendeta Hindu abad ke-16 yang memberkati situs tersebut dan menyatakannya suci.",
+      "paragraph-2": "Saat air pasang, Tanah Lot tampak terisolasi, hanya dapat diakses saat air surut, yang meningkatkan aura mistisnya. Deburan ombak, matahari terbenam keemasan, dan siluet pura menciptakan suasana kekaguman dan ketenangan. Lebih dari keindahannya, Tanah Lot mewujudkan filosofi Bali tentang hidup dalam harmoni dengan alam dan yang ilahi. Ini adalah tempat ibadah bagi penduduk setempat dan sumber keajaiban bagi para pelancong yang ingin mengalami energi spiritual Bali.",
+      "button-learn-more": "Pelajari Lebih Lanjut",
+      "modal": {
+        "heading-1": "Lebih Lanjut Tentang Pura Tanah Lot",
+        "heading-2": "Kisah di Baliknya",
+        "paragraph-1": "Pura Tanah Lot adalah salah satu landmark paling banyak difoto dan spiritual di Bali. Bertengger di atas singkapan batu di laut, itu didedikasikan untuk roh penjaga lautan.",
+        "paragraph-2": "Menurut legenda, pura ini didirikan oleh seorang pendeta abad ke-16 yang bermeditasi di atas batu setelah dibimbing oleh penglihatan ilahi. Ketika penguasa setempat mencoba mengusirnya, ia mengubah selendangnya menjadi ular laut untuk menjaga pura, yang masih menghuni gua-gua hingga saat ini.",
+        "paragraph-3": "Saat matahari terbenam, Tanah Lot bersinar di cakrawala — simbol abadi iman, alam, dan keharmonisan.",
+        "place": {
+          "heading-2": "Tempat untuk Menemukan",
+          "description": "Jika Anda tertarik menyaksikan Pura Tanah Lot, ada beberapa tempat ikonik di Bali di mana Anda dapat menemukannya:",
+          "list-1": "Desa Beraban, Kabupaten Tabanan – Lokasi persis Pura Tanah Lot.",
+          "list-2": "Area kompleks Tanah Lot – Termasuk platform pengamatan dan fasilitas budaya.",
+          "list-3": "Sudut pandang tebing terdekat – Menawarkan tempat fotografi matahari terbenam yang panoramik."
+        }
+      }
+    }
+  },
+  "village": {
+    "navbar": {
+      "home": "Beranda",
+      "nature": "Alam",
+      "culture": "Budaya",
+      "village": "Desa",
+      "mountain": "Gunung",
+      "favorite": "Favorit Saya"
+    },
+    "desa-tenganan": {
+      "title": "Desa Tenganan",
+      "description": "Sebuah Desa yang Melestarikan Tradisi",
+      "paragraph-1": "Desa Tenganan adalah salah satu desa tradisional tertua di Bali, yang dikenal sebagai desa Bali Aga. Desa ini telah melestarikan adat, ritual, dan arsitektur uniknya selama berabad-abad, menjadikannya museum budaya yang hidup. Pengunjung dapat menyaksikan gaya hidup tradisional yang membedakan Tenganan dari desa-desa Bali lainnya.",
+      "paragraph-2": "Desa ini paling terkenal dengan tenun ikat gandanya yang disebut Gringsing, tekstil yang diyakini memiliki kekuatan spiritual. Proses menenunnya sangat kompleks dan hanya dilakukan oleh wanita Tenganan, menjadikannya harta budaya Bali.",
+      "paragraph-3": "Di luar kerajinannya, Tenganan juga menjadi tuan rumah upacara dan ritual kuno, seperti Mekare-kare atau perang pandan, yang menarik banyak pengunjung setiap tahun. Praktik-praktik ini menyoroti hubungan kuat penduduk desa dengan warisan dan tradisi mereka."
+    },
+    "desa-ubud": {
+      "title": "Desa Ubud",
+      "description": "Pusat seni dan budaya Bali",
+      "paragraph-1": "Desa Ubud sering disebut sebagai jantung budaya Bali. Dikelilingi oleh sawah dan hutan yang subur, Ubud telah menjadi tempat berkumpulnya para seniman, penyembuh, dan mereka yang mencari inspirasi. Ini adalah rumah bagi kerajinan tradisional, galeri, dan pertunjukan tari yang menjaga budaya Bali tetap hidup.",
+      "paragraph-2": "Pengunjung dapat menjelajahi Puri Ubud, di mana pertunjukan tari setiap malam menampilkan warisan artistik pulau ini. Pasar Ubud di dekatnya juga merupakan perhentian favorit, menawarkan kerajinan tangan, tekstil, dan suvenir yang dibuat oleh pengrajin lokal.",
+      "paragraph-3": "Di luar seni dan budaya, Ubud juga dikenal dengan pariwisata kesehatannya. Retret yoga, pusat meditasi, dan praktik penyembuhan holistik telah menjadikan Ubud tujuan terkenal di dunia untuk relaksasi dan penemuan diri."
+    },
+    "desa-panglipuran": {
+      "title": "Desa Penglipuran",
+      "description": "Desa tradisional terbersih di dunia",
+      "paragraph-1": "Desa Penglipuran diakui secara internasional sebagai salah satu desa terbersih di dunia. Terletak di Bangli, desa ini terkenal dengan tata letaknya yang terorganisir dengan baik, arsitektur tradisional, dan komitmen untuk melestarikan budaya Bali. Berjalan melalui desa ini terasa seperti melangkah ke dalam komunitas yang harmonis dan damai.",
+      "paragraph-2": "Desa ini juga sangat berakar pada tradisi Hindu Bali. Penduduk setempat mempraktikkan nilai-nilai kerja sama (gotong royong) dan pelestarian lingkungan yang kuat, memastikan bahwa Penglipuran tetap bersih dan berkelanjutan untuk generasi mendatang.",
+      "paragraph-3": "Wisatawan sering mengagumi rumah-rumah bambu yang tertata rapi dan jalan setapak yang tenang. Penglipuran lebih dari sekadar tempat wisata—ini adalah contoh hidup bagaimana tradisi, budaya, dan nilai-nilai modern dapat hidup berdampingan secara harmonis."
+    },
+    "desa-jatiluwih": {
+      "title": "Desa Jatiluwih",
+      "description": "Sawah terasering UNESCO di Bali",
+      "paragraph-1": "Desa Jatiluwih terkenal dengan sawah teraseringnya yang menakjubkan, yang telah ditetapkan sebagai Situs Warisan Dunia UNESCO. Terletak di Tabanan, lanskap luas Jatiluwih menampilkan sistem irigasi subak tradisional, metode berusia berabad-abad yang menekankan kerja sama masyarakat dan keharmonisan dengan alam.",
+      "paragraph-2": "Pengunjung seringkali kagum dengan lapisan sawah yang tak berujung yang membentang di perbukitan. Pemandangannya berubah seiring musim, dari tunas padi muda yang hijau cerah hingga ladang panen keemasan—menawarkan pemandangan yang indah sepanjang tahun.",
+      "paragraph-3": "Jatiluwih juga merupakan tujuan yang bagus untuk trekking dan bersepeda, memungkinkan para pelancong untuk membenamkan diri dalam keindahan alam dan kehidupan pedesaan Bali. Ini adalah tempat yang sempurna untuk mengalami warisan budaya dan ketenangan pedesaan."
+    }
+  },
+  "mountain": {
+    "navbar": {
+      "home": "Beranda",
+      "nature": "Alam",
+      "culture": "Budaya",
+      "village": "Desa",
+      "mountain": "Gunung",
+      "favorite": "Favorit Saya"
+    },
+    "gunung-batur": {
+      "title": "Gunung Batur",
+      "description": "Tempat mendaki matahari terbit yang terkenal di Bali",
+      "paragraph-1": "Gunung Batur adalah salah satu gunung berapi paling ikonik di Bali, yang terletak di Kintamani. Berdiri setinggi 1.717 meter, ini adalah tujuan populer bagi para pelancong petualang yang ingin menyaksikan matahari terbit yang menakjubkan. Pendakian ke puncak biasanya dimulai pada dini hari, menawarkan pemandangan Danau Batur dan pegunungan sekitarnya yang memuaskan.",
+      "paragraph-2": "Gunung berapi ini tetap aktif, menambah sensasi dan keunikan pada pengalaman tersebut. Kaldera yang mengelilingi Gunung Batur adalah rumah bagi tanah yang subur, mendukung pertanian lokal dan menciptakan lanskap indah yang dipenuhi kehijauan.",
+      "paragraph-3": "Pengunjung juga sering menjelajahi sumber air panas di dekatnya, yang memberikan relaksasi setelah pendakian. Dengan keindahan alam dan signifikansi spiritualnya, Gunung Batur adalah salah satu tujuan gunung yang wajib dikunjungi di Bali."
+    },
+    "gunung-agung": {
+      "title": "Gunung Agung",
+      "description": "Jantung spiritual Bali",
+      "paragraph-1": "Gunung Agung adalah gunung tertinggi di Bali, mencapai 3.142 meter di atas permukaan laut. Ini dianggap sebagai gunung paling suci oleh orang Bali dan diyakini sebagai rumah para dewa. Pura Besakih, pura terbesar dan paling suci di Bali, terletak di lerengnya.",
+      "paragraph-2": "Mendaki Gunung Agung adalah petualangan yang menantang, seringkali disediakan untuk pendaki berpengalaman. Perjalanan ke puncak dapat memakan waktu beberapa jam, tetapi imbalannya adalah pemandangan panorama yang luar biasa dari seluruh pulau dan bahkan pulau-pulau tetangga pada hari yang cerah.",
+      "paragraph-3": "Meskipun letusannya dalam sejarah baru-baru ini, Gunung Agung terus menjadi simbol kekuatan dan spiritualitas bagi Bali. Bagi penduduk setempat, ini bukan hanya gunung tetapi juga penjaga suci pulau ini."
+    },
+    "gunung-batukaru": {
+      "title": "Gunung Batukaru",
+      "description": "Puncak tertinggi kedua dan tenang di Bali",
+      "paragraph-1": "Gunung Batukaru, yang berdiri setinggi 2.276 meter, adalah gunung berapi tertinggi kedua di Bali dan tujuan yang sering dipilih oleh mereka yang mencari kedamaian dan ketenangan. Tidak seperti Gunung Batur yang lebih populer, Batukaru menawarkan pengalaman mendaki yang tidak terlalu ramai dan lebih tenang, dikelilingi oleh hutan hujan yang subur.",
+      "paragraph-2": "Gunung ini juga penting secara spiritual, karena Pura Luhur Batukaru, salah satu pura utama di Bali, terletak di lerengnya. Pura ini didedikasikan untuk roh penjaga Gunung Batukaru dan dikunjungi oleh banyak penduduk setempat untuk berdoa dan upacara.",
+      "paragraph-3": "Pendakian ke Gunung Batukaru tidak hanya memberikan keindahan alam tetapi juga wawasan budaya. Hutan lebat, udara segar, dan suasana spiritual menjadikannya tujuan khusus bagi para pelancong yang ingin terhubung secara mendalam dengan alam dan tradisi Bali."
+    }
+  }
+}

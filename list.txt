@@ -5,8 +5,9 @@ WIP
 Backlog:
 1. add ID to every section, to help direct from search. 
 2. add 2 language script
-
+3. di index.html, script js nya pindahin
 make 2 JSON
+4. responsive image dan text
 
 // en.json
 {
