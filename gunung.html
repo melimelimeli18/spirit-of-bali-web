@@ -22,17 +22,32 @@
         <a data-key="navbar.nature" href="alam.html">Nature</a>
         <a data-key="navbar.culture" href="budaya.html">Culture</a>
         <a data-key="navbar.village" href="desa.html">Village</a>
-        <a data-key="navbar.mountain" class="active" href="gunung.html"
+        <a data-key="navbar.mountain" href="gunung.html" class="active"
           >Mountain</a
         >
       </div>
 
-      <!-- My Favorite -->
       <button class="favorite-btn">
         <i class="fa-solid fa-heart"></i>
         <span data-key="navbar.favorite" class="text">My Favorite</span>
       </button>
+      <!-- Nav Right untuk Mobile -->
+      <div class="nav-right">
+        <!-- Hamburger Button (Mobile) -->
+        <div class="hamburger" aria-label="Menu Toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <!-- Favorite Button Clone untuk Mobile (optional) -->
+        <button class="favorite-btn mobile-fav">
+          <i class="fa-solid fa-heart"></i>
+          <span data-key="navbar.favorite" class="text">My Favorite</span>
+        </button>
+      </div>
     </nav>
+
     <header class="not-main-page">
       <img
         src="asset/img/gunung-page-img/gunung-top-img.webp"
@@ -187,5 +202,6 @@
     <script src="script/filter/filter-section-gunung.js"></script>
     <script src="script/translate.js"></script>
     <script src="script/modal-favorite.js"></script>
+    <script src="script/hamburger-toggle.js"></script>
   </body>
 </html>
