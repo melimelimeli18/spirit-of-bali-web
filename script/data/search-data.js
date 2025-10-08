@@ -1,153 +1,153 @@
 // script/search-data.js
 const searchData = [
- {
+  {
     title: "Seminyak Beach",
     subtitle: "A vibrant coastal paradise in Bali",
-    img: "asset/img/top-page.jpg",
-    url: "alam.html#seminyak-beach"
+    img: "asset/img/alam-page-img/pantai-seminyak.jpg",
+    url: "alam.html#seminyak-beach",
   },
   {
     title: "Melasti Beach",
     subtitle: "A hidden gem by limestone cliffs",
-    img: "asset/img/top-page.jpg",
-    url: "alam.html#melasti-beach"
+    img: "asset/img/alam-page-img/pantai-melasti.jpg",
+    url: "alam.html#melasti-beach",
   },
   {
     title: "Ceking Rice Terrace",
     subtitle: "Bali's breathtaking green landscapes",
-    img: "asset/img/top-page.jpg",
-    url: "alam.html#ceking-rice-terrace"
+    img: "asset/img/alam-page-img/ceking-rice-terrace.jpg",
+    url: "alam.html#ceking-rice-terrace",
   },
   {
     title: "Tegenungan Waterfall",
     subtitle: "Discover Bali's refreshing natural wonders",
-    img: "asset/img/top-page.jpg",
-    url: "alam.html#tegenungan-waterfall"
+    img: "asset/img/alam-page-img/air-terjun-tegunungan.jpg",
+    url: "alam.html#tegenungan-waterfall",
   },
   {
     title: "Tenganan Village",
     subtitle: "A Village Preserving Traditions",
-    img: "asset/img/top-page.jpg",
-    url: "desa.html#tenganan-village"
+    img: "asset/img/desa-page-img/desa-tenganan.jpg",
+    url: "desa.html#tenganan-village",
   },
   {
     title: "Ubud Village",
     subtitle: "Bali's center of art and culture",
-    img: "asset/img/top-page.jpg",
-    url: "desa.html#ubud-village"
+    img: "asset/img/desa-page-img/desa-ubud.jpeg",
+    url: "desa.html#ubud-village",
   },
   {
     title: "Penglipuran Village",
     subtitle: "The world's cleanest traditional village",
-    img: "asset/img/top-page.jpg",
-    url: "desa.html#penglipuran-village"
+    img: "asset/img/desa-page-img/desa-penglipuran.jpeg",
+    url: "desa.html#penglipuran-village",
   },
   {
     title: "Jatiluwih Village",
     subtitle: "UNESCO rice terraces in Bali",
-    img: "asset/img/top-page.jpg",
-    url: "desa.html#jatiluwih-village"
+    img: "asset/img/desa-page-img/desa-jatiluwih.jpg",
+    url: "desa.html#jatiluwih-village",
   },
   {
     title: "Keccak Dance",
     subtitle: "The Mesmerizing Dance of Bali",
-    img: "asset/img/top-page.jpg",
-    url: "budaya.html#keccak-dance"
+    img: "asset/img/budaya-page-img/tarian-kecak.jpg",
+    url: "budaya.html#keccak-dance",
   },
   {
     title: "Legong Dance",
     subtitle: "The Graceful Classical Dance of Bali",
-    img: "asset/img/top-page.jpg",
-    url: "budaya.html#legong-dance"
+    img: "asset/img/budaya-page-img/tarian-legong.jpg",
+    url: "budaya.html#legong-dance",
   },
   {
     title: "Barong Dance",
     subtitle: "The Eternal Battle Between Good and Evil",
-    img: "asset/img/top-page.jpg",
-    url: "budaya.html#barong-dance"
+    img: "asset/img/budaya-page-img/tarian-barong.jpg",
+    url: "budaya.html#barong-dance",
   },
   {
     title: "Balinese Offerings",
     subtitle: "The Sacred Tradition of Balinese Offerings",
-    img: "asset/img/top-page.jpg",
-    url: "budaya.html#balinese-offerings"
+    img: "asset/img/budaya-page-img/persembahan-bali.jpg",
+    url: "budaya.html#balinese-offerings",
   },
   {
     title: "Ngaben",
     subtitle: "The Sacred Cremation Ceremony",
-    img: "asset/img/top-page.jpg",
-    url: "budaya.html#ngaben"
+    img: "asset/img/budaya-page-img/ngaben.jpg",
+    url: "budaya.html#ngaben",
   },
   {
     title: "Melasti",
     subtitle: "The Ritual of Purification",
-    img: "asset/img/top-page.jpg",
-    url: "budaya.html#melasti"
+    img: "asset/img/budaya-page-img/melasti.jpg",
+    url: "budaya.html#melasti",
   },
   {
     title: "Galungan and Kuningan",
     subtitle: "The Celebration of Dharma's Victory",
-    img: "asset/img/top-page.jpg",
-    url: "budaya.html#galungan-and-kuningan"
+    img: "asset/img/budaya-page-img/galungan-dan-kuningan.jpg",
+    url: "budaya.html#galungan-and-kuningan",
   },
   {
     title: "Cultural House",
     subtitle: "Preserving Bali's Identity and Tradition",
-    img: "asset/img/top-page.jpg",
-    url: "budaya.html#cultural-house"
+    img: "asset/img/budaya-page-img/rumah-budaya.jpg",
+    url: "budaya.html#cultural-house",
   },
   {
     title: "Bale Banjar",
     subtitle: "The Social and Cultural Hall of the Community",
-    img: "asset/img/top-page.jpg",
-    url: "budaya.html#bale-banjar"
+    img: "asset/img/budaya-page-img/bale-banjar.jpg",
+    url: "budaya.html#bale-banjar",
   },
   {
     title: "Bale Daja (Bale Meten)",
     subtitle: "The Sacred Family Pavilion",
-    img: "asset/img/top-page.jpg",
-    url: "budaya.html#bale-daja-bale-meten"
+    img: "asset/img/budaya-page-img/bale-daja.jpg",
+    url: "budaya.html#bale-daja-bale-meten",
   },
   {
     title: "Candi Bentar",
     subtitle: "The Splitting Gate of Balance",
-    img: "asset/img/top-page.jpg",
-    url: "budaya.html#candi-bentar"
+    img: "asset/img/budaya-page-img/candi-bentar.jpg",
+    url: "budaya.html#candi-bentar",
   },
   {
     title: "GWK Statue",
     subtitle: "A cultural icon of Bali",
-    img: "asset/img/top-page.jpg",
-    url: "budaya.html#gwk-statue"
+    img: "asset/img/budaya-page-img/patung-gwk.jpg",
+    url: "budaya.html#gwk-statue",
   },
   {
     title: "Pura Besakih",
     subtitle: "The Mother Temple of Bali",
-    img: "asset/img/top-page.jpg",
-    url: "budaya.html#pura-besakih"
+    img: "asset/img/budaya-page-img/pura-besakih.jpg",
+    url: "budaya.html#pura-besakih",
   },
   {
     title: "Tanah Lot Temple",
     subtitle: "The Temple in the Sea",
-    img: "asset/img/top-page.jpg",
-    url: "budaya.html#tanah-lot-temple"
+    img: "asset/img/budaya-page-img/pura-tanah-lot.webp",
+    url: "budaya.html#tanah-lot-temple",
   },
   {
     title: "Mount Batur",
     subtitle: "Bali's famous sunrise trekking spot",
-    img: "asset/img/top-page.jpg",
-    url: "gunung.html#mount-batur"
+    img: "asset/img/gunung-page-img/gunung-batur.webp",
+    url: "gunung.html#mount-batur",
   },
   {
     title: "Mount Agung",
     subtitle: "The spiritual heart of Bali",
-    img: "asset/img/top-page.jpg",
-    url: "gunung.html#mount-agung"
+    img: "asset/img/gunung-page-img/gunung-agung.webp",
+    url: "gunung.html#mount-agung",
   },
   {
     title: "Mount Batukaru",
     subtitle: "Bali's second highest and serene peak",
-    img: "asset/img/top-page.jpg",
-    url: "gunung.html#mount-batukaru"
+    img: "asset/img/gunung-page-img/gunung-batukaru.webp",
+    url: "gunung.html#mount-batukaru",
   },
 ];
