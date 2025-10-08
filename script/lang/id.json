@@ -23,17 +23,27 @@
       "title": "Destinasi Unggulan",
       "description": "Jelajahi tempat-tempat paling ikonik di Bali, dari pantai yang menakjubkan hingga desa budaya.",
       "destination": {
-        "title": "Pantai Seminyak",
-        "description": "Tempat Terbaik Melihat Matahari Terbenam di Bali",
+        "title-1": "Desa Penglipuran",
+        "description-1": "#1 Desa Terbersih",
+        "title-2": "GWK Statue",
+        "description-2": "Top 5 Patung Tertinggi",
+        "title-3": "Pantai Seminyak",
+        "description-3": "Sunset terbaik di Bali",
         "button": "Lihat Destinasi"
       }
     },
     "category": {
-      "title": "Jelajahi Berdasarkan Kategori",
-      "description": "Temukan keunikan Bali melalui alam, budaya, desa, dan pegunungannya.",
+      "title": "Explore by Category",
+      "description": "Discover Bali's uniqueness through its nature, culture, villages, and mountains.",
       "destination": {
-        "title": "Gunung",
-        "description": "Batur, Agung, Kintamani"
+        "title-1": "Alam",
+        "description-1": "Pantai, Sawah, Air Terjun",
+        "title-2": "Budaya",
+        "description-2": "Tarian, Pura, Tradisi Lokal",
+        "title-3": "Desa",
+        "description-3": "Panglipuran, Ubud, Tenganan",
+        "title-4": "Gunung",
+        "description-4": "Batur, Agung, Kintamani"
       }
     }
   },
@@ -75,7 +85,7 @@
       "paragraph-3": "Selain Tegenungan, Bali memiliki banyak air terjun lain seperti Gitgit dan Sekumpul, masing-masing dengan pesonanya sendiri. Air terjun ini mencerminkan keindahan alami Bali yang masih asri dan memberikan ketenangan bagi para pelancong."
     }
   },
-    "culture": {
+  "culture": {
     "navbar": {
       "home": "Beranda",
       "nature": "Alam",
@@ -158,7 +168,7 @@
         }
       }
     },
-        "culturalHouse": {
+    "culturalHouse": {
       "title": "Rumah Budaya",
       "subtitle": "Melestarikan Identitas dan Tradisi Bali",
       "paragraph1": "Rumah budaya di Bali merupakan ruang penting yang menjaga warisan seni, tradisi, dan filosofi Pulau Dewata. Di dalamnya, pengunjung dapat menemukan ukiran kayu, kain tenun, dan perlengkapan upacara yang memiliki makna spiritual mendalam. Lebih dari sekadar museum, rumah budaya adalah tempat generasi muda belajar mengenal akar budaya mereka.",
@@ -390,4 +400,3 @@
     }
   }
 }
-

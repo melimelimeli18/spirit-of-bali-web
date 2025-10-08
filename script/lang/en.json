@@ -1,5 +1,5 @@
 {
-    "index": {
+  "index": {
     "navbar": {
       "home": "Home",
       "nature": "Nature",
@@ -23,21 +23,31 @@
       "title": "Featured Destinations",
       "description": "Explore Bali's most iconic places, from stunning beaches to cultural villages.",
       "destination": {
-        "title": "Seminyak Beach",
-        "description": "Best Sunset in Bali",
-        "button": "See Destination"
+        "title-1": "Penglipuran Village",
+        "description-1": "              #1 Cleanest Village",
+        "title-2": "GWK Statue",
+        "description-2": "Top 5 Highest Statue",
+        "title-3": "Seminyak Beach",
+        "description-3": "Best Sunset in Bali",
+        "button": "Lihat Destinasi"
       }
     },
     "category": {
       "title": "Explore by Category",
       "description": "Discover Bali's uniqueness through its nature, culture, villages, and mountains.",
       "destination": {
-        "title": "Mountain",
-        "description": "Batur, Agung, Kintamani"
+        "title-1": "Nature",
+        "description-1": "Beaches, rice terraces, waterfalls",
+        "title-2": "Culture",
+        "description-2": "Dances, temples, local traditions",
+        "title-3": "Village",
+        "description-3": "Panglipuran, Ubud, Tenganan",
+        "title-4": "Mountain",
+        "description-4": "Batur, Agung, Kintamani"
       }
     }
-    },
-    "nature": {
+  },
+  "nature": {
     "navbar": {
       "home": "Home",
       "nature": "Nature",
@@ -74,8 +84,8 @@
       "paragraph-2": "Visitors can climb down to the base of the waterfall for a closer look, take photos from various viewpoints, or enjoy a cooling swim in the natural pool. The area is well-maintained, with paths and viewing platforms that allow for safe exploration.",
       "paragraph-3": "Beyond Tegenungan, Bali is home to many other waterfalls, such as Gitgit and Sekumpul, each with its own unique charm. These waterfalls reflect Bali’s untouched beauty and provide travelers with a peaceful retreat into nature."
     }
-    },
-    "culture": {
+  },
+  "culture": {
     "navbar": {
       "home": "Home",
       "nature": "Nature",
@@ -110,245 +120,245 @@
       "paragraph-3": "Barong performances are often seen in temples and cultural villages, symbolizing the continuous struggle for harmony in the universe."
     },
     "ngaben": {
-        "title": "Ngaben Ceremony",
-        "description": "Bali’s sacred cremation ritual",
-        "paragraph-1": "Ngaben is a traditional Balinese Hindu cremation ceremony that celebrates the journey of the soul to the afterlife. Unlike mourning, it is considered a joyful event marking spiritual release.",
-        "paragraph-2": "The ceremony involves parades, prayers, and the burning of a symbolic tower where the deceased’s remains are placed. This act purifies the soul and helps it reach the next realm.",
-        "paragraph-3": "Ngaben reflects the Balinese belief in the cycle of life, death, and rebirth, reminding people that every ending is also a beginning."
+      "title": "Ngaben Ceremony",
+      "description": "Bali’s sacred cremation ritual",
+      "paragraph-1": "Ngaben is a traditional Balinese Hindu cremation ceremony that celebrates the journey of the soul to the afterlife. Unlike mourning, it is considered a joyful event marking spiritual release.",
+      "paragraph-2": "The ceremony involves parades, prayers, and the burning of a symbolic tower where the deceased’s remains are placed. This act purifies the soul and helps it reach the next realm.",
+      "paragraph-3": "Ngaben reflects the Balinese belief in the cycle of life, death, and rebirth, reminding people that every ending is also a beginning."
     },
     "melasti": {
-        "title": "Melasti",
-        "description": "The Ritual of Purification",
-        "paragraph-1": "Melasti is a sacred ceremony held before Nyepi, the Balinese Day of Silence. In this ritual, villagers dress in traditional white clothing and carry sacred temple objects to the sea, lakes, or rivers for purification. Through prayers, offerings, and immersion in holy water, participants cleanse themselves and their surroundings from impurities and negative forces.",
-        "paragraph-2": "The visual spectacle of long processions moving toward the sea, accompanied by gamelan music and colorful offerings, symbolizes harmony between humans, nature, and the divine. Melasti reflects the Balinese commitment to balance and renewal.",
-        "button-learn-more": "Learn More",
-        "modal": {
-            "heading-1": "More About Melasti",
-            "heading-2": "Story Behind It",
-            "paragraph-1": "Melasti is a purification ceremony held several days before Nyepi, the Balinese Day of Silence. During Melasti, villagers carry temple heirlooms and sacred objects to the sea, lake, or spring to be cleansed. The ritual symbolizes the purification of both the physical world and the human spirit.",
-            "paragraph-2": "Participants dress in white, forming long processions that stretch for kilometers. The sight of hundreds of people walking toward the water with colorful parasols and gamelan music is breathtaking — a powerful image of unity and faith.",
-            "paragraph-3": "Melasti reminds the Balinese that all forms of life must be purified regularly to maintain balance with the divine.",
-            "place": {
-                "heading-2": "Where to Find",
-                "description": "If you are interested in witnessing the Melasti, there are several iconic spots in Bali where you can find that:",
-                "list-1": "Kuta Beach – One of the most famous sites for large Melasti processions.",
-                "list-2": "Sanur Beach – A quieter, spiritual place for purification rituals.",
-                "list-3": "Candidasa Beach – Eastern Bali’s serene Melasti gathering spot."
-            }
+      "title": "Melasti",
+      "description": "The Ritual of Purification",
+      "paragraph-1": "Melasti is a sacred ceremony held before Nyepi, the Balinese Day of Silence. In this ritual, villagers dress in traditional white clothing and carry sacred temple objects to the sea, lakes, or rivers for purification. Through prayers, offerings, and immersion in holy water, participants cleanse themselves and their surroundings from impurities and negative forces.",
+      "paragraph-2": "The visual spectacle of long processions moving toward the sea, accompanied by gamelan music and colorful offerings, symbolizes harmony between humans, nature, and the divine. Melasti reflects the Balinese commitment to balance and renewal.",
+      "button-learn-more": "Learn More",
+      "modal": {
+        "heading-1": "More About Melasti",
+        "heading-2": "Story Behind It",
+        "paragraph-1": "Melasti is a purification ceremony held several days before Nyepi, the Balinese Day of Silence. During Melasti, villagers carry temple heirlooms and sacred objects to the sea, lake, or spring to be cleansed. The ritual symbolizes the purification of both the physical world and the human spirit.",
+        "paragraph-2": "Participants dress in white, forming long processions that stretch for kilometers. The sight of hundreds of people walking toward the water with colorful parasols and gamelan music is breathtaking — a powerful image of unity and faith.",
+        "paragraph-3": "Melasti reminds the Balinese that all forms of life must be purified regularly to maintain balance with the divine.",
+        "place": {
+          "heading-2": "Where to Find",
+          "description": "If you are interested in witnessing the Melasti, there are several iconic spots in Bali where you can find that:",
+          "list-1": "Kuta Beach – One of the most famous sites for large Melasti processions.",
+          "list-2": "Sanur Beach – A quieter, spiritual place for purification rituals.",
+          "list-3": "Candidasa Beach – Eastern Bali’s serene Melasti gathering spot."
         }
+      }
     },
     "galungan-kuningan": {
-        "title": "Galungan and Kuningan",
-        "description": "The Celebration of Dharma's Victory",
-        "paragraph-1": "Galungan is one of Bali's most important festivals, celebrating the triumph of dharma (good) over adharma (evil). It marks the time when ancestral spirits return to visit the earth, welcomed by families with offerings, prayers, and decorated bamboo poles called penjor. The entire island transforms into a tapestry of devotion, with penjor lining the streets and households preparing elaborate rituals.",
-        "paragraph-2": "For the Balinese, Ngaben is a celebration of life and death, embodying the Hindu belief in reincarnation. It is a powerful reminder that death is not an end but a transition to a new beginning.",
-        "button-learn-more": "Learn More",
-        "modal": {
-            "heading-1": "More About Galungan and Kuningan",
-            "heading-2": "Story Behind It",
-            "paragraph-1": "Galungan and Kuningan are major Balinese festivals that celebrate the victory of dharma (good) over adharma (evil). During Galungan, it is believed that ancestral spirits return to visit their homes, while Kuningan marks their return to the heavens.",
-            "paragraph-2": "Homes and streets are decorated with tall bamboo poles called penjor, symbolizing prosperity and gratitude. Families reunite, make offerings, and visit temples to honor their ancestors.",
-            "paragraph-3": "These festivals embody the essence of Balinese spirituality — reverence for heritage, family, and the unseen forces that guide life.",
+      "title": "Galungan and Kuningan",
+      "description": "The Celebration of Dharma's Victory",
+      "paragraph-1": "Galungan is one of Bali's most important festivals, celebrating the triumph of dharma (good) over adharma (evil). It marks the time when ancestral spirits return to visit the earth, welcomed by families with offerings, prayers, and decorated bamboo poles called penjor. The entire island transforms into a tapestry of devotion, with penjor lining the streets and households preparing elaborate rituals.",
+      "paragraph-2": "For the Balinese, Ngaben is a celebration of life and death, embodying the Hindu belief in reincarnation. It is a powerful reminder that death is not an end but a transition to a new beginning.",
+      "button-learn-more": "Learn More",
+      "modal": {
+        "heading-1": "More About Galungan and Kuningan",
+        "heading-2": "Story Behind It",
+        "paragraph-1": "Galungan and Kuningan are major Balinese festivals that celebrate the victory of dharma (good) over adharma (evil). During Galungan, it is believed that ancestral spirits return to visit their homes, while Kuningan marks their return to the heavens.",
+        "paragraph-2": "Homes and streets are decorated with tall bamboo poles called penjor, symbolizing prosperity and gratitude. Families reunite, make offerings, and visit temples to honor their ancestors.",
+        "paragraph-3": "These festivals embody the essence of Balinese spirituality — reverence for heritage, family, and the unseen forces that guide life.",
         "place": {
-            "heading-2": "Where to Find",
-            "description": "If you are interested in witnessing the Galungan and Kuningan, there are several iconic spots in Bali where you can find that:",
-            "list-1": "Every Balinese village – Streets lined with penjor during the celebration.",
-            "list-2": "Pura Besakih – The central temple hosts vibrant ceremonies.",
-            "list-3": "Denpasar City – Urban parades and cultural performances take place."
+          "heading-2": "Where to Find",
+          "description": "If you are interested in witnessing the Galungan and Kuningan, there are several iconic spots in Bali where you can find that:",
+          "list-1": "Every Balinese village – Streets lined with penjor during the celebration.",
+          "list-2": "Pura Besakih – The central temple hosts vibrant ceremonies.",
+          "list-3": "Denpasar City – Urban parades and cultural performances take place."
         }
-        }
+      }
     },
     "culturalHouse": {
-        "title": "Cultural House",
-        "subtitle": "Preserving Bali's Identity and Tradition",
-        "paragraph1": "Cultural houses in Bali are vital spaces that preserve the island's heritage of art, tradition, and philosophy. Inside, visitors can find wood carvings, woven fabrics, and ceremonial items that carry deep spiritual meaning. More than a museum, a cultural house is a place where the younger generation connects with their roots.",
-        "paragraph2": "These spaces often host artistic performances, such as Legong and Barong dances, offering tourists and locals alike a chance to experience Balinese culture in an authentic setting. The atmosphere created through these shows highlights the warmth and richness of tradition.",
-        "paragraph3": "Beyond exhibitions, cultural houses also serve as community hubs, holding workshops on batik, gamelan, and Balinese Hindu philosophy. In this way, they not only safeguard heritage but also nurture togetherness and the values that make Bali unique.",
-        "learnMoreBtn": "Learn More",
-        "modal": {
-            "heading-1": "More About Cultural Houses",
-            "heading-2": "Story Behind It",
-            "paragraph-1": "Cultural houses, or 'rumah budaya', are central to preserving Balinese identity. They serve as living museums where traditions are not only displayed but practiced. Through these spaces, the wisdom of the past continues to inspire modern generations.",
-            "paragraph-2": "Many cultural houses also function as performance venues, hosting dances, gamelan ensembles, and storytelling nights. They create opportunities for local artists to share their talents and for visitors to engage directly with Balinese culture.",
-            "paragraph-3": "Cultural houses stand as symbols of resilience — places where art, spirituality, and community merge to sustain the timeless soul of Bali.",
-            "place": {
-                "heading-2": "Where to Find",
-                "description": "If you are interested in visiting Bali's cultural houses, here are several well-known locations:",
-                "list-1": "Ubud Cultural House – The heart of Balinese arts and performance.",
-                "list-2": "Denpasar Cultural Center – Focused on contemporary and traditional exhibitions.",
-                "list-3": "Bali Museum – A historical site that showcases cultural evolution through the ages."
-            }
+      "title": "Cultural House",
+      "subtitle": "Preserving Bali's Identity and Tradition",
+      "paragraph1": "Cultural houses in Bali are vital spaces that preserve the island's heritage of art, tradition, and philosophy. Inside, visitors can find wood carvings, woven fabrics, and ceremonial items that carry deep spiritual meaning. More than a museum, a cultural house is a place where the younger generation connects with their roots.",
+      "paragraph2": "These spaces often host artistic performances, such as Legong and Barong dances, offering tourists and locals alike a chance to experience Balinese culture in an authentic setting. The atmosphere created through these shows highlights the warmth and richness of tradition.",
+      "paragraph3": "Beyond exhibitions, cultural houses also serve as community hubs, holding workshops on batik, gamelan, and Balinese Hindu philosophy. In this way, they not only safeguard heritage but also nurture togetherness and the values that make Bali unique.",
+      "learnMoreBtn": "Learn More",
+      "modal": {
+        "heading-1": "More About Cultural Houses",
+        "heading-2": "Story Behind It",
+        "paragraph-1": "Cultural houses, or 'rumah budaya', are central to preserving Balinese identity. They serve as living museums where traditions are not only displayed but practiced. Through these spaces, the wisdom of the past continues to inspire modern generations.",
+        "paragraph-2": "Many cultural houses also function as performance venues, hosting dances, gamelan ensembles, and storytelling nights. They create opportunities for local artists to share their talents and for visitors to engage directly with Balinese culture.",
+        "paragraph-3": "Cultural houses stand as symbols of resilience — places where art, spirituality, and community merge to sustain the timeless soul of Bali.",
+        "place": {
+          "heading-2": "Where to Find",
+          "description": "If you are interested in visiting Bali's cultural houses, here are several well-known locations:",
+          "list-1": "Ubud Cultural House – The heart of Balinese arts and performance.",
+          "list-2": "Denpasar Cultural Center – Focused on contemporary and traditional exhibitions.",
+          "list-3": "Bali Museum – A historical site that showcases cultural evolution through the ages."
         }
-    }, 
+      }
+    },
     "bale-banjar": {
-        "title": "Bale Banjar",
-        "description": "The Social and Cultural Hall of the Community",
-        "paragraph-1": "Bale Banjar is the heart of Balinese village life. Functioning as a communal hall, it serves as the center for meetings, ceremonies, and rehearsals for gamelan or dance performances. Constructed with an open pavilion design, the Bale Banjar reflects the Balinese value of openness and togetherness, where community members gather to discuss, celebrate, and make decisions collectively.",
-        "paragraph-2": "Architecturally simple yet meaningful, it embodies the spirit of democracy and cooperation that defines Balinese society. Without the Bale Banjar, many cultural traditions would not thrive, as it is the place where they are nurtured and sustained.",
-        "button-learn-more": "Learn More",
-        "modal": {
-            "heading-1": "More About Bale Banjar",
-            "heading-2": "Story Behind It",
-            "paragraph-1": "The Bale Banjar is the heart of Balinese communal life. It functions as a social hall where villagers gather for meetings, ceremonies, and artistic activities. Every village has at least one Bale Banjar, symbolizing unity and cooperation among its residents.",
-            "paragraph-2": "It is also where rehearsals for dance, gamelan, and drama take place. The open layout encourages participation and dialogue, reflecting the Balinese value of togetherness.",
-            "paragraph-3": "The Bale Banjar embodies the island’s spirit of gotong royong — mutual assistance and community harmony.",
-            "place": {
-                "heading-2": "Where to Find",
-                "description": "If you are interested in witnessing the Bale Banjar, there are several iconic spots in Bali where you can find that:",
-                "list-1": "Every Balinese village – Usually near the temple or village center.",
-                "list-2": "Ubud and Gianyar – Offer open rehearsals of traditional arts.",
-                "list-3": "Denpasar Banjar halls – Used for cultural and educational events."
-            }
+      "title": "Bale Banjar",
+      "description": "The Social and Cultural Hall of the Community",
+      "paragraph-1": "Bale Banjar is the heart of Balinese village life. Functioning as a communal hall, it serves as the center for meetings, ceremonies, and rehearsals for gamelan or dance performances. Constructed with an open pavilion design, the Bale Banjar reflects the Balinese value of openness and togetherness, where community members gather to discuss, celebrate, and make decisions collectively.",
+      "paragraph-2": "Architecturally simple yet meaningful, it embodies the spirit of democracy and cooperation that defines Balinese society. Without the Bale Banjar, many cultural traditions would not thrive, as it is the place where they are nurtured and sustained.",
+      "button-learn-more": "Learn More",
+      "modal": {
+        "heading-1": "More About Bale Banjar",
+        "heading-2": "Story Behind It",
+        "paragraph-1": "The Bale Banjar is the heart of Balinese communal life. It functions as a social hall where villagers gather for meetings, ceremonies, and artistic activities. Every village has at least one Bale Banjar, symbolizing unity and cooperation among its residents.",
+        "paragraph-2": "It is also where rehearsals for dance, gamelan, and drama take place. The open layout encourages participation and dialogue, reflecting the Balinese value of togetherness.",
+        "paragraph-3": "The Bale Banjar embodies the island’s spirit of gotong royong — mutual assistance and community harmony.",
+        "place": {
+          "heading-2": "Where to Find",
+          "description": "If you are interested in witnessing the Bale Banjar, there are several iconic spots in Bali where you can find that:",
+          "list-1": "Every Balinese village – Usually near the temple or village center.",
+          "list-2": "Ubud and Gianyar – Offer open rehearsals of traditional arts.",
+          "list-3": "Denpasar Banjar halls – Used for cultural and educational events."
         }
+      }
     },
     "bale-daja": {
-        "title": "Bale Daja (Bale Meten)",
-        "description": "The Sacred Family Pavilion",
-        "paragraph-1": "Bale Daja, also known as Bale Meten, is one of the most important pavilions in a traditional Balinese house compound. Positioned in the northern area, it is dedicated to honored family members and sacred rituals. Traditionally, this pavilion also serves as a sleeping area for the head of the household or elder family members, symbolizing respect and hierarchy within the family structure.",
-        "paragraph-2": "Its design is rectangular with raised floors, open spaces, and carved wooden pillars, reflecting both practical function and spiritual symbolism. Bale Daja illustrates how Balinese architecture seamlessly integrates spirituality, family values, and daily living.",
-        "button-learn-more": "Learn More",
-        "modal": {
-            "heading-1": "More About Bale Daja",
-            "heading-2": "Story Behind It",
-            "paragraph-1": "The Bale Daja, also known as Bale Meten, is a key pavilion within a traditional Balinese household. It is typically located in the northern section of the compound and used as a sleeping area for the head of the family or honored guests.",
-            "paragraph-2": "Beyond its function, the Bale Daja carries symbolic importance — it represents the sacred direction associated with the gods and ancestors. Its placement and construction follow ritual guidelines, aligning with cosmic harmony.",
-            "paragraph-3": "This architectural feature reflects how every part of Balinese daily life is guided by spiritual and cosmic principles.",
-            "place": {
-                "heading-2": "Where to Find",
-                "description": "If you are interested in witnessing the Bale Daja, there are several iconic spots in Bali where you can find that:",
-                "list-1": "Traditional homes in Gianyar and Bangli – Still built following ancient rules.",
-                "list-2": "Bali Museum, Denpasar – Exhibits examples of traditional pavilions.",
-                "list-3": "Cultural villages like Penglipuran – Offer direct views of traditional pavilions."
-            }
+      "title": "Bale Daja (Bale Meten)",
+      "description": "The Sacred Family Pavilion",
+      "paragraph-1": "Bale Daja, also known as Bale Meten, is one of the most important pavilions in a traditional Balinese house compound. Positioned in the northern area, it is dedicated to honored family members and sacred rituals. Traditionally, this pavilion also serves as a sleeping area for the head of the household or elder family members, symbolizing respect and hierarchy within the family structure.",
+      "paragraph-2": "Its design is rectangular with raised floors, open spaces, and carved wooden pillars, reflecting both practical function and spiritual symbolism. Bale Daja illustrates how Balinese architecture seamlessly integrates spirituality, family values, and daily living.",
+      "button-learn-more": "Learn More",
+      "modal": {
+        "heading-1": "More About Bale Daja",
+        "heading-2": "Story Behind It",
+        "paragraph-1": "The Bale Daja, also known as Bale Meten, is a key pavilion within a traditional Balinese household. It is typically located in the northern section of the compound and used as a sleeping area for the head of the family or honored guests.",
+        "paragraph-2": "Beyond its function, the Bale Daja carries symbolic importance — it represents the sacred direction associated with the gods and ancestors. Its placement and construction follow ritual guidelines, aligning with cosmic harmony.",
+        "paragraph-3": "This architectural feature reflects how every part of Balinese daily life is guided by spiritual and cosmic principles.",
+        "place": {
+          "heading-2": "Where to Find",
+          "description": "If you are interested in witnessing the Bale Daja, there are several iconic spots in Bali where you can find that:",
+          "list-1": "Traditional homes in Gianyar and Bangli – Still built following ancient rules.",
+          "list-2": "Bali Museum, Denpasar – Exhibits examples of traditional pavilions.",
+          "list-3": "Cultural villages like Penglipuran – Offer direct views of traditional pavilions."
         }
+      }
     },
     "candi-bentar": {
-        "title": "Candi Bentar",
-        "description": "The Splitting Gate of Balance",
-        "paragraph-1": "Candi Bentar, the iconic split gate of Bali, is more than an architectural marvel—it is a philosophical statement. Found at temple entrances, palaces, or traditional compounds, the gate is divided into two symmetrical halves, symbolizing the concept of Rwa Bhineda, or duality in balance (good and evil, male and female, day and night).",
-        "paragraph-2": "Walking through a Candi Bentar is not just entering a space; it is a symbolic passage from the outer, secular world into a sacred, spiritual realm. The gate's towering stone carvings, often adorned with intricate patterns, emphasize Bali's artistic mastery and religious devotion.",
-        "button-learn-more": "Learn More",
-        "modal": {
-            "heading-1": "More About Candi Bentar",
-            "heading-2": "Story Behind It",
-            "paragraph-1": "Candi Bentar, or split gateway, is one of the most recognizable architectural symbols of Bali. It serves as an entrance to temple complexes or palaces, representing the division between the outer, worldly realm and the sacred inner space.",
-            "paragraph-2": "The structure consists of two identical halves facing each other, resembling a mountain split in two. This symbolizes balance — a central concept in Balinese cosmology.",
-            "paragraph-3": "Passing through the Candi Bentar is not just physical movement; it signifies a spiritual transition from the ordinary to the divine.",
-            "place": {
-                "heading-2": "Where to Find",
-                "description": "If you are interested in witnessing the Candi Bentar, there are several iconic spots in Bali where you can find that:",
-                "list-1": "Lempuyang Temple – Home to the famous 'Gates of Heaven'.",
-                "list-2": "Besakih Temple – Features several traditional gateways.",
-                "list-3": "Taman Ayun Temple – A fine example of classical Balinese design."
-            }
+      "title": "Candi Bentar",
+      "description": "The Splitting Gate of Balance",
+      "paragraph-1": "Candi Bentar, the iconic split gate of Bali, is more than an architectural marvel—it is a philosophical statement. Found at temple entrances, palaces, or traditional compounds, the gate is divided into two symmetrical halves, symbolizing the concept of Rwa Bhineda, or duality in balance (good and evil, male and female, day and night).",
+      "paragraph-2": "Walking through a Candi Bentar is not just entering a space; it is a symbolic passage from the outer, secular world into a sacred, spiritual realm. The gate's towering stone carvings, often adorned with intricate patterns, emphasize Bali's artistic mastery and religious devotion.",
+      "button-learn-more": "Learn More",
+      "modal": {
+        "heading-1": "More About Candi Bentar",
+        "heading-2": "Story Behind It",
+        "paragraph-1": "Candi Bentar, or split gateway, is one of the most recognizable architectural symbols of Bali. It serves as an entrance to temple complexes or palaces, representing the division between the outer, worldly realm and the sacred inner space.",
+        "paragraph-2": "The structure consists of two identical halves facing each other, resembling a mountain split in two. This symbolizes balance — a central concept in Balinese cosmology.",
+        "paragraph-3": "Passing through the Candi Bentar is not just physical movement; it signifies a spiritual transition from the ordinary to the divine.",
+        "place": {
+          "heading-2": "Where to Find",
+          "description": "If you are interested in witnessing the Candi Bentar, there are several iconic spots in Bali where you can find that:",
+          "list-1": "Lempuyang Temple – Home to the famous 'Gates of Heaven'.",
+          "list-2": "Besakih Temple – Features several traditional gateways.",
+          "list-3": "Taman Ayun Temple – A fine example of classical Balinese design."
         }
+      }
     },
     "gwk-statue": {
-        "title": "GWK Statue",
-        "description": "A cultural icon of Bali",
-        "paragraph-1": "The Garuda Wisnu Kencana (GWK) Statue is one of the most iconic landmarks in Bali, located within the GWK Cultural Park. Standing at 121 meters tall, it is one of the tallest statues in the world, representing the Hindu god Vishnu riding his mount Garuda. The monument is a symbol of devotion, culture, and artistry, blending spirituality with modern engineering.",
-        "paragraph-2": "More than just a statue, the GWK Cultural Park is a hub for cultural experiences. Visitors can enjoy traditional dance performances, art exhibitions, and festivals held in the park's amphitheater. It serves as a living stage for Bali's vibrant culture and a gathering place for both locals and tourists.",
-        "paragraph-3": "The GWK Statue also offers panoramic views of Bali, with its height allowing visitors to see far across the island. It stands not only as a masterpiece of art but also as a reminder of Bali's dedication to preserving its cultural identity for future generations.",
-        "button-learn-more": "Learn More",
-        "modal": {
-            "heading-1": "More About GWK Statue",
-            "heading-2": "Story Behind It",
-            "paragraph-1": "The Garuda Wisnu Kencana (GWK) Statue stands as a modern icon of Balinese pride and spirituality. Depicting the god Vishnu riding his mythical bird Garuda, the statue symbolizes the protection of harmony between humans and nature.",
-            "paragraph-2": "Standing over 120 meters tall, it took decades to complete and now dominates the skyline of southern Bali. The project combined artistic craftsmanship with national vision, turning a mythological story into a monumental reality.",
-            "paragraph-3": "GWK is not only a cultural landmark but also a place of learning, performance, and celebration of Indonesian unity.",
-            "place": {
-                "heading-2": "Where to Find",
-                "description": "If you are interested in witnessing the GWK Statue, there are several iconic spots in Bali where you can find that:",
-                "list-1": "GWK Cultural Park, Ungasan – The main and only location of the statue.",
-                "list-2": "Jimbaran area – Offers stunning panoramic views of GWK from afar."
-            }
+      "title": "GWK Statue",
+      "description": "A cultural icon of Bali",
+      "paragraph-1": "The Garuda Wisnu Kencana (GWK) Statue is one of the most iconic landmarks in Bali, located within the GWK Cultural Park. Standing at 121 meters tall, it is one of the tallest statues in the world, representing the Hindu god Vishnu riding his mount Garuda. The monument is a symbol of devotion, culture, and artistry, blending spirituality with modern engineering.",
+      "paragraph-2": "More than just a statue, the GWK Cultural Park is a hub for cultural experiences. Visitors can enjoy traditional dance performances, art exhibitions, and festivals held in the park's amphitheater. It serves as a living stage for Bali's vibrant culture and a gathering place for both locals and tourists.",
+      "paragraph-3": "The GWK Statue also offers panoramic views of Bali, with its height allowing visitors to see far across the island. It stands not only as a masterpiece of art but also as a reminder of Bali's dedication to preserving its cultural identity for future generations.",
+      "button-learn-more": "Learn More",
+      "modal": {
+        "heading-1": "More About GWK Statue",
+        "heading-2": "Story Behind It",
+        "paragraph-1": "The Garuda Wisnu Kencana (GWK) Statue stands as a modern icon of Balinese pride and spirituality. Depicting the god Vishnu riding his mythical bird Garuda, the statue symbolizes the protection of harmony between humans and nature.",
+        "paragraph-2": "Standing over 120 meters tall, it took decades to complete and now dominates the skyline of southern Bali. The project combined artistic craftsmanship with national vision, turning a mythological story into a monumental reality.",
+        "paragraph-3": "GWK is not only a cultural landmark but also a place of learning, performance, and celebration of Indonesian unity.",
+        "place": {
+          "heading-2": "Where to Find",
+          "description": "If you are interested in witnessing the GWK Statue, there are several iconic spots in Bali where you can find that:",
+          "list-1": "GWK Cultural Park, Ungasan – The main and only location of the statue.",
+          "list-2": "Jimbaran area – Offers stunning panoramic views of GWK from afar."
         }
+      }
     },
     "pura-besakih": {
-        "title": "Pura Besakih",
-        "description": "The Mother Temple of Bali",
-        "paragraph-1": "Nestled on the majestic slopes of Mount Agung, Bali's highest and most sacred volcano, lies Pura Besakih, often called the 'Mother Temple of Bali.' This sprawling temple complex consists of over 80 individual temples, with Pura Penataran Agung as its central sanctuary. As the largest and holiest Hindu temple in Bali, Pura Besakih is the heart of religious life, a place where major ceremonies and pilgrimages are held throughout the year.",
-        "paragraph-2": "Architecturally, the temple's tiered pagoda-like structures, known as meru, rise dramatically against the backdrop of Mount Agung, creating a breathtaking spiritual landscape. Each level of the temple represents different realms of the cosmos, reflecting the Balinese Hindu concept of harmony between the human, natural, and divine worlds. Visiting Pura Besakih is not just a sightseeing experience but a spiritual journey into the soul of Bali's religious devotion.",
-        "button-learn-more": "Learn More",
-        "modal": {
-            "heading-1": "More About Pura Besakih",
-            "heading-2": "Story Behind It",
-            "paragraph-1": "Pura Besakih, known as the 'Mother Temple' of Bali, is the island’s largest and most important temple complex. It sits majestically on the slopes of Mount Agung, Bali’s highest and most sacred mountain.",
-            "paragraph-2": "According to legend, the temple was built over a prehistoric shrine dedicated to the dragon god Besakih. Over time, it became a spiritual center encompassing more than 80 temples dedicated to various Hindu deities.",
-            "paragraph-3": "Pura Besakih represents the heart of Balinese Hinduism — a place where the divine, natural, and human worlds meet in perfect harmony.",
-            "place": {
-                "heading-2": "Where to Find",
-                "description": "If you are interested in witnessing the Pura Besakih, there are several iconic spots in Bali where you can find that:",
-                "list-1": "Mount Agung, Karangasem Regency – The temple’s official location.",
-                "list-2": "Besakih Village – Serves as the access point for visitors and pilgrims."
-            }
-            }
+      "title": "Pura Besakih",
+      "description": "The Mother Temple of Bali",
+      "paragraph-1": "Nestled on the majestic slopes of Mount Agung, Bali's highest and most sacred volcano, lies Pura Besakih, often called the 'Mother Temple of Bali.' This sprawling temple complex consists of over 80 individual temples, with Pura Penataran Agung as its central sanctuary. As the largest and holiest Hindu temple in Bali, Pura Besakih is the heart of religious life, a place where major ceremonies and pilgrimages are held throughout the year.",
+      "paragraph-2": "Architecturally, the temple's tiered pagoda-like structures, known as meru, rise dramatically against the backdrop of Mount Agung, creating a breathtaking spiritual landscape. Each level of the temple represents different realms of the cosmos, reflecting the Balinese Hindu concept of harmony between the human, natural, and divine worlds. Visiting Pura Besakih is not just a sightseeing experience but a spiritual journey into the soul of Bali's religious devotion.",
+      "button-learn-more": "Learn More",
+      "modal": {
+        "heading-1": "More About Pura Besakih",
+        "heading-2": "Story Behind It",
+        "paragraph-1": "Pura Besakih, known as the 'Mother Temple' of Bali, is the island’s largest and most important temple complex. It sits majestically on the slopes of Mount Agung, Bali’s highest and most sacred mountain.",
+        "paragraph-2": "According to legend, the temple was built over a prehistoric shrine dedicated to the dragon god Besakih. Over time, it became a spiritual center encompassing more than 80 temples dedicated to various Hindu deities.",
+        "paragraph-3": "Pura Besakih represents the heart of Balinese Hinduism — a place where the divine, natural, and human worlds meet in perfect harmony.",
+        "place": {
+          "heading-2": "Where to Find",
+          "description": "If you are interested in witnessing the Pura Besakih, there are several iconic spots in Bali where you can find that:",
+          "list-1": "Mount Agung, Karangasem Regency – The temple’s official location.",
+          "list-2": "Besakih Village – Serves as the access point for visitors and pilgrims."
+        }
+      }
     },
     "tanah-lot": {
-        "title": "Tanah Lot Temple",
-        "description": "The Temple in the Sea",
-        "paragraph-1": "Tanah Lot is one of Bali's most photographed and spiritually revered temples, perched dramatically on a rocky outcrop surrounded by the ocean. Dedicated to the sea gods, this temple is a vital part of Balinese mythology and spirituality. Legend says that the temple was founded by Dang Hyang Nirartha, a 16th-century Hindu priest who blessed the site and declared it sacred.",
-        "paragraph-2": "At high tide, Tanah Lot appears isolated, accessible only when the water recedes, enhancing its mystical aura. The crashing waves, golden sunsets, and the silhouette of the temple create an atmosphere of awe and serenity. More than its beauty, Tanah Lot embodies the Balinese philosophy of living in harmony with nature and the divine. It is both a place of worship for locals and a source of wonder for travelers seeking to experience Bali's spiritual energy.",
-        "button-learn-more": "Learn More",
-        "modal": {
+      "title": "Tanah Lot Temple",
+      "description": "The Temple in the Sea",
+      "paragraph-1": "Tanah Lot is one of Bali's most photographed and spiritually revered temples, perched dramatically on a rocky outcrop surrounded by the ocean. Dedicated to the sea gods, this temple is a vital part of Balinese mythology and spirituality. Legend says that the temple was founded by Dang Hyang Nirartha, a 16th-century Hindu priest who blessed the site and declared it sacred.",
+      "paragraph-2": "At high tide, Tanah Lot appears isolated, accessible only when the water recedes, enhancing its mystical aura. The crashing waves, golden sunsets, and the silhouette of the temple create an atmosphere of awe and serenity. More than its beauty, Tanah Lot embodies the Balinese philosophy of living in harmony with nature and the divine. It is both a place of worship for locals and a source of wonder for travelers seeking to experience Bali's spiritual energy.",
+      "button-learn-more": "Learn More",
+      "modal": {
         "heading-1": "More About Tanah Lot Temple",
         "heading-2": "Story Behind It",
         "paragraph-1": "Tanah Lot Temple is one of Bali’s most photographed and spiritual landmarks. Perched on a rocky outcrop in the sea, it is dedicated to the guardian spirits of the ocean.",
         "paragraph-2": "According to legend, the temple was founded by a 16th-century priest who meditated on the rock after being guided by divine vision. When local rulers tried to drive him away, he turned his scarf into sea snakes to guard the temple, which still inhabit the caves today.",
         "paragraph-3": "At sunset, Tanah Lot glows against the horizon — a timeless symbol of faith, nature, and harmony.",
         "place": {
-            "heading-2": "Where to Find",
-            "description": "If you are interested in witnessing the Tanah Lot Temple, there are several iconic spots in Bali where you can find that:",
-            "list-1": "Beraban Village, Tabanan Regency – The exact location of Tanah Lot Temple.",
-            "list-2": "Tanah Lot complex area – Includes viewing platforms and cultural facilities.",
-            "list-3": "Nearby cliff viewpoints – Offer panoramic sunset photography spots."
+          "heading-2": "Where to Find",
+          "description": "If you are interested in witnessing the Tanah Lot Temple, there are several iconic spots in Bali where you can find that:",
+          "list-1": "Beraban Village, Tabanan Regency – The exact location of Tanah Lot Temple.",
+          "list-2": "Tanah Lot complex area – Includes viewing platforms and cultural facilities.",
+          "list-3": "Nearby cliff viewpoints – Offer panoramic sunset photography spots."
         }
-        }
+      }
     }
+  },
+  "village": {
+    "navbar": {
+      "home": "Home",
+      "nature": "Nature",
+      "culture": "Culture",
+      "village": "Village",
+      "mountain": "Mountain",
+      "favorite": "My Favorite"
     },
-    "village": {
-        "navbar": {
-            "home": "Home",
-            "nature": "Nature",
-            "culture": "Culture",
-            "village": "Village",
-            "mountain": "Mountain",
-            "favorite": "My Favorite"
-        },
-        "header": {
-            "title": "Bali's Village",
-            "subtitle": "Discovering the harmony of Balinese life."
-        },
-        "desa-tenganan": {
-            "title": "Tenganan Village",
-            "description": "A Village Preserving Traditions",
-            "paragraph-1": "Tenganan Village is one of the oldest traditional villages in Bali, known as a Bali Aga village. It has preserved its unique customs, rituals, and architecture for centuries, making it a living cultural museum. Visitors can witness the traditional lifestyle that sets Tenganan apart from other Balinese villages.",
-            "paragraph-2": "The village is most famous for its double ikat weaving called Gringsing, a textile that is believed to have spiritual power. The weaving process is highly complex and only practiced by the women of Tenganan, making it a cultural treasure of Bali.",
-            "paragraph-3": "Beyond its crafts, Tenganan also hosts ancient ceremonies and rituals, such as the Mekare-kare or pandanus war, which attracts many visitors each year. These practices highlight the villagers' strong connection to their heritage and traditions."
-        },
-        "desa-ubud": {
-            "title": "Ubud Village",
-            "description": "Bali's center of art and culture",
-            "paragraph-1": "Ubud Village is often called the cultural heart of Bali. Surrounded by lush rice fields and jungle, Ubud has become a gathering place for artists, healers, and those seeking inspiration. It is home to traditional crafts, galleries, and dance performances that keep Balinese culture alive.",
-            "paragraph-2": "Visitors can explore Ubud Palace, where nightly dance performances showcase the island's artistic heritage. The nearby Ubud Market is also a favorite stop, offering handmade crafts, textiles, and souvenirs created by local artisans.",
-            "paragraph-3": "Beyond art and culture, Ubud is also known for wellness tourism. Yoga retreats, meditation centers, and holistic healing practices have made Ubud a world-famous destination for relaxation and self-discovery."
-        },
-        "desa-panglipuran": {
-            "title": "Penglipuran Village",
-            "description": "The world's cleanest traditional village",
-            "paragraph-1": "Penglipuran Village is internationally recognized as one of the cleanest villages in the world. Located in Bangli, it is famous for its well-organized layout, traditional architecture, and commitment to preserving Balinese culture. Walking through the village feels like stepping into a harmonious and peaceful community.",
-            "paragraph-2": "The village is also deeply rooted in Balinese Hindu traditions. Locals practice strong values of mutual cooperation (gotong royong) and environmental conservation, ensuring that Penglipuran remains clean and sustainable for future generations.",
-            "paragraph-3": "Tourists often admire the neatly arranged bamboo houses and serene pathways. Penglipuran is more than a tourist spot—it is a living example of how tradition, culture, and modern values can coexist in harmony."
-        },
-        "desa-jatiluwih": {
-            "title": "Jatiluwih Village",
-            "description": "UNESCO rice terraces in Bali",
-            "paragraph-1": "Jatiluwih Village is renowned for its breathtaking rice terraces, which have been designated a UNESCO World Heritage Site. Located in Tabanan, the vast landscapes of Jatiluwih showcase the traditional subak irrigation system, a centuries-old method that emphasizes community cooperation and harmony with nature.",
-            "paragraph-2": "Visitors are often amazed by the endless layers of rice fields stretching across the hills. The view changes with the seasons, from bright green young rice shoots to golden harvest fields—offering a picturesque scene all year round.",
-            "paragraph-3": "Jatiluwih is also a great destination for trekking and cycling, allowing travelers to immerse themselves in the natural beauty and rural life of Bali. It is the perfect spot to experience both cultural heritage and the tranquility of the countryside."
-        }
+    "header": {
+      "title": "Bali's Village",
+      "subtitle": "Discovering the harmony of Balinese life."
     },
-    "mountain": {
+    "desa-tenganan": {
+      "title": "Tenganan Village",
+      "description": "A Village Preserving Traditions",
+      "paragraph-1": "Tenganan Village is one of the oldest traditional villages in Bali, known as a Bali Aga village. It has preserved its unique customs, rituals, and architecture for centuries, making it a living cultural museum. Visitors can witness the traditional lifestyle that sets Tenganan apart from other Balinese villages.",
+      "paragraph-2": "The village is most famous for its double ikat weaving called Gringsing, a textile that is believed to have spiritual power. The weaving process is highly complex and only practiced by the women of Tenganan, making it a cultural treasure of Bali.",
+      "paragraph-3": "Beyond its crafts, Tenganan also hosts ancient ceremonies and rituals, such as the Mekare-kare or pandanus war, which attracts many visitors each year. These practices highlight the villagers' strong connection to their heritage and traditions."
+    },
+    "desa-ubud": {
+      "title": "Ubud Village",
+      "description": "Bali's center of art and culture",
+      "paragraph-1": "Ubud Village is often called the cultural heart of Bali. Surrounded by lush rice fields and jungle, Ubud has become a gathering place for artists, healers, and those seeking inspiration. It is home to traditional crafts, galleries, and dance performances that keep Balinese culture alive.",
+      "paragraph-2": "Visitors can explore Ubud Palace, where nightly dance performances showcase the island's artistic heritage. The nearby Ubud Market is also a favorite stop, offering handmade crafts, textiles, and souvenirs created by local artisans.",
+      "paragraph-3": "Beyond art and culture, Ubud is also known for wellness tourism. Yoga retreats, meditation centers, and holistic healing practices have made Ubud a world-famous destination for relaxation and self-discovery."
+    },
+    "desa-panglipuran": {
+      "title": "Penglipuran Village",
+      "description": "The world's cleanest traditional village",
+      "paragraph-1": "Penglipuran Village is internationally recognized as one of the cleanest villages in the world. Located in Bangli, it is famous for its well-organized layout, traditional architecture, and commitment to preserving Balinese culture. Walking through the village feels like stepping into a harmonious and peaceful community.",
+      "paragraph-2": "The village is also deeply rooted in Balinese Hindu traditions. Locals practice strong values of mutual cooperation (gotong royong) and environmental conservation, ensuring that Penglipuran remains clean and sustainable for future generations.",
+      "paragraph-3": "Tourists often admire the neatly arranged bamboo houses and serene pathways. Penglipuran is more than a tourist spot—it is a living example of how tradition, culture, and modern values can coexist in harmony."
+    },
+    "desa-jatiluwih": {
+      "title": "Jatiluwih Village",
+      "description": "UNESCO rice terraces in Bali",
+      "paragraph-1": "Jatiluwih Village is renowned for its breathtaking rice terraces, which have been designated a UNESCO World Heritage Site. Located in Tabanan, the vast landscapes of Jatiluwih showcase the traditional subak irrigation system, a centuries-old method that emphasizes community cooperation and harmony with nature.",
+      "paragraph-2": "Visitors are often amazed by the endless layers of rice fields stretching across the hills. The view changes with the seasons, from bright green young rice shoots to golden harvest fields—offering a picturesque scene all year round.",
+      "paragraph-3": "Jatiluwih is also a great destination for trekking and cycling, allowing travelers to immerse themselves in the natural beauty and rural life of Bali. It is the perfect spot to experience both cultural heritage and the tranquility of the countryside."
+    }
+  },
+  "mountain": {
     "navbar": {
       "home": "Home",
       "nature": "Nature",
@@ -388,6 +398,5 @@
       "paragraph-2": "The mountain is also spiritually important, as Pura Luhur Batukaru, one of Bali's key temples, lies on its slopes. This temple is dedicated to the guardian spirit of Mount Batukaru and is visited by many locals for prayer and ceremonies.",
       "paragraph-3": "Treks to Mount Batukaru provide not only natural beauty but also cultural insight. The dense forest, fresh air, and spiritual atmosphere make it a special destination for travelers who want to connect deeply with Bali's nature and traditions."
     }
-    }
+  }
 }
-
