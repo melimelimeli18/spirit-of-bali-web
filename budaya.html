@@ -1,986 +1,1931 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Budaya Bali - Spirit of Bali</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body data-page="culture">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body data-page="culture">
     <nav id="top">
-        <!-- Language Dropdown -->
-        <div class="language-switch">
-            <select id="languageSelect" aria-label="Language Switcher">
-                <option value="en">EN</option>
-                <option value="id">ID</option>
-            </select>
+      <!-- Language Dropdown -->
+      <div class="language-switch">
+        <select id="languageSelect" aria-label="Language Switcher">
+          <option value="en">EN</option>
+          <option value="id">ID</option>
+        </select>
+      </div>
+
+      <!-- Link to other Page -->
+      <div class="nav-links">
+        <a data-key="navbar.home" href="index.html">Home</a>
+        <a data-key="navbar.nature" href="alam.html">Nature</a>
+        <a data-key="navbar.culture" href="budaya.html" class="active"
+          >Culture</a
+        >
+        <a data-key="navbar.village" href="desa.html">Village</a>
+        <a data-key="navbar.mountain" href="gunung.html">Mountain</a>
+      </div>
+
+      <button class="favorite-btn">
+        <i class="fa-solid fa-heart"></i>
+        <span data-key="navbar.favorite" class="text">My Favorite</span>
+      </button>
+      <!-- Nav Right untuk Mobile -->
+      <div class="nav-right">
+        <!-- Hamburger Button (Mobile) -->
+        <div class="hamburger" aria-label="Menu Toggle">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
-        
-        <!-- Link to other Page -->
-        <div class="nav-links">
-            <a data-key="navbar.home" href="index.html">Home</a>
-            <a data-key="navbar.nature" href="alam.html">Nature</a>
-            <a data-key="navbar.culture" href="budaya.html" class="active">Culture</a>
-            <a data-key="navbar.village" href="desa.html">Village</a>
-            <a data-key="navbar.mountain" href="gunung.html">Mountain</a>
-        </div>
-        
-        <!-- My Favorite -->
-        <button class="favorite-btn">
-            <i class="fa-solid fa-heart"></i>
-            <span data-key="navbar.favorite" class="text">My Favorite</span>
+
+        <!-- Favorite Button Clone untuk Mobile (optional) -->
+        <button class="favorite-btn mobile-fav">
+          <i class="fa-solid fa-heart"></i>
+          <span data-key="navbar.favorite" class="text">My Favorite</span>
         </button>
+      </div>
     </nav>
 
     <header class="not-main-page">
-        <img src="asset/img/budaya-page-img/budaya-top-img.jpg" alt="budaya-top-img" class="top-page">
-        <img src="asset/icon/logo-big-2.png" alt="Icon SoB" class="icon-page">
-        <h1>Bali's Culture</h1>
-        <h3>Experiencing the dynamic culture of Bali.</h3>
-        <a href="#top-page" id="down-btn"><img src="asset/icon/icon-arrow-down.png" alt="Icon Arrow Down" class="icon-bottom-page down-btn"></a>
+      <img
+        src="asset/img/budaya-page-img/budaya-top-img.jpg"
+        alt="budaya-top-img"
+        class="top-page" />
+      <img src="asset/icon/logo-big-2.png" alt="Icon SoB" class="icon-page" />
+      <h1>Bali's Culture</h1>
+      <h3>Experiencing the dynamic culture of Bali.</h3>
+      <a href="#top-page" id="down-btn"
+        ><img
+          src="asset/icon/icon-arrow-down.png"
+          alt="Icon Arrow Down"
+          class="icon-bottom-page down-btn"
+      /></a>
     </header>
 
     <!-- Filter button -->
     <div class="filter-container" id="top-page">
-        <button class="filter-btn active" data-filter="all">All</button>
-        <button class="filter-btn" data-filter="dance">Dance</button>
-        <button class="filter-btn" data-filter="ceremony">Ceremony</button>
-        <button class="filter-btn" data-filter="architecture">Architecture</button>
-        <button class="filter-btn" data-filter="temple">Temple & Statue</button>
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="dance">Dance</button>
+      <button class="filter-btn" data-filter="ceremony">Ceremony</button>
+      <button class="filter-btn" data-filter="architecture">
+        Architecture
+      </button>
+      <button class="filter-btn" data-filter="temple">Temple & Statue</button>
     </div>
 
     <!-- Keccak Dance -->
     <div class="left-content">
-        <div class="left-text">
-            <h1 data-key="keccak-dance.title">Keccak Dance</h1>
-            <h3 data-key="keccak-dance.description">The Mesmerizing Dance of Bali</h3>
-            <p data-key="keccak-dance.paragraph-1">The Kecak Dance, or “Monkey Chant Dance,” is one of Bali's most unique performances. Instead of gamelan instruments, it features a circle of men chanting “cak-cak-cak” in rhythmic patterns, forming a powerful vocal orchestra. Created in the 1930s, it has since become a symbol of Balinese spirituality and artistry.</p><br> 
-            
-            <div class="section-button">
-                <button class="love-btn" aria-label="Add to favorite">
-                    <i class="fa-regular fa-heart"></i>
-                </button>
-                <a href="#" class="btn-left" data-modal-target="modal-keccak-dance">Learn More</a>
-            </div>
+      <div class="left-text">
+        <h1 data-key="keccak-dance.title">Keccak Dance</h1>
+        <h3 data-key="keccak-dance.description">
+          The Mesmerizing Dance of Bali
+        </h3>
+        <p data-key="keccak-dance.paragraph-1">
+          The Kecak Dance, or “Monkey Chant Dance,” is one of Bali's most unique
+          performances. Instead of gamelan instruments, it features a circle of
+          men chanting “cak-cak-cak” in rhythmic patterns, forming a powerful
+          vocal orchestra. Created in the 1930s, it has since become a symbol of
+          Balinese spirituality and artistry.
+        </p>
+        <br />
+
+        <div class="section-button">
+          <button class="love-btn" aria-label="Add to favorite">
+            <i class="fa-regular fa-heart"></i>
+          </button>
+          <a href="#" class="btn-left" data-modal-target="modal-keccak-dance"
+            >Learn More</a
+          >
         </div>
-        <img src="asset/img/budaya-page-img/tarian-kecak.jpg" alt="keccak-dance" class="image">
+      </div>
+      <img
+        src="asset/img/budaya-page-img/tarian-kecak.jpg"
+        alt="keccak-dance"
+        class="image" />
     </div>
 
     <!-- Modal -->
     <div class="modal-overlay" id="modal-keccak-dance">
-        <div class="modal-container">
-            <button class="close-btn" id="closeModal" aria-label="Close" data-close-btn>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-            <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round"/>
-            </svg>
-            </button>
-            
-            <h1 data-key="keccak-dance.modal.heading-1">More About Keccak Dance</h1> <br>
-            
-            <img src="asset/img/nature-page.jpg" alt="Nature Page Image" class="top-page"
-            >
-            <h2 data-key="keccak-dance.modal.heading-2">Story Behind It</h2>            
-            <p data-key="keccak-dance.modal.paragraph-1">
-                The dance dramatizes the Hindu epic Ramayana, where Prince Rama battles the demon king Ravana with the help of Hanuman, the white monkey. Through chanting, expressive movements, and fire torches, the story unfolds as a vivid struggle between good and evil.
-            </p><br> 
-            <p data-key="keccak-dance.modal.paragraph-2">
-                Often staged outdoors at sunset in temples or clifftops like Uluwatu, the Kecak Dance blends ritual, storytelling, and natural beauty. For audiences, it offers not just entertainment but a deep experience of Bali's cultural and spiritual heritage.
-            </p><br> 
-            <p data-key="keccak-dance.modal.paragraph-3">
-                As the performance reaches its climax, the chanting grows more intense, creating a trance-like atmosphere that draws the audience into the story. The fire dance, usually involving Hanuman leaping across flames, symbolizes purification and the triumph of light over darkness.
-            </p><br> 
-            <p data-key="keccak-dance.modal.paragraph-4">
-                Today, the Kecak Dance is not only a sacred ritual but also a cultural showcase that introduces Bali’s spiritual traditions to the world. Watching the Kecak is like experiencing a living legend—an unforgettable blend of devotion, art, and the enchanting soul of Bali.
-            </p>
+      <div class="modal-container">
+        <button
+          class="close-btn"
+          id="closeModal"
+          aria-label="Close"
+          data-close-btn>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24"
+            height="24">
+            <path
+              d="M6 6 L18 18 M6 18 L18 6"
+              stroke="black"
+              stroke-width="2"
+              stroke-linecap="round" />
+          </svg>
+        </button>
 
-            <!-- YouTube Video Placeholder -->
-            <div class="video-wrapper">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/22XSn6Zz3Xs?si=Ujm1nbrdvhSw0bgL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+        <h1 data-key="keccak-dance.modal.heading-1">More About Keccak Dance</h1>
+        <br />
 
-            <br>
-            <h2 data-key="keccak-dance.modal.place.heading-2">Where to Find</h2>
-            <p data-key="keccak-dance.modal.place.description">
-                If you are interested in witnessing the Kecak Dance, there are several iconic spots in Bali where you can experience this enchanting performance:
-            </p>
+        <img
+          src="asset/img/budaya-page-img/tarian-kecak.jpg"
+          alt="Nature Page Image"
+          class="top-page" />
+        <h2 data-key="keccak-dance.modal.heading-2">Story Behind It</h2>
+        <p data-key="keccak-dance.modal.paragraph-1">
+          The dance dramatizes the Hindu epic Ramayana, where Prince Rama
+          battles the demon king Ravana with the help of Hanuman, the white
+          monkey. Through chanting, expressive movements, and fire torches, the
+          story unfolds as a vivid struggle between good and evil.
+        </p>
+        <br />
+        <p data-key="keccak-dance.modal.paragraph-2">
+          Often staged outdoors at sunset in temples or clifftops like Uluwatu,
+          the Kecak Dance blends ritual, storytelling, and natural beauty. For
+          audiences, it offers not just entertainment but a deep experience of
+          Bali's cultural and spiritual heritage.
+        </p>
+        <br />
+        <p data-key="keccak-dance.modal.paragraph-3">
+          As the performance reaches its climax, the chanting grows more
+          intense, creating a trance-like atmosphere that draws the audience
+          into the story. The fire dance, usually involving Hanuman leaping
+          across flames, symbolizes purification and the triumph of light over
+          darkness.
+        </p>
+        <br />
+        <p data-key="keccak-dance.modal.paragraph-4">
+          Today, the Kecak Dance is not only a sacred ritual but also a cultural
+          showcase that introduces Bali’s spiritual traditions to the world.
+          Watching the Kecak is like experiencing a living legend—an
+          unforgettable blend of devotion, art, and the enchanting soul of Bali.
+        </p>
 
-            <ol>
-                <li data-key="keccak-dance.modal.place.list-1"><strong>Uluwatu Temple</strong> – Famous for its cliffside setting, where the Kecak Dance is performed at sunset with a breathtaking ocean view.</li>
-                <li data-key="keccak-dance.modal.place.list-2"><strong>GWK Cultural Park</strong> – A cultural hub that regularly hosts the Kecak Dance along with other traditional Balinese performances.</li>
-                <li data-key="keccak-dance.modal.place.list-3"><strong>Pura Dalem Ubud</strong> – Located in the heart of Ubud, this temple offers a more intimate and traditional Kecak Dance experience.</li>
-            </ol>
+        <!-- YouTube Video Placeholder -->
+        <div class="video-wrapper">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/22XSn6Zz3Xs?si=Ujm1nbrdvhSw0bgL"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen></iframe>
         </div>
+
+        <br />
+        <h2 data-key="keccak-dance.modal.place.heading-2">Where to Find</h2>
+        <p data-key="keccak-dance.modal.place.description">
+          If you are interested in witnessing the Kecak Dance, there are several
+          iconic spots in Bali where you can experience this enchanting
+          performance:
+        </p>
+
+        <ol>
+          <li data-key="keccak-dance.modal.place.list-1">
+            <strong>Uluwatu Temple</strong> – Famous for its cliffside setting,
+            where the Kecak Dance is performed at sunset with a breathtaking
+            ocean view.
+          </li>
+          <li data-key="keccak-dance.modal.place.list-2">
+            <strong>GWK Cultural Park</strong> – A cultural hub that regularly
+            hosts the Kecak Dance along with other traditional Balinese
+            performances.
+          </li>
+          <li data-key="keccak-dance.modal.place.list-3">
+            <strong>Pura Dalem Ubud</strong> – Located in the heart of Ubud,
+            this temple offers a more intimate and traditional Kecak Dance
+            experience.
+          </li>
+        </ol>
+      </div>
     </div>
-    
+
     <!-- Legong Dance -->
     <div class="right-content">
-        <img src="asset/img/budaya-page-img/tarian-legong.jpg" alt="legong-dance" class="image">
-        <div class="right-text">
-            <h1 data-key="legong-dance.title">Legong Dance</h1>
-            <h3 data-key="legong-dance.description">The Graceful Classical Dance of Bali</h3>
-            <p data-key="legong-dance.paragraph-1">The Legong Dance is one of Bali's most refined classical dances, known for its intricate movements and deep cultural symbolism.</p><br> 
-            <p data-key="legong-dance.paragraph-2">Accompanied by a gamelan orchestra, Legong features detailed choreography with finger gestures, expressive faces, and synchronized eye movements—each carrying symbolic meaning in Balinese storytelling. Performances often depict tales from folklore or epics like the Malat, blending drama with elegance.</p><br> 
-            <p data-key="legong-dance.paragraph-3">Today, Legong is performed in temples for religious ceremonies as well as on stage for cultural showcases, bridging sacred ritual and public art. For travelers, it offers a glimpse into the sophistication of Balinese culture and the elegance of its traditions.</p>
-            
-            <div class="section-button">
-                <button class="love-btn" aria-label="Add to favorite">
-                    <i class="fa-regular fa-heart"></i>
-                </button>
-                <a href="#" class="btn-right" data-modal-target="modal-legong-dance">Learn More</a>
-            </div>
+      <img
+        src="asset/img/budaya-page-img/tarian-legong.jpg"
+        alt="legong-dance"
+        class="image" />
+      <div class="right-text">
+        <h1 data-key="legong-dance.title">Legong Dance</h1>
+        <h3 data-key="legong-dance.description">
+          The Graceful Classical Dance of Bali
+        </h3>
+        <p data-key="legong-dance.paragraph-1">
+          The Legong Dance is one of Bali's most refined classical dances, known
+          for its intricate movements and deep cultural symbolism.
+        </p>
+        <br />
+        <p data-key="legong-dance.paragraph-2">
+          Accompanied by a gamelan orchestra, Legong features detailed
+          choreography with finger gestures, expressive faces, and synchronized
+          eye movements—each carrying symbolic meaning in Balinese storytelling.
+          Performances often depict tales from folklore or epics like the Malat,
+          blending drama with elegance.
+        </p>
+        <br />
+        <p data-key="legong-dance.paragraph-3">
+          Today, Legong is performed in temples for religious ceremonies as well
+          as on stage for cultural showcases, bridging sacred ritual and public
+          art. For travelers, it offers a glimpse into the sophistication of
+          Balinese culture and the elegance of its traditions.
+        </p>
+
+        <div class="section-button">
+          <button class="love-btn" aria-label="Add to favorite">
+            <i class="fa-regular fa-heart"></i>
+          </button>
+          <a href="#" class="btn-right" data-modal-target="modal-legong-dance"
+            >Learn More</a
+          >
         </div>
+      </div>
     </div>
 
     <!-- Modal -->
     <div class="modal-overlay" id="modal-legong-dance">
-        <div class="modal-container">
-            <button class="close-btn" id="closeModal" aria-label="Close" data-close-btn>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round"/>
-                </svg>
-            </button>
-            
-            <h1 data-key="legong-dance.modal.heading-1">More About Legong Dance</h1> <br>
-        
-            <img src="asset/img/nature-page.jpg" alt="Nature Page Image" class="top-page"
-            >
-            <h2 data-key="legong-dance.modal.heading-2">Story Behind It</h2>            
-            <p data-key="legong-dance.modal.paragraph-1"> The Legong Dance is one of Bali’s most delicate and graceful traditional dances, originating from the royal courts of the 19th century. It is said that a Balinese prince once had a vision of two heavenly maidens moving in harmony to enchanting gamelan music. Inspired by this dream, he later ordered his court musicians and dancers to recreate the mesmerizing sight, giving birth to what is now known as the Legong Dance.</p><br> 
-            <p data-key="legong-dance.modal.paragraph-2">Over the centuries, the Legong Dance became a symbol of elegance and refinement. Traditionally, it was performed by young girls who had not yet reached puberty, chosen for their innocence and purity. Every movement, from the flick of the eyes to the tilt of the head, carries meaning and must synchronize perfectly with the rhythm of the gamelan orchestra.</p><br> 
-            <p data-key="legong-dance.modal.paragraph-3">Today, the Legong Dance continues to embody Bali’s devotion to art and spirituality. Though it has evolved into a form of cultural entertainment for visitors, its performance still reflects the sacred beauty and disciplined artistry of classical Balinese court life.</p><br> 
+      <div class="modal-container">
+        <button
+          class="close-btn"
+          id="closeModal"
+          aria-label="Close"
+          data-close-btn>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24"
+            height="24">
+            <path
+              d="M6 6 L18 18 M6 18 L18 6"
+              stroke="black"
+              stroke-width="2"
+              stroke-linecap="round" />
+          </svg>
+        </button>
 
-            <!-- YouTube Video Placeholder -->
-            <div class="video-wrapper">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/22XSn6Zz3Xs?si=Ujm1nbrdvhSw0bgL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-            <br>
-            <h2 data-key="legong-dance.modal.place.heading-2">Where to Find</h2>
-            <p data-key="legong-dance.modal.place.description">
-            If you are interested in witnessing the Legong Dance, there are several iconic spots in Bali where you can experience this enchanting performance:
-            </p>
-            <ol>
-                <li data-key="legong-dance.modal.place.list-1"><strong>Ubud Palace</strong> – The most popular venue for nightly Legong Dance performances.</li>
-                <li data-key="legong-dance.modal.place.list-2"><strong>Peliatan Village, Ubud</strong> – Known for its skilled traditional dance troupes.</li>
-                <li data-key="legong-dance.modal.place.list-3"><strong>Gianyar Cultural Hall</strong> – A stage for community and ceremonial performances.</li>
-                <li data-key="legong-dance.modal.place.list-4"><strong>Denpasar Art Center</strong> – Hosts Legong during cultural festivals and events.</li>
-                <li data-key="legong-dance.modal.place.list-5"><strong>Tourist resorts in Nusa Dua</strong> – Offer curated performances for cultural appreciation.</li>
+        <h1 data-key="legong-dance.modal.heading-1">More About Legong Dance</h1>
+        <br />
 
-            </ol>
+        <img
+          src="asset/img/budaya-page-img/tarian-legong.jpg"
+          alt="Nature Page Image"
+          class="top-page" />
+        <h2 data-key="legong-dance.modal.heading-2">Story Behind It</h2>
+        <p data-key="legong-dance.modal.paragraph-1">
+          The Legong Dance is one of Bali’s most delicate and graceful
+          traditional dances, originating from the royal courts of the 19th
+          century. It is said that a Balinese prince once had a vision of two
+          heavenly maidens moving in harmony to enchanting gamelan music.
+          Inspired by this dream, he later ordered his court musicians and
+          dancers to recreate the mesmerizing sight, giving birth to what is now
+          known as the Legong Dance.
+        </p>
+        <br />
+        <p data-key="legong-dance.modal.paragraph-2">
+          Over the centuries, the Legong Dance became a symbol of elegance and
+          refinement. Traditionally, it was performed by young girls who had not
+          yet reached puberty, chosen for their innocence and purity. Every
+          movement, from the flick of the eyes to the tilt of the head, carries
+          meaning and must synchronize perfectly with the rhythm of the gamelan
+          orchestra.
+        </p>
+        <br />
+        <p data-key="legong-dance.modal.paragraph-3">
+          Today, the Legong Dance continues to embody Bali’s devotion to art and
+          spirituality. Though it has evolved into a form of cultural
+          entertainment for visitors, its performance still reflects the sacred
+          beauty and disciplined artistry of classical Balinese court life.
+        </p>
+        <br />
+
+        <!-- YouTube Video Placeholder -->
+        <div class="video-wrapper">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/22XSn6Zz3Xs?si=Ujm1nbrdvhSw0bgL"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen></iframe>
         </div>
+        <br />
+        <h2 data-key="legong-dance.modal.place.heading-2">Where to Find</h2>
+        <p data-key="legong-dance.modal.place.description">
+          If you are interested in witnessing the Legong Dance, there are
+          several iconic spots in Bali where you can experience this enchanting
+          performance:
+        </p>
+        <ol>
+          <li data-key="legong-dance.modal.place.list-1">
+            <strong>Ubud Palace</strong> – The most popular venue for nightly
+            Legong Dance performances.
+          </li>
+          <li data-key="legong-dance.modal.place.list-2">
+            <strong>Peliatan Village, Ubud</strong> – Known for its skilled
+            traditional dance troupes.
+          </li>
+          <li data-key="legong-dance.modal.place.list-3">
+            <strong>Gianyar Cultural Hall</strong> – A stage for community and
+            ceremonial performances.
+          </li>
+          <li data-key="legong-dance.modal.place.list-4">
+            <strong>Denpasar Art Center</strong> – Hosts Legong during cultural
+            festivals and events.
+          </li>
+          <li data-key="legong-dance.modal.place.list-5">
+            <strong>Tourist resorts in Nusa Dua</strong> – Offer curated
+            performances for cultural appreciation.
+          </li>
+        </ol>
+      </div>
     </div>
 
     <!-- Barong Dance -->
     <div class="left-content" id="top-page">
-        <div class="left-text">
-            <h1 data-key="barong-dance.title">Barong Dance</h1>
-            <h3 data-key="barong-dance.description">The Eternal Battle Between Good and Evil</h3>
+      <div class="left-text">
+        <h1 data-key="barong-dance.title">Barong Dance</h1>
+        <h3 data-key="barong-dance.description">
+          The Eternal Battle Between Good and Evil
+        </h3>
 
-            <p data-key="barong-dance.paragraph-1">
-            The Barong Dance is one of Bali's most iconic traditions, portraying the timeless battle between good and evil. Barong, a lion-like protector, represents goodness, while Rangda, the terrifying demon queen, embodies chaos and destruction. Performed by dancers in elaborate costumes with dramatic masks, their confrontation is heightened by powerful gamelan music that builds intensity throughout the story.
-            </p><br>
+        <p data-key="barong-dance.paragraph-1">
+          The Barong Dance is one of Bali's most iconic traditions, portraying
+          the timeless battle between good and evil. Barong, a lion-like
+          protector, represents goodness, while Rangda, the terrifying demon
+          queen, embodies chaos and destruction. Performed by dancers in
+          elaborate costumes with dramatic masks, their confrontation is
+          heightened by powerful gamelan music that builds intensity throughout
+          the story.
+        </p>
+        <br />
 
-            <p data-key="barong-dance.paragraph-2">
-            Beyond performance, the dance is a sacred ritual rooted in the Hindu philosophy of Rwa Bhineda, the balance of life's opposing forces. Chanting, trance states, and spiritual energy often accompany the show, reinforcing its religious significance. Today, the Barong Dance is presented both in temples during ceremonies and on cultural stages, allowing audiences to witness a living expression of Bali's artistry, mythology, and spiritual worldview.
-            </p><br>
+        <p data-key="barong-dance.paragraph-2">
+          Beyond performance, the dance is a sacred ritual rooted in the Hindu
+          philosophy of Rwa Bhineda, the balance of life's opposing forces.
+          Chanting, trance states, and spiritual energy often accompany the
+          show, reinforcing its religious significance. Today, the Barong Dance
+          is presented both in temples during ceremonies and on cultural stages,
+          allowing audiences to witness a living expression of Bali's artistry,
+          mythology, and spiritual worldview.
+        </p>
+        <br />
 
-            <div class="section-button">
-            <button class="love-btn" aria-label="Add to favorite">
-                <i class="fa-regular fa-heart"></i>
-            </button>
-            <a href="#" class="btn-left" data-modal-target="modal-barong-dance" data-key="barong-dance.button-learn-more">Learn More</a>
-            </div>
+        <div class="section-button">
+          <button class="love-btn" aria-label="Add to favorite">
+            <i class="fa-regular fa-heart"></i>
+          </button>
+          <a
+            href="#"
+            class="btn-left"
+            data-modal-target="modal-barong-dance"
+            data-key="barong-dance.button-learn-more"
+            >Learn More</a
+          >
         </div>
-        <img src="asset/img/budaya-page-img/tarian-barong.jpg" alt="barong-dance" class="image">
+      </div>
+      <img
+        src="asset/img/budaya-page-img/tarian-barong.jpg"
+        alt="barong-dance"
+        class="image" />
     </div>
 
     <!-- Modal -->
     <div class="modal-overlay" id="modal-barong-dance">
-        <div class="modal-container">
-            <button class="close-btn" id="closeModal" aria-label="Close"data-close-btn>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round" />
-            </svg>
-            </button>
+      <div class="modal-container">
+        <button
+          class="close-btn"
+          id="closeModal"
+          aria-label="Close"
+          data-close-btn>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24"
+            height="24">
+            <path
+              d="M6 6 L18 18 M6 18 L18 6"
+              stroke="black"
+              stroke-width="2"
+              stroke-linecap="round" />
+          </svg>
+        </button>
 
-            <h1 data-key="barong-dance.modal.heading-1">More About Barong Dance</h1><br>
+        <h1 data-key="barong-dance.modal.heading-1">More About Barong Dance</h1>
+        <br />
 
-            <img src="asset/img/nature-page.jpg" alt="Nature Page Image" class="top-page">
+        <img
+          src="asset/img/budaya-page-img/tarian-barong.jpg"
+          alt="Nature Page Image"
+          class="top-page" />
 
-            <h2 data-key="barong-dance.modal.heading-2">Story Behind It</h2>
+        <h2 data-key="barong-dance.modal.heading-2">Story Behind It</h2>
 
-            <p data-key="barong-dance.modal.paragraph-1">
-            The Barong Dance represents the eternal battle between good and evil, one of the most iconic stories in Balinese mythology. Barong, a lion-like creature, symbolizes protection and virtue, while Rangda, the demon queen, embodies darkness and chaos. The dance is a dramatic retelling of their cosmic struggle, performed with intense energy, elaborate masks, and vibrant costumes.
-            </p><br>
+        <p data-key="barong-dance.modal.paragraph-1">
+          The Barong Dance represents the eternal battle between good and evil,
+          one of the most iconic stories in Balinese mythology. Barong, a
+          lion-like creature, symbolizes protection and virtue, while Rangda,
+          the demon queen, embodies darkness and chaos. The dance is a dramatic
+          retelling of their cosmic struggle, performed with intense energy,
+          elaborate masks, and vibrant costumes.
+        </p>
+        <br />
 
-            <p data-key="barong-dance.modal.paragraph-2">
-            Historically, the Barong was considered a guardian spirit of villages, believed to protect the people from sickness and misfortune. Performers often enter a trance-like state during the show, blurring the line between theater and ritual. The community sees it not just as a spectacle, but as a spiritual act to balance the forces of the universe.
-            </p><br>
+        <p data-key="barong-dance.modal.paragraph-2">
+          Historically, the Barong was considered a guardian spirit of villages,
+          believed to protect the people from sickness and misfortune.
+          Performers often enter a trance-like state during the show, blurring
+          the line between theater and ritual. The community sees it not just as
+          a spectacle, but as a spiritual act to balance the forces of the
+          universe.
+        </p>
+        <br />
 
-            <p data-key="barong-dance.modal.paragraph-3">
-            The Barong Dance reflects the Balinese philosophy of Rwa Bhineda, the coexistence of opposing elements like good and evil. It teaches that harmony is achieved not through destruction, but through maintaining balance in all aspects of life.
-            </p><br>
+        <p data-key="barong-dance.modal.paragraph-3">
+          The Barong Dance reflects the Balinese philosophy of Rwa Bhineda, the
+          coexistence of opposing elements like good and evil. It teaches that
+          harmony is achieved not through destruction, but through maintaining
+          balance in all aspects of life.
+        </p>
+        <br />
 
-            <!-- YouTube Video Placeholder -->
-            <div class="video-wrapper">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/22XSn6Zz3Xs?si=Ujm1nbrdvhSw0bgL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div><br>
-
-            <h2 data-key="barong-dance.modal.place.heading-2">Where to Find</h2>
-
-            <p data-key="barong-dance.modal.place.description">
-            If you are interested in witnessing the Barong Dance, there are several iconic spots in Bali where you can experience this enchanting performance:
-            </p>
-
-            <ol>
-                <li data-key="barong-dance.modal.place.list-1"><strong>Batubulan Village</strong> – The most famous spot for daily Barong performances.</li>
-                <li data-key="barong-dance.modal.place.list-2"><strong>Ubud Palace</strong> – Hosts Barong and Keris dances regularly.</li>
-                <li data-key="barong-dance.modal.place.list-3"><strong>Gianyar Stage Theater</strong> – Features large-scale ceremonial versions.</li>
-                <li data-key="barong-dance.modal.place.list-4"><strong>Taman Ayun Cultural Park</strong> – Offers Barong shows with temple backdrops.</li>
-                <li data-key="barong-dance.modal.place.list-5"><strong>Tourist centers in Kuta and Sanur</strong> – Provide easy access to modern Barong shows.</li>
-            </ol>
+        <!-- YouTube Video Placeholder -->
+        <div class="video-wrapper">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/22XSn6Zz3Xs?si=Ujm1nbrdvhSw0bgL"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen></iframe>
         </div>
+        <br />
+
+        <h2 data-key="barong-dance.modal.place.heading-2">Where to Find</h2>
+
+        <p data-key="barong-dance.modal.place.description">
+          If you are interested in witnessing the Barong Dance, there are
+          several iconic spots in Bali where you can experience this enchanting
+          performance:
+        </p>
+
+        <ol>
+          <li data-key="barong-dance.modal.place.list-1">
+            <strong>Batubulan Village</strong> – The most famous spot for daily
+            Barong performances.
+          </li>
+          <li data-key="barong-dance.modal.place.list-2">
+            <strong>Ubud Palace</strong> – Hosts Barong and Keris dances
+            regularly.
+          </li>
+          <li data-key="barong-dance.modal.place.list-3">
+            <strong>Gianyar Stage Theater</strong> – Features large-scale
+            ceremonial versions.
+          </li>
+          <li data-key="barong-dance.modal.place.list-4">
+            <strong>Taman Ayun Cultural Park</strong> – Offers Barong shows with
+            temple backdrops.
+          </li>
+          <li data-key="barong-dance.modal.place.list-5">
+            <strong>Tourist centers in Kuta and Sanur</strong> – Provide easy
+            access to modern Barong shows.
+          </li>
+        </ol>
+      </div>
     </div>
 
     <!-- Balinese Offerings -->
     <div class="right-content">
-        <img src="asset/img/budaya-page-img/persembahan-bali.jpg" alt="balinese-offerings" class="image">
-        <div class="right-text">
-            <h1 data-key="balinese-offerings.title">Balinese Offerings</h1>
-            <h3 data-key="balinese-offerings.description">The Sacred Tradition of Balinese Offerings</h3>
-            <p data-key="balinese-offerings.paragraph-1">
-            In Bali, spirituality is woven into daily life, and one of its most visible symbols is the offering called <b>canang sari</b>. Made from coconut leaves and filled with flowers, rice, incense, or coins, these small baskets are placed in temples, shrines, homes, and businesses as gestures of gratitude and harmony between the spiritual and physical worlds.
-            </p><br>
-            <p data-key="balinese-offerings.paragraph-2">
-            Preparing offerings is a daily act of devotion, often done by women each morning. Flowers are arranged by symbolic color, accompanied by prayers for blessings and protection. The incense smoke carries these prayers to the divine, turning routine activity into a sacred ritual.
-            </p><br>
-            <p data-key="balinese-offerings.paragraph-3">
-            For visitors, the colorful offerings scattered across streets and temples may seem decorative, but for the Balinese, they are a living tradition. This practice blends Hindu beliefs with local customs, showing that spirituality in Bali flows through everyday life.
-            </p>
+      <img
+        src="asset/img/budaya-page-img/persembahan-bali.jpg"
+        alt="balinese-offerings"
+        class="image" />
+      <div class="right-text">
+        <h1 data-key="balinese-offerings.title">Balinese Offerings</h1>
+        <h3 data-key="balinese-offerings.description">
+          The Sacred Tradition of Balinese Offerings
+        </h3>
+        <p data-key="balinese-offerings.paragraph-1">
+          In Bali, spirituality is woven into daily life, and one of its most
+          visible symbols is the offering called <b>canang sari</b>. Made from
+          coconut leaves and filled with flowers, rice, incense, or coins, these
+          small baskets are placed in temples, shrines, homes, and businesses as
+          gestures of gratitude and harmony between the spiritual and physical
+          worlds.
+        </p>
+        <br />
+        <p data-key="balinese-offerings.paragraph-2">
+          Preparing offerings is a daily act of devotion, often done by women
+          each morning. Flowers are arranged by symbolic color, accompanied by
+          prayers for blessings and protection. The incense smoke carries these
+          prayers to the divine, turning routine activity into a sacred ritual.
+        </p>
+        <br />
+        <p data-key="balinese-offerings.paragraph-3">
+          For visitors, the colorful offerings scattered across streets and
+          temples may seem decorative, but for the Balinese, they are a living
+          tradition. This practice blends Hindu beliefs with local customs,
+          showing that spirituality in Bali flows through everyday life.
+        </p>
 
-            <div class="section-button">
-                <button class="love-btn" aria-label="Add to favorite">
-                    <i class="fa-regular fa-heart"></i>
-                </button>
-                <a href="#" class="btn-right" data-modal-target="modal-legong-dance">Learn More</a>
-            </div>
+        <div class="section-button">
+          <button class="love-btn" aria-label="Add to favorite">
+            <i class="fa-regular fa-heart"></i>
+          </button>
+          <a href="#" class="btn-right" data-modal-target="modal-legong-dance"
+            >Learn More</a
+          >
         </div>
+      </div>
     </div>
-    
+
     <!-- Modal -->
     <div class="modal-overlay" id="modal-bali-offering">
-        <div class="modal-container">
-            <button class="close-btn" id="closeModal" aria-label="Close" data-close-btn>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round" />
-            </svg>
-            </button>
+      <div class="modal-container">
+        <button
+          class="close-btn"
+          id="closeModal"
+          aria-label="Close"
+          data-close-btn>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24"
+            height="24">
+            <path
+              d="M6 6 L18 18 M6 18 L18 6"
+              stroke="black"
+              stroke-width="2"
+              stroke-linecap="round" />
+          </svg>
+        </button>
 
-            <h1 data-key="balinese-offerings.modal.heading-1">More About Balinese Offerings</h1><br>
+        <h1 data-key="balinese-offerings.modal.heading-1">
+          More About Balinese Offerings
+        </h1>
+        <br />
 
-            <img src="asset/img/nature-page.jpg" alt="Nature Page Image" class="top-page">
+        <img
+          src="asset/img/budaya-page-img/persembahan-bali.jpg"
+          alt="Nature Page Image"
+          class="top-page" />
 
-            <h2 data-key="balinese-offerings.modal.heading-2">Story Behind It</h2>
+        <h2 data-key="balinese-offerings.modal.heading-2">Story Behind It</h2>
 
-            <p data-key="balinese-offerings.modal.paragraph-1">
-            Balinese offerings, known as Canang Sari, are small, handwoven trays made from palm leaves filled with flowers, rice, and incense. These offerings are created daily to express gratitude and maintain harmony between humans, nature, and the divine. Each color and item used holds symbolic meaning — white flowers for Shiva, red for Brahma, and yellow for Vishnu.
-            </p><br>
+        <p data-key="balinese-offerings.modal.paragraph-1">
+          Balinese offerings, known as Canang Sari, are small, handwoven trays
+          made from palm leaves filled with flowers, rice, and incense. These
+          offerings are created daily to express gratitude and maintain harmony
+          between humans, nature, and the divine. Each color and item used holds
+          symbolic meaning — white flowers for Shiva, red for Brahma, and yellow
+          for Vishnu.
+        </p>
+        <br />
 
-            <p data-key="balinese-offerings.modal.paragraph-2">
-            The act of making offerings is a spiritual practice passed down through generations. Women usually prepare them in the early morning, a meditative process that brings peace and mindfulness. Once completed, the offerings are placed at temples, shrines, and even on the ground, acknowledging both good and mischievous spirits.
-            </p><br>
+        <p data-key="balinese-offerings.modal.paragraph-2">
+          The act of making offerings is a spiritual practice passed down
+          through generations. Women usually prepare them in the early morning,
+          a meditative process that brings peace and mindfulness. Once
+          completed, the offerings are placed at temples, shrines, and even on
+          the ground, acknowledging both good and mischievous spirits.
+        </p>
+        <br />
 
-            <p data-key="balinese-offerings.modal.paragraph-3">
-            This simple yet profound ritual represents the Balinese way of life — one centered on devotion, respect, and constant balance between the seen and unseen worlds.
-            </p><br>
+        <p data-key="balinese-offerings.modal.paragraph-3">
+          This simple yet profound ritual represents the Balinese way of life —
+          one centered on devotion, respect, and constant balance between the
+          seen and unseen worlds.
+        </p>
+        <br />
 
-            <!-- YouTube Video Placeholder -->
-            <div class="video-wrapper">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/22XSn6Zz3Xs?si=Ujm1nbrdvhSw0bgL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div><br>
-
-            <h2 data-key="balinese-offerings.modal.place.heading-2">Where to Find</h2>
-
-            <p data-key="balinese-offerings.modal.place.description">
-            If you are interested in witnessing the Balinese Offering, there are several iconic spots in Bali where you can find that:
-            </p>
-
-            <ol>
-            <li data-key="balinese-offerings.modal.place.list-1"><strong>Every Balinese household</strong> – You’ll find small offerings placed at gates and shrines.</li>
-            <li data-key="balinese-offerings.modal.place.list-2"><strong>Ubud Market</strong> – See locals selling beautifully crafted offerings.</li>
-            <li data-key="balinese-offerings.modal.place.list-3"><strong>Traditional villages like Penglipuran</strong> – Observe the communal preparation process.</li>
-            </ol>
+        <!-- YouTube Video Placeholder -->
+        <div class="video-wrapper">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/22XSn6Zz3Xs?si=Ujm1nbrdvhSw0bgL"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen></iframe>
         </div>
+        <br />
+
+        <h2 data-key="balinese-offerings.modal.place.heading-2">
+          Where to Find
+        </h2>
+
+        <p data-key="balinese-offerings.modal.place.description">
+          If you are interested in witnessing the Balinese Offering, there are
+          several iconic spots in Bali where you can find that:
+        </p>
+
+        <ol>
+          <li data-key="balinese-offerings.modal.place.list-1">
+            <strong>Every Balinese household</strong> – You’ll find small
+            offerings placed at gates and shrines.
+          </li>
+          <li data-key="balinese-offerings.modal.place.list-2">
+            <strong>Ubud Market</strong> – See locals selling beautifully
+            crafted offerings.
+          </li>
+          <li data-key="balinese-offerings.modal.place.list-3">
+            <strong>Traditional villages like Penglipuran</strong> – Observe the
+            communal preparation process.
+          </li>
+        </ol>
+      </div>
     </div>
 
     <!-- Ngaben -->
     <div class="left-content">
-        <div class="left-text">
-            <h1 data-key="ngaben.title">Ngaben</h1>
-            <h3 data-key="ngaben.description">The Sacred Cremation Ceremony</h3>
+      <div class="left-text">
+        <h1 data-key="ngaben.title">Ngaben</h1>
+        <h3 data-key="ngaben.description">The Sacred Cremation Ceremony</h3>
 
-            <p data-key="ngaben.paragraph-1">
-            Ngaben is one of Bali's most significant and visually striking ceremonies. Unlike funerals in many cultures, Ngaben is not an expression of sorrow but a joyful ritual of release. Families build elaborate sarcophagi or towers, often in the shape of animals or mythological creatures, to carry the deceased in a grand procession. Gamelan music, chanting, and offerings accompany the journey, culminating in the cremation fire that frees the soul from earthly attachments.
-            </p><br>
+        <p data-key="ngaben.paragraph-1">
+          Ngaben is one of Bali's most significant and visually striking
+          ceremonies. Unlike funerals in many cultures, Ngaben is not an
+          expression of sorrow but a joyful ritual of release. Families build
+          elaborate sarcophagi or towers, often in the shape of animals or
+          mythological creatures, to carry the deceased in a grand procession.
+          Gamelan music, chanting, and offerings accompany the journey,
+          culminating in the cremation fire that frees the soul from earthly
+          attachments.
+        </p>
+        <br />
 
-            <p data-key="ngaben.paragraph-2">
-            For the Balinese, Ngaben is a celebration of life and death, embodying the Hindu belief in reincarnation. It is a powerful reminder that death is not an end but a transition to a new beginning.
-            </p><br>
+        <p data-key="ngaben.paragraph-2">
+          For the Balinese, Ngaben is a celebration of life and death, embodying
+          the Hindu belief in reincarnation. It is a powerful reminder that
+          death is not an end but a transition to a new beginning.
+        </p>
+        <br />
 
-            <div class="section-button">
-            <button class="love-btn" aria-label="Add to favorite">
-                <i class="fa-regular fa-heart"></i>
-            </button>
-            <a href="#" class="btn-left" data-modal-target="modal-ngaben" data-key="ngaben.button-learn-more">Learn More</a>
-            </div>
+        <div class="section-button">
+          <button class="love-btn" aria-label="Add to favorite">
+            <i class="fa-regular fa-heart"></i>
+          </button>
+          <a
+            href="#"
+            class="btn-left"
+            data-modal-target="modal-ngaben"
+            data-key="ngaben.button-learn-more"
+            >Learn More</a
+          >
         </div>
-        <img src="asset/img/budaya-page-img/ngaben.jpg" alt="ngaben" class="image">
+      </div>
+      <img
+        src="asset/img/budaya-page-img/ngaben.jpg"
+        alt="ngaben"
+        class="image" />
     </div>
 
     <!-- Modal -->
     <div class="modal-overlay" id="modal-ngaben">
-        <div class="modal-container">
-            <button class="close-btn" id="closeModal" aria-label="Close" data-close-btn>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round"/>
-                </svg>
-            </button>
-            
-            <h1 data-key="ngaben.modal.heading-1">More About Ngaben</h1><br>
+      <div class="modal-container">
+        <button
+          class="close-btn"
+          id="closeModal"
+          aria-label="Close"
+          data-close-btn>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24"
+            height="24">
+            <path
+              d="M6 6 L18 18 M6 18 L18 6"
+              stroke="black"
+              stroke-width="2"
+              stroke-linecap="round" />
+          </svg>
+        </button>
 
-            <img src="asset/img/nature-page.jpg" alt="Nature Page Image" class="top-page">
+        <h1 data-key="ngaben.modal.heading-1">More About Ngaben</h1>
+        <br />
 
-            <h2 data-key="ngaben.modal.heading-2">Story Behind It</h2>
+        <img
+          src="asset/img/budaya-page-img/ngaben.jpg"
+          alt="Nature Page Image"
+          class="top-page" />
 
-            <p data-key="ngaben.modal.paragraph-1">
-            Ngaben, or the Balinese cremation ceremony, is one of the most sacred rituals in Bali. It symbolizes the release of the soul from the physical body to return to the spiritual realm and begin its next journey toward reincarnation.
-            </p><br>
+        <h2 data-key="ngaben.modal.heading-2">Story Behind It</h2>
 
-            <p data-key="ngaben.modal.paragraph-2">
-            During Ngaben, a lavishly decorated tower called <b>bade</b> carries the deceased through the village streets, accompanied by gamelan music and chants. The atmosphere, though solemn, is also celebratory — a reflection of the Balinese belief that death is not an end, but a transition.
-            </p><br>
+        <p data-key="ngaben.modal.paragraph-1">
+          Ngaben, or the Balinese cremation ceremony, is one of the most sacred
+          rituals in Bali. It symbolizes the release of the soul from the
+          physical body to return to the spiritual realm and begin its next
+          journey toward reincarnation.
+        </p>
+        <br />
 
-            <p data-key="ngaben.modal.paragraph-3">
-            Families often prepare for months or even years to perform Ngaben properly. It unites the community in a shared expression of respect and joy, honoring both life and the cycle of rebirth.
-            </p><br>
+        <p data-key="ngaben.modal.paragraph-2">
+          During Ngaben, a lavishly decorated tower called <b>bade</b> carries
+          the deceased through the village streets, accompanied by gamelan music
+          and chants. The atmosphere, though solemn, is also celebratory — a
+          reflection of the Balinese belief that death is not an end, but a
+          transition.
+        </p>
+        <br />
+
+        <p data-key="ngaben.modal.paragraph-3">
+          Families often prepare for months or even years to perform Ngaben
+          properly. It unites the community in a shared expression of respect
+          and joy, honoring both life and the cycle of rebirth.
+        </p>
+        <br />
 
         <!-- YouTube Video Placeholder -->
         <div class="video-wrapper">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/22XSn6Zz3Xs?si=Ujm1nbrdvhSw0bgL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div><br>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/22XSn6Zz3Xs?si=Ujm1nbrdvhSw0bgL"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen></iframe>
+        </div>
+        <br />
 
         <h2 data-key="ngaben.modal.place.heading-2">Where to Find</h2>
 
         <p data-key="ngaben.modal.place.description">
-        If you are interested in witnessing the Ngaben ceremony, there are several iconic spots in Bali where you can find that:
+          If you are interested in witnessing the Ngaben ceremony, there are
+          several iconic spots in Bali where you can find that:
         </p>
 
         <ol>
-        <li data-key="ngaben.modal.place.list-1"><strong>Ubud and Gianyar regions</strong> – Host traditional Ngaben ceremonies open to visitors.</li>
-        <li data-key="ngaben.modal.place.list-2"><strong>Klungkung Regency</strong> – Known for grand royal Ngaben ceremonies.</li>
-        <li data-key="ngaben.modal.place.list-3"><strong>Sanur Beach area</strong> – Sometimes holds public cremation ceremonies near the beach.</li>
+          <li data-key="ngaben.modal.place.list-1">
+            <strong>Ubud and Gianyar regions</strong> – Host traditional Ngaben
+            ceremonies open to visitors.
+          </li>
+          <li data-key="ngaben.modal.place.list-2">
+            <strong>Klungkung Regency</strong> – Known for grand royal Ngaben
+            ceremonies.
+          </li>
+          <li data-key="ngaben.modal.place.list-3">
+            <strong>Sanur Beach area</strong> – Sometimes holds public cremation
+            ceremonies near the beach.
+          </li>
         </ol>
-    </div>
+      </div>
     </div>
 
     <!-- Melasti -->
     <div class="right-content">
-        <img src="asset/img/budaya-page-img/melasti.jpg" alt="melasti" class="image">
-        <div class="right-text">
-            <h1 data-key="melasti.title">Melasti</h1>
-            <h3 data-key="melasti.description">The Ritual of Purification</h3>
+      <img
+        src="asset/img/budaya-page-img/melasti.jpg"
+        alt="melasti"
+        class="image" />
+      <div class="right-text">
+        <h1 data-key="melasti.title">Melasti</h1>
+        <h3 data-key="melasti.description">The Ritual of Purification</h3>
 
-            <p data-key="melasti.paragraph-1">
-                Melasti is a sacred ceremony held before Nyepi, the Balinese Day of Silence. In this ritual, villagers dress in traditional white clothing and carry sacred temple objects to the sea, lakes, or rivers for purification. Through prayers, offerings, and immersion in holy water, participants cleanse themselves and their surroundings from impurities and negative forces.
-            </p><br>
+        <p data-key="melasti.paragraph-1">
+          Melasti is a sacred ceremony held before Nyepi, the Balinese Day of
+          Silence. In this ritual, villagers dress in traditional white clothing
+          and carry sacred temple objects to the sea, lakes, or rivers for
+          purification. Through prayers, offerings, and immersion in holy water,
+          participants cleanse themselves and their surroundings from impurities
+          and negative forces.
+        </p>
+        <br />
 
-            <p data-key="melasti.paragraph-2">
-                The visual spectacle of long processions moving toward the sea, accompanied by gamelan music and colorful offerings, symbolizes harmony between humans, nature, and the divine. Melasti reflects the Balinese commitment to balance and renewal.
-            </p><br>
+        <p data-key="melasti.paragraph-2">
+          The visual spectacle of long processions moving toward the sea,
+          accompanied by gamelan music and colorful offerings, symbolizes
+          harmony between humans, nature, and the divine. Melasti reflects the
+          Balinese commitment to balance and renewal.
+        </p>
+        <br />
 
-            <div class="section-button">
-                <button class="love-btn" aria-label="Add to favorite">
-                    <i class="fa-regular fa-heart"></i>
-                </button>
-                <a href="#" class="btn-right" data-modal-target="modal-melasti" data-key="melasti.button-learn-more">Learn More</a>
-            </div>
+        <div class="section-button">
+          <button class="love-btn" aria-label="Add to favorite">
+            <i class="fa-regular fa-heart"></i>
+          </button>
+          <a
+            href="#"
+            class="btn-right"
+            data-modal-target="modal-melasti"
+            data-key="melasti.button-learn-more"
+            >Learn More</a
+          >
         </div>
+      </div>
     </div>
 
     <!-- Modal -->
     <div class="modal-overlay" id="modal-melasti">
-        <div class="modal-container">
-            <button class="close-btn" id="closeModal" aria-label="Close" data-close-btn>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                    <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round"/>
-                </svg>
-            </button>
+      <div class="modal-container">
+        <button
+          class="close-btn"
+          id="closeModal"
+          aria-label="Close"
+          data-close-btn>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24"
+            height="24">
+            <path
+              d="M6 6 L18 18 M6 18 L18 6"
+              stroke="black"
+              stroke-width="2"
+              stroke-linecap="round" />
+          </svg>
+        </button>
 
-            <h1 data-key="melasti.modal.heading-1">More About Melasti</h1><br>
+        <h1 data-key="melasti.modal.heading-1">More About Melasti</h1>
+        <br />
 
-            <img src="asset/img/nature-page.jpg" alt="Nature Page Image" class="top-page">
+        <img
+          src="asset/img/budaya-page-img/melasti.jpg"
+          alt="Nature Page Image"
+          class="top-page" />
 
-            <h2 data-key="melasti.modal.heading-2">Story Behind It</h2>
+        <h2 data-key="melasti.modal.heading-2">Story Behind It</h2>
 
-            <p data-key="melasti.modal.paragraph-1">
-                Melasti is a purification ceremony held several days before Nyepi, the Balinese Day of Silence. During Melasti, villagers carry temple heirlooms and sacred objects to the sea, lake, or spring to be cleansed. The ritual symbolizes the purification of both the physical world and the human spirit.
-            </p><br>
+        <p data-key="melasti.modal.paragraph-1">
+          Melasti is a purification ceremony held several days before Nyepi, the
+          Balinese Day of Silence. During Melasti, villagers carry temple
+          heirlooms and sacred objects to the sea, lake, or spring to be
+          cleansed. The ritual symbolizes the purification of both the physical
+          world and the human spirit.
+        </p>
+        <br />
 
-            <p data-key="melasti.modal.paragraph-2">
-                Participants dress in white, forming long processions that stretch for kilometers. The sight of hundreds of people walking toward the water with colorful parasols and gamelan music is breathtaking — a powerful image of unity and faith.
-            </p><br>
+        <p data-key="melasti.modal.paragraph-2">
+          Participants dress in white, forming long processions that stretch for
+          kilometers. The sight of hundreds of people walking toward the water
+          with colorful parasols and gamelan music is breathtaking — a powerful
+          image of unity and faith.
+        </p>
+        <br />
 
-            <p data-key="melasti.modal.paragraph-3">
-                Melasti reminds the Balinese that all forms of life must be purified regularly to maintain balance with the divine.
-            </p><br>
+        <p data-key="melasti.modal.paragraph-3">
+          Melasti reminds the Balinese that all forms of life must be purified
+          regularly to maintain balance with the divine.
+        </p>
+        <br />
 
-            <!-- YouTube Video Placeholder -->
-            <div class="video-wrapper">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/22XSn6Zz3Xs?si=Ujm1nbrdvhSw0bgL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div><br>
-
-            <h2 data-key="melasti.modal.place.heading-2">Where to Find</h2>
-
-            <p data-key="melasti.modal.place.description">
-                If you are interested in witnessing the Melasti, there are several iconic spots in Bali where you can find that:
-            </p>
-
-            <ol>
-                <li data-key="melasti.modal.place.list-1"><strong>Kuta Beach</strong> – One of the most famous sites for large Melasti processions.</li>
-                <li data-key="melasti.modal.place.list-2"><strong>Sanur Beach</strong> – A quieter, spiritual place for purification rituals.</li>
-                <li data-key="melasti.modal.place.list-3"><strong>Candidasa Beach</strong> – Eastern Bali’s serene Melasti gathering spot.</li>
-            </ol>
+        <!-- YouTube Video Placeholder -->
+        <div class="video-wrapper">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/22XSn6Zz3Xs?si=Ujm1nbrdvhSw0bgL"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen></iframe>
         </div>
+        <br />
+
+        <h2 data-key="melasti.modal.place.heading-2">Where to Find</h2>
+
+        <p data-key="melasti.modal.place.description">
+          If you are interested in witnessing the Melasti, there are several
+          iconic spots in Bali where you can find that:
+        </p>
+
+        <ol>
+          <li data-key="melasti.modal.place.list-1">
+            <strong>Kuta Beach</strong> – One of the most famous sites for large
+            Melasti processions.
+          </li>
+          <li data-key="melasti.modal.place.list-2">
+            <strong>Sanur Beach</strong> – A quieter, spiritual place for
+            purification rituals.
+          </li>
+          <li data-key="melasti.modal.place.list-3">
+            <strong>Candidasa Beach</strong> – Eastern Bali’s serene Melasti
+            gathering spot.
+          </li>
+        </ol>
+      </div>
     </div>
 
     <!-- Galungan dan Kuningan -->
     <div class="left-content">
-        <div class="left-text">
-            <h1 data-key="galungan-kuningan.title">Galungan and Kuningan</h1>
-            <h3 data-key="galungan-kuningan.description">The Celebration of Dharma's Victory</h3>
+      <div class="left-text">
+        <h1 data-key="galungan-kuningan.title">Galungan and Kuningan</h1>
+        <h3 data-key="galungan-kuningan.description">
+          The Celebration of Dharma's Victory
+        </h3>
 
-            <p data-key="galungan-kuningan.paragraph-1">
-                Galungan is one of Bali's most important festivals, celebrating the triumph of dharma (good) over adharma (evil). It marks the time when ancestral spirits return to visit the earth, welcomed by families with offerings, prayers, and decorated bamboo poles called penjor. The entire island transforms into a tapestry of devotion, with penjor lining the streets and households preparing elaborate rituals.
-            </p><br>
+        <p data-key="galungan-kuningan.paragraph-1">
+          Galungan is one of Bali's most important festivals, celebrating the
+          triumph of dharma (good) over adharma (evil). It marks the time when
+          ancestral spirits return to visit the earth, welcomed by families with
+          offerings, prayers, and decorated bamboo poles called penjor. The
+          entire island transforms into a tapestry of devotion, with penjor
+          lining the streets and households preparing elaborate rituals.
+        </p>
+        <br />
 
-            <p data-key="galungan-kuningan.paragraph-2">
-                For the Balinese, Ngaben is a celebration of life and death, embodying the Hindu belief in reincarnation. It is a powerful reminder that death is not an end but a transition to a new beginning.
-            </p><br>
+        <p data-key="galungan-kuningan.paragraph-2">
+          For the Balinese, Ngaben is a celebration of life and death, embodying
+          the Hindu belief in reincarnation. It is a powerful reminder that
+          death is not an end but a transition to a new beginning.
+        </p>
+        <br />
 
-            <div class="section-button">
-                <button class="love-btn" aria-label="Add to favorite">
-                    <i class="fa-regular fa-heart"></i>
-                </button>
-                <a href="#" class="btn-left" data-modal-target="modal-galungan-kuningan" data-key="galungan-kuningan.button-learn-more">Learn More</a>
-            </div>
+        <div class="section-button">
+          <button class="love-btn" aria-label="Add to favorite">
+            <i class="fa-regular fa-heart"></i>
+          </button>
+          <a
+            href="#"
+            class="btn-left"
+            data-modal-target="modal-galungan-kuningan"
+            data-key="galungan-kuningan.button-learn-more"
+            >Learn More</a
+          >
         </div>
-        <img src="asset/img/budaya-page-img/galungan-dan-kuningan.jpg" alt="galungan-dan-kuningan" class="image">
+      </div>
+      <img
+        src="asset/img/budaya-page-img/galungan-dan-kuningan.jpg"
+        alt="galungan-dan-kuningan"
+        class="image" />
     </div>
 
     <!-- Modal -->
     <div class="modal-overlay" id="modal-galungan-kuningan">
-        <div class="modal-container">
-            <button class="close-btn" id="closeModal" aria-label="Close" data-close-btn>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                    <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round"/>
-                </svg>
-            </button>
+      <div class="modal-container">
+        <button
+          class="close-btn"
+          id="closeModal"
+          aria-label="Close"
+          data-close-btn>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24"
+            height="24">
+            <path
+              d="M6 6 L18 18 M6 18 L18 6"
+              stroke="black"
+              stroke-width="2"
+              stroke-linecap="round" />
+          </svg>
+        </button>
 
-            <h1 data-key="galungan-kuningan.modal.heading-1">More About Galungan and Kuningan</h1><br>
+        <h1 data-key="galungan-kuningan.modal.heading-1">
+          More About Galungan and Kuningan
+        </h1>
+        <br />
 
-            <img src="asset/img/nature-page.jpg" alt="Nature Page Image" class="top-page">
+        <img
+          src="asset/img/budaya-page-img/galungan-dan-kuningan.jpg"
+          alt="Nature Page Image"
+          class="top-page" />
 
-            <h2 data-key="galungan-kuningan.modal.heading-2">Story Behind It</h2>
+        <h2 data-key="galungan-kuningan.modal.heading-2">Story Behind It</h2>
 
-            <p data-key="galungan-kuningan.modal.paragraph-1">
-                Galungan and Kuningan are major Balinese festivals that celebrate the victory of dharma (good) over adharma (evil). During Galungan, it is believed that ancestral spirits return to visit their homes, while Kuningan marks their return to the heavens.
-            </p><br>
+        <p data-key="galungan-kuningan.modal.paragraph-1">
+          Galungan and Kuningan are major Balinese festivals that celebrate the
+          victory of dharma (good) over adharma (evil). During Galungan, it is
+          believed that ancestral spirits return to visit their homes, while
+          Kuningan marks their return to the heavens.
+        </p>
+        <br />
 
-            <p data-key="galungan-kuningan.modal.paragraph-2">
-                Homes and streets are decorated with tall bamboo poles called penjor, symbolizing prosperity and gratitude. Families reunite, make offerings, and visit temples to honor their ancestors.
-            </p><br>
+        <p data-key="galungan-kuningan.modal.paragraph-2">
+          Homes and streets are decorated with tall bamboo poles called penjor,
+          symbolizing prosperity and gratitude. Families reunite, make
+          offerings, and visit temples to honor their ancestors.
+        </p>
+        <br />
 
-            <p data-key="galungan-kuningan.modal.paragraph-3">
-                These festivals embody the essence of Balinese spirituality — reverence for heritage, family, and the unseen forces that guide life.
-            </p><br>
+        <p data-key="galungan-kuningan.modal.paragraph-3">
+          These festivals embody the essence of Balinese spirituality —
+          reverence for heritage, family, and the unseen forces that guide life.
+        </p>
+        <br />
 
-            <!-- YouTube Video Placeholder -->
-            <div class="video-wrapper">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/22XSn6Zz3Xs?si=Ujm1nbrdvhSw0bgL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div><br>
-
-            <h2 data-key="galungan-kuningan.modal.place.heading-2">Where to Find</h2>
-
-            <p data-key="galungan-kuningan.modal.place.description">
-                If you are interested in witnessing the Galungan and Kuningan, there are several iconic spots in Bali where you can find that:
-            </p>
-
-            <ol>
-                <li data-key="galungan-kuningan.modal.place.list-1"><strong>Every Balinese village</strong> – Streets lined with penjor during the celebration.</li>
-                <li data-key="galungan-kuningan.modal.place.list-2"><strong>Pura Besakih</strong> – The central temple hosts vibrant ceremonies.</li>
-                <li data-key="galungan-kuningan.modal.place.list-3"><strong>Denpasar City</strong> – Urban parades and cultural performances take place.</li>
-            </ol>
+        <!-- YouTube Video Placeholder -->
+        <div class="video-wrapper">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/22XSn6Zz3Xs?si=Ujm1nbrdvhSw0bgL"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen></iframe>
         </div>
+        <br />
+
+        <h2 data-key="galungan-kuningan.modal.place.heading-2">
+          Where to Find
+        </h2>
+
+        <p data-key="galungan-kuningan.modal.place.description">
+          If you are interested in witnessing the Galungan and Kuningan, there
+          are several iconic spots in Bali where you can find that:
+        </p>
+
+        <ol>
+          <li data-key="galungan-kuningan.modal.place.list-1">
+            <strong>Every Balinese village</strong> – Streets lined with penjor
+            during the celebration.
+          </li>
+          <li data-key="galungan-kuningan.modal.place.list-2">
+            <strong>Pura Besakih</strong> – The central temple hosts vibrant
+            ceremonies.
+          </li>
+          <li data-key="galungan-kuningan.modal.place.list-3">
+            <strong>Denpasar City</strong> – Urban parades and cultural
+            performances take place.
+          </li>
+        </ol>
+      </div>
     </div>
 
     <!-- Cultural House -->
     <div class="right-content" data-key="culturalHouse.section">
-        <img src="asset/img/budaya-page-img/rumah-budaya.jpg" alt="rumah-budaya" class="image" data-key="culturalHouse.imageAlt">
-        <div class="right-text">
-            <h1 data-key="culturalHouse.title">Cultural House</h1>
-            <h3 data-key="culturalHouse.subtitle">Preserving Bali's Identity and Tradition</h3>
-            
-            <p data-key="culturalHouse.paragraph1">
-                Cultural houses in Bali are vital spaces that preserve the island's heritage of art, tradition, and philosophy. 
-                Inside, visitors can find wood carvings, woven fabrics, and ceremonial items that carry deep spiritual meaning. 
-                More than a museum, a cultural house is a place where the younger generation connects with their roots.
-            </p><br>
-            
-            <p data-key="culturalHouse.paragraph2">
-                These spaces often host artistic performances, such as Legong and Barong dances, offering tourists and locals alike 
-                a chance to experience Balinese culture in an authentic setting. The atmosphere created through these shows highlights 
-                the warmth and richness of tradition.
-            </p><br> 
-            
-            <p data-key="culturalHouse.paragraph3">
-                Beyond exhibitions, cultural houses also serve as community hubs, holding workshops on batik, gamelan, and Balinese Hindu 
-                philosophy. In this way, they not only safeguard heritage but also nurture togetherness and the values that make Bali unique.
-            </p>
+      <img
+        src="asset/img/budaya-page-img/rumah-budaya.jpg"
+        alt="rumah-budaya"
+        class="image"
+        data-key="culturalHouse.imageAlt" />
+      <div class="right-text">
+        <h1 data-key="culturalHouse.title">Cultural House</h1>
+        <h3 data-key="culturalHouse.subtitle">
+          Preserving Bali's Identity and Tradition
+        </h3>
 
-            <div class="section-button">
-                <button class="love-btn" aria-label="Add to favorite">
-                    <i class="fa-regular fa-heart"></i>
-                </button>
-                <a href="#" class="btn-right" data-modal-target="modal-galungan-kuningan" data-key="culturalHouse.learnMoreBtn">Learn More</a>
-            </div>
+        <p data-key="culturalHouse.paragraph1">
+          Cultural houses in Bali are vital spaces that preserve the island's
+          heritage of art, tradition, and philosophy. Inside, visitors can find
+          wood carvings, woven fabrics, and ceremonial items that carry deep
+          spiritual meaning. More than a museum, a cultural house is a place
+          where the younger generation connects with their roots.
+        </p>
+        <br />
+
+        <p data-key="culturalHouse.paragraph2">
+          These spaces often host artistic performances, such as Legong and
+          Barong dances, offering tourists and locals alike a chance to
+          experience Balinese culture in an authentic setting. The atmosphere
+          created through these shows highlights the warmth and richness of
+          tradition.
+        </p>
+        <br />
+
+        <p data-key="culturalHouse.paragraph3">
+          Beyond exhibitions, cultural houses also serve as community hubs,
+          holding workshops on batik, gamelan, and Balinese Hindu philosophy. In
+          this way, they not only safeguard heritage but also nurture
+          togetherness and the values that make Bali unique.
+        </p>
+
+        <div class="section-button">
+          <button class="love-btn" aria-label="Add to favorite">
+            <i class="fa-regular fa-heart"></i>
+          </button>
+          <a
+            href="#"
+            class="btn-right"
+            data-modal-target="modal-galungan-kuningan"
+            data-key="culturalHouse.learnMoreBtn"
+            >Learn More</a
+          >
         </div>
+      </div>
     </div>
 
     <!-- Bale Banjar -->
     <div class="left-content">
-        <div class="left-text">
-            <h1 data-key="bale-banjar.title">Bale Banjar</h1>
-            <h3 data-key="bale-banjar.description">The Social and Cultural Hall of the Community</h3>
+      <div class="left-text">
+        <h1 data-key="bale-banjar.title">Bale Banjar</h1>
+        <h3 data-key="bale-banjar.description">
+          The Social and Cultural Hall of the Community
+        </h3>
 
-            <p data-key="bale-banjar.paragraph-1">
-                Bale Banjar is the heart of Balinese village life. Functioning as a communal hall, it serves as the center for meetings, ceremonies, and rehearsals for gamelan or dance performances. Constructed with an open pavilion design, the Bale Banjar reflects the Balinese value of openness and togetherness, where community members gather to discuss, celebrate, and make decisions collectively.
-            </p><br>
+        <p data-key="bale-banjar.paragraph-1">
+          Bale Banjar is the heart of Balinese village life. Functioning as a
+          communal hall, it serves as the center for meetings, ceremonies, and
+          rehearsals for gamelan or dance performances. Constructed with an open
+          pavilion design, the Bale Banjar reflects the Balinese value of
+          openness and togetherness, where community members gather to discuss,
+          celebrate, and make decisions collectively.
+        </p>
+        <br />
 
-            <p data-key="bale-banjar.paragraph-2">
-                Architecturally simple yet meaningful, it embodies the spirit of democracy and cooperation that defines Balinese society. Without the Bale Banjar, many cultural traditions would not thrive, as it is the place where they are nurtured and sustained.
-            </p><br>
+        <p data-key="bale-banjar.paragraph-2">
+          Architecturally simple yet meaningful, it embodies the spirit of
+          democracy and cooperation that defines Balinese society. Without the
+          Bale Banjar, many cultural traditions would not thrive, as it is the
+          place where they are nurtured and sustained.
+        </p>
+        <br />
 
-            <div class="section-button">
-                <button class="love-btn" aria-label="Add to favorite">
-                    <i class="fa-regular fa-heart"></i>
-                </button>
-                <a href="#" class="btn-left" data-modal-target="modal-bale-banjar" data-key="bale-banjar.button-learn-more">Learn More</a>
-            </div>
+        <div class="section-button">
+          <button class="love-btn" aria-label="Add to favorite">
+            <i class="fa-regular fa-heart"></i>
+          </button>
+          <a
+            href="#"
+            class="btn-left"
+            data-modal-target="modal-bale-banjar"
+            data-key="bale-banjar.button-learn-more"
+            >Learn More</a
+          >
         </div>
-        <img src="asset/img/budaya-page-img/bale-banjar.jpg" alt="bale-banjar" class="image">
+      </div>
+      <img
+        src="asset/img/budaya-page-img/bale-banjar.jpg"
+        alt="bale-banjar"
+        class="image" />
     </div>
 
     <!-- Modal -->
     <div class="modal-overlay" id="modal-bale-banjar">
-        <div class="modal-container">
-            <button class="close-btn" id="closeModal" aria-label="Close" data-close-btn>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                    <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round"/>
-                </svg>
-            </button>
+      <div class="modal-container">
+        <button
+          class="close-btn"
+          id="closeModal"
+          aria-label="Close"
+          data-close-btn>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24"
+            height="24">
+            <path
+              d="M6 6 L18 18 M6 18 L18 6"
+              stroke="black"
+              stroke-width="2"
+              stroke-linecap="round" />
+          </svg>
+        </button>
 
-            <h1 data-key="bale-banjar.modal.heading-1">More About Bale Banjar</h1><br>
+        <h1 data-key="bale-banjar.modal.heading-1">More About Bale Banjar</h1>
+        <br />
 
-            <img src="asset/img/nature-page.jpg" alt="Nature Page Image" class="top-page">
+        <img
+          src="asset/img/budaya-page-img/bale-banjar.jpg"
+          alt="Nature Page Image"
+          class="top-page" />
 
-            <h2 data-key="bale-banjar.modal.heading-2">Story Behind It</h2>
+        <h2 data-key="bale-banjar.modal.heading-2">Story Behind It</h2>
 
-            <p data-key="bale-banjar.modal.paragraph-1">
-                The Bale Banjar is the heart of Balinese communal life. It functions as a social hall where villagers gather for meetings, ceremonies, and artistic activities. Every village has at least one Bale Banjar, symbolizing unity and cooperation among its residents.
-            </p><br>
+        <p data-key="bale-banjar.modal.paragraph-1">
+          The Bale Banjar is the heart of Balinese communal life. It functions
+          as a social hall where villagers gather for meetings, ceremonies, and
+          artistic activities. Every village has at least one Bale Banjar,
+          symbolizing unity and cooperation among its residents.
+        </p>
+        <br />
 
-            <p data-key="bale-banjar.modal.paragraph-2">
-                It is also where rehearsals for dance, gamelan, and drama take place. The open layout encourages participation and dialogue, reflecting the Balinese value of togetherness.
-            </p><br>
+        <p data-key="bale-banjar.modal.paragraph-2">
+          It is also where rehearsals for dance, gamelan, and drama take place.
+          The open layout encourages participation and dialogue, reflecting the
+          Balinese value of togetherness.
+        </p>
+        <br />
 
-            <p data-key="bale-banjar.modal.paragraph-3">
-                The Bale Banjar embodies the island’s spirit of gotong royong — mutual assistance and community harmony.
-            </p><br>
+        <p data-key="bale-banjar.modal.paragraph-3">
+          The Bale Banjar embodies the island’s spirit of gotong royong — mutual
+          assistance and community harmony.
+        </p>
+        <br />
 
-            <!-- YouTube Video Placeholder -->
-            <div class="video-wrapper">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/22XSn6Zz3Xs?si=Ujm1nbrdvhSw0bgL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div><br>
-
-            <h2 data-key="bale-banjar.modal.place.heading-2">Where to Find</h2>
-
-            <p data-key="bale-banjar.modal.place.description">
-                If you are interested in witnessing the Bale Banjar, there are several iconic spots in Bali where you can find that:
-            </p>
-
-            <ol>
-                <li data-key="bale-banjar.modal.place.list-1"><strong>Every Balinese village</strong> – Usually near the temple or village center.</li>
-                <li data-key="bale-banjar.modal.place.list-2"><strong>Ubud and Gianyar</strong> – Offer open rehearsals of traditional arts.</li>
-                <li data-key="bale-banjar.modal.place.list-3"><strong>Denpasar Banjar halls</strong> – Used for cultural and educational events.</li>
-            </ol>
+        <!-- YouTube Video Placeholder -->
+        <div class="video-wrapper">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/22XSn6Zz3Xs?si=Ujm1nbrdvhSw0bgL"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen></iframe>
         </div>
+        <br />
+
+        <h2 data-key="bale-banjar.modal.place.heading-2">Where to Find</h2>
+
+        <p data-key="bale-banjar.modal.place.description">
+          If you are interested in witnessing the Bale Banjar, there are several
+          iconic spots in Bali where you can find that:
+        </p>
+
+        <ol>
+          <li data-key="bale-banjar.modal.place.list-1">
+            <strong>Every Balinese village</strong> – Usually near the temple or
+            village center.
+          </li>
+          <li data-key="bale-banjar.modal.place.list-2">
+            <strong>Ubud and Gianyar</strong> – Offer open rehearsals of
+            traditional arts.
+          </li>
+          <li data-key="bale-banjar.modal.place.list-3">
+            <strong>Denpasar Banjar halls</strong> – Used for cultural and
+            educational events.
+          </li>
+        </ol>
+      </div>
     </div>
 
     <!-- Bale Daja -->
     <div class="right-content">
-        <img src="asset/img/budaya-page-img/bale-daja.jpg" alt="bale-daja" class="image">
-        <div class="right-text">
-            <h1 data-key="bale-daja.title">Bale Daja (Bale Meten)</h1>
-            <h3 data-key="bale-daja.description">The Sacred Family Pavilion</h3>
+      <img
+        src="asset/img/budaya-page-img/bale-daja.jpg"
+        alt="bale-daja"
+        class="image" />
+      <div class="right-text">
+        <h1 data-key="bale-daja.title">Bale Daja (Bale Meten)</h1>
+        <h3 data-key="bale-daja.description">The Sacred Family Pavilion</h3>
 
-            <p data-key="bale-daja.paragraph-1">
-                Bale Daja, also known as Bale Meten, is one of the most important pavilions in a traditional Balinese house compound. Positioned in the northern area, it is dedicated to honored family members and sacred rituals. Traditionally, this pavilion also serves as a sleeping area for the head of the household or elder family members, symbolizing respect and hierarchy within the family structure.
-            </p><br>
+        <p data-key="bale-daja.paragraph-1">
+          Bale Daja, also known as Bale Meten, is one of the most important
+          pavilions in a traditional Balinese house compound. Positioned in the
+          northern area, it is dedicated to honored family members and sacred
+          rituals. Traditionally, this pavilion also serves as a sleeping area
+          for the head of the household or elder family members, symbolizing
+          respect and hierarchy within the family structure.
+        </p>
+        <br />
 
-            <p data-key="bale-daja.paragraph-2">
-                Its design is rectangular with raised floors, open spaces, and carved wooden pillars, reflecting both practical function and spiritual symbolism. Bale Daja illustrates how Balinese architecture seamlessly integrates spirituality, family values, and daily living.
-            </p><br>
+        <p data-key="bale-daja.paragraph-2">
+          Its design is rectangular with raised floors, open spaces, and carved
+          wooden pillars, reflecting both practical function and spiritual
+          symbolism. Bale Daja illustrates how Balinese architecture seamlessly
+          integrates spirituality, family values, and daily living.
+        </p>
+        <br />
 
-            <div class="section-button">
-                <button class="love-btn" aria-label="Add to favorite">
-                    <i class="fa-regular fa-heart"></i>
-                </button>
-                <a href="#" class="btn-right" data-modal-target="modal-bale-daja" data-key="bale-daja.button-learn-more">Learn More</a>
-            </div>
+        <div class="section-button">
+          <button class="love-btn" aria-label="Add to favorite">
+            <i class="fa-regular fa-heart"></i>
+          </button>
+          <a
+            href="#"
+            class="btn-right"
+            data-modal-target="modal-bale-daja"
+            data-key="bale-daja.button-learn-more"
+            >Learn More</a
+          >
         </div>
+      </div>
     </div>
 
     <!-- Modal -->
     <div class="modal-overlay" id="modal-bale-daja">
-        <div class="modal-container">
-            <button class="close-btn" id="closeModal" aria-label="Close" data-close-btn>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                    <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round"/>
-                </svg>
-            </button>
+      <div class="modal-container">
+        <button
+          class="close-btn"
+          id="closeModal"
+          aria-label="Close"
+          data-close-btn>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24"
+            height="24">
+            <path
+              d="M6 6 L18 18 M6 18 L18 6"
+              stroke="black"
+              stroke-width="2"
+              stroke-linecap="round" />
+          </svg>
+        </button>
 
-            <h1 data-key="bale-daja.modal.heading-1">More About Bale Daja</h1><br>
+        <h1 data-key="bale-daja.modal.heading-1">More About Bale Daja</h1>
+        <br />
 
-            <img src="asset/img/nature-page.jpg" alt="Nature Page Image" class="top-page">
+        <img
+          src="asset/img/budaya-page-img/bale-daja.jpg"
+          alt="Nature Page Image"
+          class="top-page" />
 
-            <h2 data-key="bale-daja.modal.heading-2">Story Behind It</h2>
+        <h2 data-key="bale-daja.modal.heading-2">Story Behind It</h2>
 
-            <p data-key="bale-daja.modal.paragraph-1">
-                The Bale Daja, also known as Bale Meten, is a key pavilion within a traditional Balinese household. It is typically located in the northern section of the compound and used as a sleeping area for the head of the family or honored guests.
-            </p><br>
+        <p data-key="bale-daja.modal.paragraph-1">
+          The Bale Daja, also known as Bale Meten, is a key pavilion within a
+          traditional Balinese household. It is typically located in the
+          northern section of the compound and used as a sleeping area for the
+          head of the family or honored guests.
+        </p>
+        <br />
 
-            <p data-key="bale-daja.modal.paragraph-2">
-                Beyond its function, the Bale Daja carries symbolic importance — it represents the sacred direction associated with the gods and ancestors. Its placement and construction follow ritual guidelines, aligning with cosmic harmony.
-            </p><br>
+        <p data-key="bale-daja.modal.paragraph-2">
+          Beyond its function, the Bale Daja carries symbolic importance — it
+          represents the sacred direction associated with the gods and
+          ancestors. Its placement and construction follow ritual guidelines,
+          aligning with cosmic harmony.
+        </p>
+        <br />
 
-            <p data-key="bale-daja.modal.paragraph-3">
-                This architectural feature reflects how every part of Balinese daily life is guided by spiritual and cosmic principles.
-            </p><br>
+        <p data-key="bale-daja.modal.paragraph-3">
+          This architectural feature reflects how every part of Balinese daily
+          life is guided by spiritual and cosmic principles.
+        </p>
+        <br />
 
-            <!-- YouTube Video Placeholder -->
-            <div class="video-wrapper">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/22XSn6Zz3Xs?si=Ujm1nbrdvhSw0bgL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div><br>
-
-            <h2 data-key="bale-daja.modal.place.heading-2">Where to Find</h2>
-
-            <p data-key="bale-daja.modal.place.description">
-                If you are interested in witnessing the Bale Daja, there are several iconic spots in Bali where you can find that:
-            </p>
-
-            <ol>
-                <li data-key="bale-daja.modal.place.list-1"><strong>Traditional homes in Gianyar and Bangli</strong> – Still built following ancient rules.</li>
-                <li data-key="bale-daja.modal.place.list-2"><strong>Bali Museum, Denpasar</strong> – Bali Museum, Denpasar</li>
-                <li data-key="bale-daja.modal.place.list-3"><strong>Cultural villages like Penglipuran</strong> – Offer direct views of traditional pavilions.</li>
-            </ol>
+        <!-- YouTube Video Placeholder -->
+        <div class="video-wrapper">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/22XSn6Zz3Xs?si=Ujm1nbrdvhSw0bgL"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen></iframe>
         </div>
+        <br />
+
+        <h2 data-key="bale-daja.modal.place.heading-2">Where to Find</h2>
+
+        <p data-key="bale-daja.modal.place.description">
+          If you are interested in witnessing the Bale Daja, there are several
+          iconic spots in Bali where you can find that:
+        </p>
+
+        <ol>
+          <li data-key="bale-daja.modal.place.list-1">
+            <strong>Traditional homes in Gianyar and Bangli</strong> – Still
+            built following ancient rules.
+          </li>
+          <li data-key="bale-daja.modal.place.list-2">
+            <strong>Bali Museum, Denpasar</strong> – Bali Museum, Denpasar
+          </li>
+          <li data-key="bale-daja.modal.place.list-3">
+            <strong>Cultural villages like Penglipuran</strong> – Offer direct
+            views of traditional pavilions.
+          </li>
+        </ol>
+      </div>
     </div>
 
     <!-- Candi Bentar -->
     <div class="left-content">
-        <div class="left-text">
-            <h1 data-key="candi-bentar.title">Candi Bentar</h1>
-            <h3 data-key="candi-bentar.description">The Splitting Gate of Balance</h3>
+      <div class="left-text">
+        <h1 data-key="candi-bentar.title">Candi Bentar</h1>
+        <h3 data-key="candi-bentar.description">
+          The Splitting Gate of Balance
+        </h3>
 
-            <p data-key="candi-bentar.paragraph-1">
-                Candi Bentar, the iconic split gate of Bali, is more than an architectural marvel—it is a philosophical statement. Found at temple entrances, palaces, or traditional compounds, the gate is divided into two symmetrical halves, symbolizing the concept of Rwa Bhineda, or duality in balance (good and evil, male and female, day and night).
-            </p><br>
+        <p data-key="candi-bentar.paragraph-1">
+          Candi Bentar, the iconic split gate of Bali, is more than an
+          architectural marvel—it is a philosophical statement. Found at temple
+          entrances, palaces, or traditional compounds, the gate is divided into
+          two symmetrical halves, symbolizing the concept of Rwa Bhineda, or
+          duality in balance (good and evil, male and female, day and night).
+        </p>
+        <br />
 
-            <p data-key="candi-bentar.paragraph-2">
-                Walking through a Candi Bentar is not just entering a space; it is a symbolic passage from the outer, secular world into a sacred, spiritual realm. The gate's towering stone carvings, often adorned with intricate patterns, emphasize Bali's artistic mastery and religious devotion.
-            </p><br>
+        <p data-key="candi-bentar.paragraph-2">
+          Walking through a Candi Bentar is not just entering a space; it is a
+          symbolic passage from the outer, secular world into a sacred,
+          spiritual realm. The gate's towering stone carvings, often adorned
+          with intricate patterns, emphasize Bali's artistic mastery and
+          religious devotion.
+        </p>
+        <br />
 
-            <div class="section-button">
-                <button class="love-btn" aria-label="Add to favorite">
-                    <i class="fa-regular fa-heart"></i>
-                </button>
-                <a href="#" class="btn-left" data-modal-target="modal-candi-bentar" data-key="candi-bentar.button-learn-more">Learn More</a>
-            </div>
+        <div class="section-button">
+          <button class="love-btn" aria-label="Add to favorite">
+            <i class="fa-regular fa-heart"></i>
+          </button>
+          <a
+            href="#"
+            class="btn-left"
+            data-modal-target="modal-candi-bentar"
+            data-key="candi-bentar.button-learn-more"
+            >Learn More</a
+          >
         </div>
-        <img src="asset/img/budaya-page-img/candi-bentar.jpg" alt="candi-bentar" class="image">
+      </div>
+      <img
+        src="asset/img/budaya-page-img/candi-bentar.jpg"
+        alt="candi-bentar"
+        class="image" />
     </div>
 
     <!-- Modal -->
     <div class="modal-overlay" id="modal-candi-bentar">
-        <div class="modal-container">
-            <button class="close-btn" id="closeModal" aria-label="Close" data-close-btn>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                    <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round"/>
-                </svg>
-            </button>
+      <div class="modal-container">
+        <button
+          class="close-btn"
+          id="closeModal"
+          aria-label="Close"
+          data-close-btn>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24"
+            height="24">
+            <path
+              d="M6 6 L18 18 M6 18 L18 6"
+              stroke="black"
+              stroke-width="2"
+              stroke-linecap="round" />
+          </svg>
+        </button>
 
-            <h1 data-key="candi-bentar.modal.heading-1">More About Candi Bentar</h1><br>
+        <h1 data-key="candi-bentar.modal.heading-1">More About Candi Bentar</h1>
+        <br />
 
-            <img src="asset/img/nature-page.jpg" alt="Nature Page Image" class="top-page">
+        <img
+          src="asset/img/budaya-page-img/candi-bentar.jpg"
+          alt="Nature Page Image"
+          class="top-page" />
 
-            <h2 data-key="candi-bentar.modal.heading-2">Story Behind It</h2>
+        <h2 data-key="candi-bentar.modal.heading-2">Story Behind It</h2>
 
-            <p data-key="candi-bentar.modal.paragraph-1">
-                Candi Bentar, or split gateway, is one of the most recognizable architectural symbols of Bali. It serves as an entrance to temple complexes or palaces, representing the division between the outer, worldly realm and the sacred inner space.
-            </p><br>
+        <p data-key="candi-bentar.modal.paragraph-1">
+          Candi Bentar, or split gateway, is one of the most recognizable
+          architectural symbols of Bali. It serves as an entrance to temple
+          complexes or palaces, representing the division between the outer,
+          worldly realm and the sacred inner space.
+        </p>
+        <br />
 
-            <p data-key="candi-bentar.modal.paragraph-2">
-                The structure consists of two identical halves facing each other, resembling a mountain split in two. This symbolizes balance — a central concept in Balinese cosmology.
-            </p><br>
+        <p data-key="candi-bentar.modal.paragraph-2">
+          The structure consists of two identical halves facing each other,
+          resembling a mountain split in two. This symbolizes balance — a
+          central concept in Balinese cosmology.
+        </p>
+        <br />
 
-            <p data-key="candi-bentar.modal.paragraph-3">
-                Passing through the Candi Bentar is not just physical movement; it signifies a spiritual transition from the ordinary to the divine.
-            </p><br>
+        <p data-key="candi-bentar.modal.paragraph-3">
+          Passing through the Candi Bentar is not just physical movement; it
+          signifies a spiritual transition from the ordinary to the divine.
+        </p>
+        <br />
 
-            <!-- YouTube Video Placeholder -->
-            <div class="video-wrapper">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/22XSn6Zz3Xs?si=Ujm1nbrdvhSw0bgL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div><br>
-
-            <h2 data-key="candi-bentar.modal.place.heading-2">Where to Find</h2>
-
-            <p data-key="candi-bentar.modal.place.description">
-                If you are interested in witnessing the Candi Bentar, there are several iconic spots in Bali where you can find that:
-            </p>
-
-            <ol>
-                <li data-key="candi-bentar.modal.place.list-1"><strong>Lempuyang Temple</strong> – Home to the famous “Gates of Heaven.”</li>
-                <li data-key="candi-bentar.modal.place.list-2"><strong>Besakih Temple</strong> – Features several traditional gateways.</li>
-                <li data-key="candi-bentar.modal.place.list-3"><strong>Taman Ayun Temple</strong> – A fine example of classical Balinese design.</li>
-            </ol>
+        <!-- YouTube Video Placeholder -->
+        <div class="video-wrapper">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/22XSn6Zz3Xs?si=Ujm1nbrdvhSw0bgL"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen></iframe>
         </div>
+        <br />
+
+        <h2 data-key="candi-bentar.modal.place.heading-2">Where to Find</h2>
+
+        <p data-key="candi-bentar.modal.place.description">
+          If you are interested in witnessing the Candi Bentar, there are
+          several iconic spots in Bali where you can find that:
+        </p>
+
+        <ol>
+          <li data-key="candi-bentar.modal.place.list-1">
+            <strong>Lempuyang Temple</strong> – Home to the famous “Gates of
+            Heaven.”
+          </li>
+          <li data-key="candi-bentar.modal.place.list-2">
+            <strong>Besakih Temple</strong> – Features several traditional
+            gateways.
+          </li>
+          <li data-key="candi-bentar.modal.place.list-3">
+            <strong>Taman Ayun Temple</strong> – A fine example of classical
+            Balinese design.
+          </li>
+        </ol>
+      </div>
     </div>
 
     <!-- GWK Statue -->
     <div class="right-content" id="featured2">
-        <img src="asset/img/budaya-page-img/patung-gwk.jpg" alt="patung-gwk" class="image">
-        <div class="right-text">
-            <h1 data-key="gwk-statue.title">GWK Statue</h1>
-            <h3 data-key="gwk-statue.description">A cultural icon of Bali</h3>
+      <img
+        src="asset/img/budaya-page-img/patung-gwk.jpg"
+        alt="patung-gwk"
+        class="image" />
+      <div class="right-text">
+        <h1 data-key="gwk-statue.title">GWK Statue</h1>
+        <h3 data-key="gwk-statue.description">A cultural icon of Bali</h3>
 
-            <p data-key="gwk-statue.paragraph-1">
-                The Garuda Wisnu Kencana (GWK) Statue is one of the most iconic landmarks in Bali, located within the GWK Cultural Park. Standing at 121 meters tall, it is one of the tallest statues in the world, representing the Hindu god Vishnu riding his mount Garuda. The monument is a symbol of devotion, culture, and artistry, blending spirituality with modern engineering.
-            </p><br>
+        <p data-key="gwk-statue.paragraph-1">
+          The Garuda Wisnu Kencana (GWK) Statue is one of the most iconic
+          landmarks in Bali, located within the GWK Cultural Park. Standing at
+          121 meters tall, it is one of the tallest statues in the world,
+          representing the Hindu god Vishnu riding his mount Garuda. The
+          monument is a symbol of devotion, culture, and artistry, blending
+          spirituality with modern engineering.
+        </p>
+        <br />
 
-            <p data-key="gwk-statue.paragraph-2">
-                More than just a statue, the GWK Cultural Park is a hub for cultural experiences. Visitors can enjoy traditional dance performances, art exhibitions, and festivals held in the park's amphitheater. It serves as a living stage for Bali's vibrant culture and a gathering place for both locals and tourists.
-            </p><br>
+        <p data-key="gwk-statue.paragraph-2">
+          More than just a statue, the GWK Cultural Park is a hub for cultural
+          experiences. Visitors can enjoy traditional dance performances, art
+          exhibitions, and festivals held in the park's amphitheater. It serves
+          as a living stage for Bali's vibrant culture and a gathering place for
+          both locals and tourists.
+        </p>
+        <br />
 
-            <p data-key="gwk-statue.paragraph-3">
-                The GWK Statue also offers panoramic views of Bali, with its height allowing visitors to see far across the island. It stands not only as a masterpiece of art but also as a reminder of Bali's dedication to preserving its cultural identity for future generations.
-            </p><br>
+        <p data-key="gwk-statue.paragraph-3">
+          The GWK Statue also offers panoramic views of Bali, with its height
+          allowing visitors to see far across the island. It stands not only as
+          a masterpiece of art but also as a reminder of Bali's dedication to
+          preserving its cultural identity for future generations.
+        </p>
+        <br />
 
-            <div class="section-button">
-                <button class="love-btn" aria-label="Add to favorite">
-                    <i class="fa-regular fa-heart"></i>
-                </button>
-                <a href="#" class="btn-right" data-modal-target="modal-gwk-statue" data-key="gwk-statue.button-learn-more">Learn More</a>
-            </div>
+        <div class="section-button">
+          <button class="love-btn" aria-label="Add to favorite">
+            <i class="fa-regular fa-heart"></i>
+          </button>
+          <a
+            href="#"
+            class="btn-right"
+            data-modal-target="modal-gwk-statue"
+            data-key="gwk-statue.button-learn-more"
+            >Learn More</a
+          >
         </div>
+      </div>
     </div>
 
     <!-- Modal -->
     <div class="modal-overlay" id="modal-gwk-statue">
-        <div class="modal-container">
-            <button class="close-btn" id="closeModal" aria-label="Close" data-close-btn>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                    <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round"/>
-                </svg>
-            </button>
+      <div class="modal-container">
+        <button
+          class="close-btn"
+          id="closeModal"
+          aria-label="Close"
+          data-close-btn>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24"
+            height="24">
+            <path
+              d="M6 6 L18 18 M6 18 L18 6"
+              stroke="black"
+              stroke-width="2"
+              stroke-linecap="round" />
+          </svg>
+        </button>
 
-            <h1 data-key="gwk-statue.modal.heading-1">More About GWK Statue</h1><br>
+        <h1 data-key="gwk-statue.modal.heading-1">More About GWK Statue</h1>
+        <br />
 
-            <img src="asset/img/nature-page.jpg" alt="Nature Page Image" class="top-page">
+        <img
+          src="asset/img/budaya-page-img/patung-gwk.jpg"
+          alt="Nature Page Image"
+          class="top-page" />
 
-            <h2 data-key="gwk-statue.modal.heading-2">Story Behind It</h2>
+        <h2 data-key="gwk-statue.modal.heading-2">Story Behind It</h2>
 
-            <p data-key="gwk-statue.modal.paragraph-1">
-                The Garuda Wisnu Kencana (GWK) Statue stands as a modern icon of Balinese pride and spirituality. Depicting the god Vishnu riding his mythical bird Garuda, the statue symbolizes the protection of harmony between humans and nature.
-            </p><br>
+        <p data-key="gwk-statue.modal.paragraph-1">
+          The Garuda Wisnu Kencana (GWK) Statue stands as a modern icon of
+          Balinese pride and spirituality. Depicting the god Vishnu riding his
+          mythical bird Garuda, the statue symbolizes the protection of harmony
+          between humans and nature.
+        </p>
+        <br />
 
-            <p data-key="gwk-statue.modal.paragraph-2">
-                Standing over 120 meters tall, it took decades to complete and now dominates the skyline of southern Bali. The project combined artistic craftsmanship with national vision, turning a mythological story into a monumental reality.
-            </p><br>
+        <p data-key="gwk-statue.modal.paragraph-2">
+          Standing over 120 meters tall, it took decades to complete and now
+          dominates the skyline of southern Bali. The project combined artistic
+          craftsmanship with national vision, turning a mythological story into
+          a monumental reality.
+        </p>
+        <br />
 
-            <p data-key="gwk-statue.modal.paragraph-3">
-                GWK is not only a cultural landmark but also a place of learning, performance, and celebration of Indonesian unity.
-            </p><br>
+        <p data-key="gwk-statue.modal.paragraph-3">
+          GWK is not only a cultural landmark but also a place of learning,
+          performance, and celebration of Indonesian unity.
+        </p>
+        <br />
 
-            <!-- YouTube Video Placeholder -->
-            <div class="video-wrapper">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/22XSn6Zz3Xs?si=Ujm1nbrdvhSw0bgL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div><br>
-
-            <h2 data-key="gwk-statue.modal.place.heading-2">Where to Find</h2>
-
-            <p data-key="gwk-statue.modal.place.description">
-                If you are interested in witnessing the GWK Statue, there are several iconic spots in Bali where you can find that:
-            </p>
-
-            <ol>
-                <li data-key="gwk-statue.modal.place.list-1"><strong>GWK Cultural Park, Ungasan</strong> – The main and only location of the statue.</li>
-                <li data-key="gwk-statue.modal.place.list-2"><strong>Jimbaran area</strong> – Offers stunning panoramic views of GWK from afar.</li>
-            </ol>
+        <!-- YouTube Video Placeholder -->
+        <div class="video-wrapper">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/22XSn6Zz3Xs?si=Ujm1nbrdvhSw0bgL"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen></iframe>
         </div>
+        <br />
+
+        <h2 data-key="gwk-statue.modal.place.heading-2">Where to Find</h2>
+
+        <p data-key="gwk-statue.modal.place.description">
+          If you are interested in witnessing the GWK Statue, there are several
+          iconic spots in Bali where you can find that:
+        </p>
+
+        <ol>
+          <li data-key="gwk-statue.modal.place.list-1">
+            <strong>GWK Cultural Park, Ungasan</strong> – The main and only
+            location of the statue.
+          </li>
+          <li data-key="gwk-statue.modal.place.list-2">
+            <strong>Jimbaran area</strong> – Offers stunning panoramic views of
+            GWK from afar.
+          </li>
+        </ol>
+      </div>
     </div>
 
     <!-- Pura Besakih -->
     <div class="left-content">
-        <div class="left-text">
-            <h1 data-key="pura-besakih.title">Pura Besakih</h1>
-            <h3 data-key="pura-besakih.description">The Mother Temple of Bali</h3>
+      <div class="left-text">
+        <h1 data-key="pura-besakih.title">Pura Besakih</h1>
+        <h3 data-key="pura-besakih.description">The Mother Temple of Bali</h3>
 
-            <p data-key="pura-besakih.paragraph-1">
-                Nestled on the majestic slopes of Mount Agung, Bali's highest and most sacred volcano, lies Pura Besakih, often called the “Mother Temple of Bali.” This sprawling temple complex consists of over 80 individual temples, with Pura Penataran Agung as its central sanctuary. As the largest and holiest Hindu temple in Bali, Pura Besakih is the heart of religious life, a place where major ceremonies and pilgrimages are held throughout the year.
-            </p><br>
+        <p data-key="pura-besakih.paragraph-1">
+          Nestled on the majestic slopes of Mount Agung, Bali's highest and most
+          sacred volcano, lies Pura Besakih, often called the “Mother Temple of
+          Bali.” This sprawling temple complex consists of over 80 individual
+          temples, with Pura Penataran Agung as its central sanctuary. As the
+          largest and holiest Hindu temple in Bali, Pura Besakih is the heart of
+          religious life, a place where major ceremonies and pilgrimages are
+          held throughout the year.
+        </p>
+        <br />
 
-            <p data-key="pura-besakih.paragraph-2">
-                Architecturally, the temple's tiered pagoda-like structures, known as meru, rise dramatically against the backdrop of Mount Agung, creating a breathtaking spiritual landscape. Each level of the temple represents different realms of the cosmos, reflecting the Balinese Hindu concept of harmony between the human, natural, and divine worlds. Visiting Pura Besakih is not just a sightseeing experience but a spiritual journey into the soul of Bali's religious devotion.
-            </p><br>
+        <p data-key="pura-besakih.paragraph-2">
+          Architecturally, the temple's tiered pagoda-like structures, known as
+          meru, rise dramatically against the backdrop of Mount Agung, creating
+          a breathtaking spiritual landscape. Each level of the temple
+          represents different realms of the cosmos, reflecting the Balinese
+          Hindu concept of harmony between the human, natural, and divine
+          worlds. Visiting Pura Besakih is not just a sightseeing experience but
+          a spiritual journey into the soul of Bali's religious devotion.
+        </p>
+        <br />
 
-            <div class="section-button">
-                <button class="love-btn" aria-label="Add to favorite">
-                    <i class="fa-regular fa-heart"></i>
-                </button>
-                <a href="#" class="btn-left" data-modal-target="modal-pura-besakih" data-key="pura-besakih.button-learn-more">Learn More</a>
-            </div>
+        <div class="section-button">
+          <button class="love-btn" aria-label="Add to favorite">
+            <i class="fa-regular fa-heart"></i>
+          </button>
+          <a
+            href="#"
+            class="btn-left"
+            data-modal-target="modal-pura-besakih"
+            data-key="pura-besakih.button-learn-more"
+            >Learn More</a
+          >
         </div>
-        <img src="asset/img/budaya-page-img/pura-besakih.jpg" alt="pura-besakih" class="image">
+      </div>
+      <img
+        src="asset/img/budaya-page-img/pura-besakih.jpg"
+        alt="pura-besakih"
+        class="image" />
     </div>
 
     <!-- Modal -->
     <div class="modal-overlay" id="modal-pura-besakih">
-        <div class="modal-container">
-            <button class="close-btn" id="closeModal" aria-label="Close" data-close-btn>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                    <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round"/>
-                </svg>
-            </button>
+      <div class="modal-container">
+        <button
+          class="close-btn"
+          id="closeModal"
+          aria-label="Close"
+          data-close-btn>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24"
+            height="24">
+            <path
+              d="M6 6 L18 18 M6 18 L18 6"
+              stroke="black"
+              stroke-width="2"
+              stroke-linecap="round" />
+          </svg>
+        </button>
 
-            <h1 data-key="pura-besakih.modal.heading-1">More About Pura Besakih</h1><br>
+        <h1 data-key="pura-besakih.modal.heading-1">More About Pura Besakih</h1>
+        <br />
 
-            <img src="asset/img/nature-page.jpg" alt="Nature Page Image" class="top-page">
+        <img
+          src="asset/img/budaya-page-img/pura-besakih.jpg"
+          alt="Nature Page Image"
+          class="top-page" />
 
-            <h2 data-key="pura-besakih.modal.heading-2">Story Behind It</h2>
+        <h2 data-key="pura-besakih.modal.heading-2">Story Behind It</h2>
 
-            <p data-key="pura-besakih.modal.paragraph-1">
-                Pura Besakih, known as the “Mother Temple” of Bali, is the island’s largest and most important temple complex. It sits majestically on the slopes of Mount Agung, Bali’s highest and most sacred mountain.
-            </p><br>
+        <p data-key="pura-besakih.modal.paragraph-1">
+          Pura Besakih, known as the “Mother Temple” of Bali, is the island’s
+          largest and most important temple complex. It sits majestically on the
+          slopes of Mount Agung, Bali’s highest and most sacred mountain.
+        </p>
+        <br />
 
-            <p data-key="pura-besakih.modal.paragraph-2">
-                According to legend, the temple was built over a prehistoric shrine dedicated to the dragon god Besakih. Over time, it became a spiritual center encompassing more than 80 temples dedicated to various Hindu deities.
-            </p><br>
+        <p data-key="pura-besakih.modal.paragraph-2">
+          According to legend, the temple was built over a prehistoric shrine
+          dedicated to the dragon god Besakih. Over time, it became a spiritual
+          center encompassing more than 80 temples dedicated to various Hindu
+          deities.
+        </p>
+        <br />
 
-            <p data-key="pura-besakih.modal.paragraph-3">
-                Pura Besakih represents the heart of Balinese Hinduism — a place where the divine, natural, and human worlds meet in perfect harmony.
-            </p><br>
+        <p data-key="pura-besakih.modal.paragraph-3">
+          Pura Besakih represents the heart of Balinese Hinduism — a place where
+          the divine, natural, and human worlds meet in perfect harmony.
+        </p>
+        <br />
 
-            <!-- YouTube Video Placeholder -->
-            <div class="video-wrapper">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/22XSn6Zz3Xs?si=Ujm1nbrdvhSw0bgL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div><br>
-
-            <h2 data-key="pura-besakih.modal.place.heading-2">Where to Find</h2>
-
-            <p data-key="pura-besakih.modal.place.description">
-                If you are interested in witnessing the Pura Besakih, there are several iconic spots in Bali where you can find that:
-            </p>
-
-            <ol>
-                <li data-key="pura-besakih.modal.place.list-1"><strong>Mount Agung, Karangasem Regency</strong> – The temple’s official location.</li>
-                <li data-key="pura-besakih.modal.place.list-2"><strong>Besakih Village</strong> – Serves as the access point for visitors and pilgrims.</li>
-            </ol>
+        <!-- YouTube Video Placeholder -->
+        <div class="video-wrapper">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/22XSn6Zz3Xs?si=Ujm1nbrdvhSw0bgL"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen></iframe>
         </div>
+        <br />
+
+        <h2 data-key="pura-besakih.modal.place.heading-2">Where to Find</h2>
+
+        <p data-key="pura-besakih.modal.place.description">
+          If you are interested in witnessing the Pura Besakih, there are
+          several iconic spots in Bali where you can find that:
+        </p>
+
+        <ol>
+          <li data-key="pura-besakih.modal.place.list-1">
+            <strong>Mount Agung, Karangasem Regency</strong> – The temple’s
+            official location.
+          </li>
+          <li data-key="pura-besakih.modal.place.list-2">
+            <strong>Besakih Village</strong> – Serves as the access point for
+            visitors and pilgrims.
+          </li>
+        </ol>
+      </div>
     </div>
 
     <!-- Tanah Lot Temple -->
     <div class="right-content">
-        <img src="asset/img/budaya-page-img/pura-tanah-lot.webp" alt="pura-tanah-lot" class="image">
-        <div class="right-text">
-            <h1 data-key="tanah-lot.title">Tanah Lot Temple</h1>
-            <h3 data-key="tanah-lot.description">The Temple in the Sea</h3>
+      <img
+        src="asset/img/budaya-page-img/pura-tanah-lot.webp"
+        alt="pura-tanah-lot"
+        class="image" />
+      <div class="right-text">
+        <h1 data-key="tanah-lot.title">Tanah Lot Temple</h1>
+        <h3 data-key="tanah-lot.description">The Temple in the Sea</h3>
 
-            <p data-key="tanah-lot.paragraph-1">
-                Tanah Lot is one of Bali's most photographed and spiritually revered temples, perched dramatically on a rocky outcrop surrounded by the ocean. Dedicated to the sea gods, this temple is a vital part of Balinese mythology and spirituality. Legend says that the temple was founded by Dang Hyang Nirartha, a 16th-century Hindu priest who blessed the site and declared it sacred.
-            </p><br> 
+        <p data-key="tanah-lot.paragraph-1">
+          Tanah Lot is one of Bali's most photographed and spiritually revered
+          temples, perched dramatically on a rocky outcrop surrounded by the
+          ocean. Dedicated to the sea gods, this temple is a vital part of
+          Balinese mythology and spirituality. Legend says that the temple was
+          founded by Dang Hyang Nirartha, a 16th-century Hindu priest who
+          blessed the site and declared it sacred.
+        </p>
+        <br />
 
-            <p data-key="tanah-lot.paragraph-2">
-                At high tide, Tanah Lot appears isolated, accessible only when the water recedes, enhancing its mystical aura. The crashing waves, golden sunsets, and the silhouette of the temple create an atmosphere of awe and serenity. More than its beauty, Tanah Lot embodies the Balinese philosophy of living in harmony with nature and the divine. It is both a place of worship for locals and a source of wonder for travelers seeking to experience Bali's spiritual energy.
-            </p>
+        <p data-key="tanah-lot.paragraph-2">
+          At high tide, Tanah Lot appears isolated, accessible only when the
+          water recedes, enhancing its mystical aura. The crashing waves, golden
+          sunsets, and the silhouette of the temple create an atmosphere of awe
+          and serenity. More than its beauty, Tanah Lot embodies the Balinese
+          philosophy of living in harmony with nature and the divine. It is both
+          a place of worship for locals and a source of wonder for travelers
+          seeking to experience Bali's spiritual energy.
+        </p>
 
-            <div class="section-button">
-                <button class="love-btn" aria-label="Add to favorite">
-                    <i class="fa-regular fa-heart"></i>
-                </button>
-                <a href="#" class="btn-right" data-modal-target="modal-tanah-lot">Learn More</a>
-            </div>
+        <div class="section-button">
+          <button class="love-btn" aria-label="Add to favorite">
+            <i class="fa-regular fa-heart"></i>
+          </button>
+          <a href="#" class="btn-right" data-modal-target="modal-tanah-lot"
+            >Learn More</a
+          >
         </div>
+      </div>
     </div>
 
     <!-- Modal -->
     <div class="modal-overlay" id="modal-tanah-lot">
-        <div class="modal-container">
-            <button class="close-btn" id="closeModal" aria-label="Close" data-close-btn>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                    <path d="M6 6 L18 18 M6 18 L18 6" stroke="black" stroke-width="2" stroke-linecap="round"/>
-                </svg>
-            </button>
+      <div class="modal-container">
+        <button
+          class="close-btn"
+          id="closeModal"
+          aria-label="Close"
+          data-close-btn>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24"
+            height="24">
+            <path
+              d="M6 6 L18 18 M6 18 L18 6"
+              stroke="black"
+              stroke-width="2"
+              stroke-linecap="round" />
+          </svg>
+        </button>
 
-            <h1 data-key="tanah-lot.modal.heading-1">More About Tanah Lot Temple</h1><br>
+        <h1 data-key="tanah-lot.modal.heading-1">
+          More About Tanah Lot Temple
+        </h1>
+        <br />
 
-            <img src="asset/img/nature-page.jpg" alt="Nature Page Image" class="top-page">
+        <img
+          src="asset/img/budaya-page-img/pura-tanah-lot.webp"
+          alt="Nature Page Image"
+          class="top-page" />
 
-            <h2 data-key="tanah-lot.modal.heading-2">Story Behind It</h2>
+        <h2 data-key="tanah-lot.modal.heading-2">Story Behind It</h2>
 
-            <p data-key="tanah-lot.modal.paragraph-1">
-                Tanah Lot Temple is one of Bali’s most photographed and spiritual landmarks. Perched on a rocky outcrop in the sea, it is dedicated to the guardian spirits of the ocean.
-            </p><br> 
+        <p data-key="tanah-lot.modal.paragraph-1">
+          Tanah Lot Temple is one of Bali’s most photographed and spiritual
+          landmarks. Perched on a rocky outcrop in the sea, it is dedicated to
+          the guardian spirits of the ocean.
+        </p>
+        <br />
 
-            <p data-key="tanah-lot.modal.paragraph-2">
-                According to legend, the temple was founded by a 16th-century priest who meditated on the rock after being guided by divine vision. When local rulers tried to drive him away, he turned his scarf into sea snakes to guard the temple, which still inhabit the caves today.
-            </p><br> 
+        <p data-key="tanah-lot.modal.paragraph-2">
+          According to legend, the temple was founded by a 16th-century priest
+          who meditated on the rock after being guided by divine vision. When
+          local rulers tried to drive him away, he turned his scarf into sea
+          snakes to guard the temple, which still inhabit the caves today.
+        </p>
+        <br />
 
-            <p data-key="tanah-lot.modal.paragraph-3">
-                At sunset, Tanah Lot glows against the horizon — a timeless symbol of faith, nature, and harmony.
-            </p><br>
+        <p data-key="tanah-lot.modal.paragraph-3">
+          At sunset, Tanah Lot glows against the horizon — a timeless symbol of
+          faith, nature, and harmony.
+        </p>
+        <br />
 
-            <!-- YouTube Video Placeholder -->
-            <div class="video-wrapper">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/22XSn6Zz3Xs?si=Ujm1nbrdvhSw0bgL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div><br>
-
-            <h2 data-key="tanah-lot.modal.place.heading-2">Where to Find</h2>
-
-            <p data-key="tanah-lot.modal.place.description">
-                If you are interested in witnessing the Tanah Lot Temple, there are several iconic spots in Bali where you can find that:
-            </p>
-
-            <ol>
-                <li data-key="tanah-lot.modal.place.list-1"><strong>Beraban Village, Tabanan Regency</strong> – The exact location of Tanah Lot Temple.</li>
-                <li data-key="tanah-lot.modal.place.list-2"><strong>Tanah Lot complex area</strong> – Includes viewing platforms and cultural facilities.</li>
-                <li data-key="tanah-lot.modal.place.list-3"><strong>Nearby cliff viewpoints</strong> – Offer panoramic sunset photography spots.</li>
-            </ol>
+        <!-- YouTube Video Placeholder -->
+        <div class="video-wrapper">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/22XSn6Zz3Xs?si=Ujm1nbrdvhSw0bgL"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen></iframe>
         </div>
+        <br />
+
+        <h2 data-key="tanah-lot.modal.place.heading-2">Where to Find</h2>
+
+        <p data-key="tanah-lot.modal.place.description">
+          If you are interested in witnessing the Tanah Lot Temple, there are
+          several iconic spots in Bali where you can find that:
+        </p>
+
+        <ol>
+          <li data-key="tanah-lot.modal.place.list-1">
+            <strong>Beraban Village, Tabanan Regency</strong> – The exact
+            location of Tanah Lot Temple.
+          </li>
+          <li data-key="tanah-lot.modal.place.list-2">
+            <strong>Tanah Lot complex area</strong> – Includes viewing platforms
+            and cultural facilities.
+          </li>
+          <li data-key="tanah-lot.modal.place.list-3">
+            <strong>Nearby cliff viewpoints</strong> – Offer panoramic sunset
+            photography spots.
+          </li>
+        </ol>
+      </div>
     </div>
 
-    <a href="#top" id="top-btn"><img src="asset/icon/icon-up.png" alt="Icon Up" class="top-btn toTopAnimation"></a>
+    <a href="#top" id="top-btn"
+      ><img
+        src="asset/icon/icon-up.png"
+        alt="Icon Up"
+        class="top-btn toTopAnimation"
+    /></a>
     <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Spirit of Bali. All Rights Reserved.</p>
+      <p>&copy; 2025 Spirit of Bali. All Rights Reserved.</p>
     </footer>
 
     <script src="script/modal-favorite.js"></script>
@@ -988,6 +1933,6 @@
     <script src="script/filter/filter-section-budaya.js"></script>
     <script src="script/modal-section.js"></script>
     <script src="script/translate.js"></script>
-
-</body>
+    <script src="script/hamburger-toggle.js"></script>
+  </body>
 </html>
