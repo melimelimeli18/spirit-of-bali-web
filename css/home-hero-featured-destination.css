@@ -1,0 +1,142 @@
+/* Featured Destination - Desktop */
+.featured-destinations {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  z-index: 2;
+}
+
+.destination {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 20px;
+}
+
+.destination img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin: 0;
+  align-self: center;
+}
+
+.featured-info {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  width: 100%;
+}
+
+.destination .fact {
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0 0 5px 0;
+}
+
+.destination h3 {
+  margin: 0;
+  font-size: 18px;
+  width: 100%;
+  text-align: left;
+}
+
+/* Tablet & Mobile - Horizontal Scroll */
+@media (max-width: 992px) {
+  .featured-destinations {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    overflow-x: scroll !important;
+    overflow-y: hidden !important;
+    -webkit-overflow-scrolling: touch;
+    gap: 24px;
+    padding: 20px 0 20px 32px !important; /* Jarak kiri 32px, kanan 0 biar bisa scroll */
+    justify-content: flex-start !important;
+    scroll-snap-type: x mandatory;
+    margin: 0 !important;
+    width: 100vw; /* Full width untuk memastikan bisa scroll */
+    box-sizing: border-box;
+  }
+
+  /* Hide scrollbar */
+  .featured-destinations::-webkit-scrollbar {
+    display: none;
+  }
+
+  .featured-destinations {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .destination {
+    flex: 0 0 auto !important; /* PENTING: Jangan grow/shrink */
+    min-width: 200px !important;
+    width: 200px !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center;
+    gap: 12px;
+    scroll-snap-align: start;
+    box-sizing: border-box;
+  }
+
+  .destination img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 0;
+  }
+
+  .featured-info {
+    align-items: center !important;
+    text-align: center;
+    padding: 0 8px;
+    width: 100%;
+  }
+
+  .destination h3 {
+    text-align: center !important;
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .destination .fact {
+    font-size: 13px;
+    text-align: center;
+  }
+}
+
+/* Mobile - Adjustment lebih kecil */
+@media (max-width: 576px) {
+  .featured-destinations {
+    padding: 16px 0 16px 32px !important; /* Tetap 32px dari kiri */
+    gap: 20px;
+  }
+
+  .destination {
+    min-width: 180px !important;
+    width: 180px !important;
+    gap: 10px;
+  }
+
+  .destination img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .destination h3 {
+    font-size: 15px;
+  }
+
+  .destination .fact {
+    font-size: 12px;
+  }
+}

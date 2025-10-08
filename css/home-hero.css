@@ -74,59 +74,6 @@
   font-weight: 400;
 }
 
-/* Featured Destination */
-.featured-destinations {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 60px;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-  z-index: 2;
-}
-
-.destination {
-  display: flex;
-  flex-direction: row; /* gambar kiri, teks kanan */
-  color: white;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  gap: 20px; /* jarak antara img & teks */
-}
-
-.destination img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  margin-bottom: 15px;
-  flex-shrink: 0;
-  margin: 0px;
-  align-self: center;
-}
-
-.featured-info {
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: center; /* teks rata tengah terhadap img */
-  position: relative;
-  align-items: center;
-  width: 100%;
-}
-
-.destination .fact {
-  font-size: 14px;
-  font-weight: 300;
-  margin: 0 0 5px 0; /* jarak kecil ke h3 */
-}
-
-.destination h3 {
-  margin: 0;
-  font-size: 18px;
-  width: 100%;
-  text-align: left;
-}
-
 /* Search Bar */
 .search-bar {
   display: flex;
@@ -207,68 +154,8 @@
     width: 180px; /* perkecil logo di tablet */
   }
 
-  .hero .featured-destinations {
-    display: flex !important; /* pastikan tetap flex */
-    flex-wrap: nowrap !important; /* jangan wrap ke baris baru */
-    overflow-x: auto; /* aktifkan scroll horizontal */
-    overflow-y: hidden; /* cegah scroll vertikal */
-    -webkit-overflow-scrolling: touch; /* smooth scroll di iOS */
-    gap: 20px; /* jarak antar item saat scroll */
-    padding: 12px 8px; /* ruang di sisi agar card tidak menempel */
-    justify-content: flex-start; /* mulai dari kiri sehingga scroll aktif */
-    scroll-snap-type: x mandatory; /* (opsional) snap setiap card */
-  }
-
-  .hero .featured-destinations .destination {
-    flex: 0 0 auto; /* jangan tumbuh/susut relatif, biar tetap inline */
-    min-width: 220px; /* lebar minimum tiap item (ubah sesuai kebutuhan) */
-    width: 220px; /* lebar standar saat scroll */
-    max-width: 280px; /* batas atas agar tidak melebar terlalu jauh */
-    box-sizing: border-box;
-    flex-direction: column; /* image di atas, teks di bawah di mode scroll */
-    align-items: center; /* teks rata tengah */
-    scroll-snap-align: center; /* (opsional) snap alignment */
-  }
-
-  .destination {
-    flex: 0 0 auto; /* supaya tiap card punya lebar tetap */
-    width: 220px; /* lebar card biar pas buat scroll */
-    flex-direction: column; /* gambar di atas, teks di bawah */
-    text-align: center;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .featured-destinations {
-    flex-wrap: wrap; /* jangan wrap */
-    overflow-y: auto; /* aktifkan scroll horizontal */
-    gap: 20px; /* jarak antar item */
-    padding: 10px;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  .hero .featured-destinations .destination img {
-    width: 100px;
-    height: 100px;
-    margin-bottom: 8px; /* sedikit jarak kalau butuh */
-  }
-
-  .hero .featured-destinations .featured-info {
-    text-align: center;
-    padding: 0 8px;
-  }
-
-  .destination img {
-    width: 100px;
-    height: 100px;
-  }
-
   .search-bar input {
     width: 200px; /* input lebih pendek */
-  }
-
-  .featured-info {
-    align-items: center; /* teks rata tengah */
   }
 }
 
@@ -276,29 +163,6 @@
 @media (max-width: 768px) {
   .hero-content img {
     width: 150px; /* logo makin kecil */
-  }
-
-  .featured-destinations {
-    flex-direction: column; /* susun vertikal */
-    align-items: center;
-    gap: 20px;
-  }
-
-  /* Featured Destination */
-  .featured-destinations {
-    justify-content: center;
-    gap: 30px;
-  }
-
-  .destination {
-    flex-direction: column; /* img di atas, teks di bawah */
-    text-align: center;
-    gap: 10px;
-  }
-
-  .destination img {
-    width: 80px;
-    height: 80px;
   }
 
   .featured-info {
@@ -330,15 +194,6 @@
 @media (max-width: 480px) {
   .hero-content img {
     width: 120px; /* kecil banget buat hp kecil */
-  }
-
-  .destination img {
-    width: 70px;
-    height: 70px;
-  }
-
-  .destination h3 {
-    font-size: 16px; /* perkecil teks */
   }
 
   .search-bar input {
