@@ -73,7 +73,7 @@ header h1 {
   width: 50%;
   height: auto;
   display: block;
-  
+
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 
   object-fit: cover;
@@ -90,7 +90,7 @@ header h1 {
   position: relative;
 }
 
-.left-text, 
+.left-text,
 .right-text {
   display: flex;
   width: 50%;
@@ -115,4 +115,57 @@ h3 {
 }
 
 @media (max-width: 768px) {
+  .left-content,
+  .right-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Semua image full width & tinggi tetap proporsional */
+  .left-content .image,
+  .right-content .image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  /* Text full width & padding lebih kecil biar nggak sempit */
+  .left-text,
+  .right-text {
+    width: 100%;
+    padding: 24px;
+  }
+
+  /* Spesifik: left-content → gambar di bawah teks */
+  .left-content .image {
+    order: 2;
+  }
+
+  .left-content .left-text {
+    order: 1;
+  }
+
+  /* Spesifik: right-content → gambar di atas teks */
+  .right-content .image {
+    order: 1;
+  }
+
+  .right-content .right-text {
+    order: 2;
+  }
+
+  /* Sesuaikan ukuran heading biar tetap seimbang di layar kecil */
+  .left-text h1,
+  .right-text h1 {
+    font-size: 28px;
+  }
+
+  .left-text h3,
+  .right-text h3 {
+    font-size: 18px;
+  }
+
+  p:not(footer p) {
+    font-size: 14px;
+  }
 }
