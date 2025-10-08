@@ -25,3 +25,29 @@
   background: #ffffff;
   color: #411a12;
 }
+
+@media (max-width: 768px) {
+  .filter-container {
+    justify-content: flex-start; /* mulai dari kiri */
+    overflow-x: auto; /* bisa digeser horizontal */
+    gap: 0.6rem; /* lebih rapat */
+    padding: 0.8rem 1rem; /* lebih kecil */
+    scrollbar-width: none; /* sembunyikan scrollbar di Firefox */
+  }
+
+  .filter-container::-webkit-scrollbar {
+    display: none; /* sembunyikan scrollbar di Chrome/Safari */
+  }
+
+  .filter-btn {
+    flex-shrink: 0; /* biar button tidak mengecil paksa */
+    font-size: 0.85rem; /* lebih kecil */
+    padding: 0.4rem 0.9rem; /* tinggi lebih kecil */
+    border-radius: 16px; /* lebih proporsional */
+  }
+
+  .filter-btn.active {
+    background: #ffffff;
+    color: #411a12;
+  }
+}
