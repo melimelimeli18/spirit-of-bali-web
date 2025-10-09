@@ -25,7 +25,7 @@
       "destination": {
         "title-1": "Desa Penglipuran",
         "description-1": "#1 Desa Terbersih",
-        "title-2": "GWK Statue",
+        "title-2": "Patung GWK",
         "description-2": "Top 5 Patung Tertinggi",
         "title-3": "Pantai Seminyak",
         "description-3": "Sunset terbaik di Bali",
@@ -33,8 +33,8 @@
       }
     },
     "category": {
-      "title": "Explore by Category",
-      "description": "Discover Bali's uniqueness through its nature, culture, villages, and mountains.",
+      "title": "Jelajahi berdasarkan Kategori",
+      "description": "Temukan keunikan Bali melalui alam, budaya, desa, dan pegunungannya.",
       "destination": {
         "title-1": "Alam",
         "description-1": "Pantai, Sawah, Air Terjun",
@@ -55,6 +55,16 @@
       "village": "Desa",
       "mountain": "Gunung",
       "favorite": "Favorit Saya"
+    },
+    "filters": {
+      "all": "Semua",
+      "beach": "Pantai",
+      "rice": "Teras Padi",
+      "waterfall": "Air Terjun"
+    },
+    "header": {
+      "title": "Alam Bali",
+      "subtitle": "Menikmati keindahan alam Bali yang hidup"
     },
     "pantai-seminyak": {
       "title": "Pantai Seminyak",
@@ -83,7 +93,8 @@
       "paragraph-1": "Di antara banyak air terjun di Bali, Air Terjun Tegenungan menjadi salah satu yang paling populer. Terletak dekat Ubud, keajaiban alam ini menawarkan aliran air yang dramatis dikelilingi oleh hutan tropis. Suara gemericik air dan kabut di udara menciptakan suasana yang menyegarkan bagi penduduk lokal maupun wisatawan.",
       "paragraph-2": "Pengunjung dapat turun ke dasar air terjun untuk melihat lebih dekat, berfoto dari berbagai sudut pandang, atau menikmati berenang di kolam alami. Area ini terawat dengan baik, dengan jalur dan platform yang memungkinkan eksplorasi aman.",
       "paragraph-3": "Selain Tegenungan, Bali memiliki banyak air terjun lain seperti Gitgit dan Sekumpul, masing-masing dengan pesonanya sendiri. Air terjun ini mencerminkan keindahan alami Bali yang masih asri dan memberikan ketenangan bagi para pelancong."
-    }
+    },
+    "footer": "&copy; 2025 Spirit of Bali. Seluruh hak cipta dilindungi undang-undang."
   },
   "culture": {
     "navbar": {
@@ -98,6 +109,13 @@
       "title": "Budaya Bali",
       "subtitle": "Merangkul tradisi hidup dan seni Bali"
     },
+    "filters": {
+      "all": "Semua",
+      "dance": "Tarian",
+      "ceremony": "Upacara",
+      "architecture": "Arsitektur",
+      "temple": "Patung/Pura"
+    },
     "legong-dance": {
       "title": "Tari Legong",
       "description": "Tarian tradisional Bali yang anggun",
@@ -105,12 +123,19 @@
       "paragraph-2": "Tarian ini ditandai oleh gerakan mata dan tangan yang sangat presisi, yang memerlukan latihan bertahun-tahun. Legong mencerminkan keanggunan, pengabdian, serta keindahan budaya Bali.",
       "paragraph-3": "Tari Legong dapat disaksikan di Ubud dan Denpasar, biasanya saat upacara keagamaan di pura atau pertunjukan budaya yang bertujuan melestarikan warisan seni Bali."
     },
-    "kecak-dance": {
+    "keccak-dance": {
       "title": "Tari Kecak",
       "description": "Tarian api yang memukau dari Bali",
       "paragraph-1": "Tari Kecak, juga dikenal sebagai ‘Tari Cak’ atau ‘Tarian Monyet’, merupakan pertunjukan dramatis yang memadukan nyanyian, gerak, dan kisah. Tarian ini mengisahkan epos Ramayana, diiringi paduan suara laki-laki yang bersahut-sahutan dengan lantunan ‘cak-cak-cak’ tanpa alat musik.",
       "paragraph-2": "Pertunjukan unik ini melambangkan kebersamaan dan energi spiritual. Irama lantunan suara yang berulang menciptakan suasana magis dan memukau bagi penonton.",
       "paragraph-3": "Pertunjukan Kecak paling terkenal diadakan di Pura Uluwatu, menghadirkan pengalaman luar biasa dengan latar matahari terbenam di atas lautan."
+    },
+    "balinese-offerings": {
+      "title": "Persembahan Bali",
+      "description": "Tradisi Suci Persembahan Bali",
+      "paragraph-1": "Di Bali, spiritualitas terjalin dalam kehidupan sehari-hari, dan salah satu simbolnya yang paling terlihat adalah persembahan yang disebut <b>canang sari</b>. Terbuat dari daun kelapa dan diisi dengan bunga, beras, dupa, atau koin, keranjang-keranjang kecil ini ditempatkan di pura, tempat suci, rumah, dan tempat usaha sebagai isyarat syukur dan keharmonisan antara dunia spiritual dan fisik.",
+      "paragraph-2": "Mempersiapkan persembahan merupakan tindakan pengabdian sehari-hari yang sering dilakukan oleh para wanita setiap pagi. Bunga-bunga dirangkai berdasarkan warna simbolis, disertai doa memohon berkat dan perlindungan. Asap dupa membawa doa-doa ini kepada Sang Ilahi, mengubah kegiatan rutin menjadi ritual sakral.",
+      "paragraph-3": "Bagi pengunjung, sesajen warna-warni yang tersebar di jalan-jalan dan pura mungkin tampak dekoratif, tetapi bagi masyarakat Bali, sesajen adalah tradisi yang hidup. Praktik ini memadukan kepercayaan Hindu dengan adat istiadat setempat, menunjukkan bahwa spiritualitas di Bali mengalir melalui kehidupan sehari-hari."
     },
     "barong-dance": {
       "title": "Tari Barong",
@@ -314,7 +339,8 @@
           "list-3": "Tebing di sekitar pantai – Menawarkan pemandangan matahari terbenam yang menakjubkan."
         }
       }
-    }
+    },
+    "footer": "&copy; 2025 Spirit of Bali. Seluruh hak cipta dilindungi undang-undang."
   },
   "village": {
     "navbar": {
@@ -327,7 +353,13 @@
     },
     "header": {
       "title": "Desa di Bali",
-      "subtitle": "Menemukan harmoni dalam kehidupan masyarakat Bali."
+      "subtitle": "Menemukan harmoni dalam kehidupan masyarakat Bali"
+    },
+    "filters": {
+      "all": "Semua",
+      "tradition": "Tradisi",
+      "art": "Seni & Budaya",
+      "clean": "Desa Bersih"
     },
     "desa-tenganan": {
       "title": "Desa Tenganan",
@@ -356,7 +388,8 @@
       "paragraph-1": "Desa Jatiluwih terkenal dengan pemandangan sawah berundaknya yang menakjubkan, yang telah diakui sebagai Warisan Dunia UNESCO. Terletak di Kabupaten Tabanan, kawasan ini memperlihatkan sistem irigasi tradisional subak, metode pertanian kuno yang menekankan kerja sama dan keharmonisan dengan alam.",
       "paragraph-2": "Pengunjung akan terpesona melihat hamparan sawah luas yang berubah warna sesuai musim — dari hijau muda saat tanam hingga keemasan saat panen, menciptakan pemandangan menawan sepanjang tahun.",
       "paragraph-3": "Jatiluwih juga menjadi destinasi ideal untuk trekking dan bersepeda, memberikan pengalaman langsung menikmati keindahan alam dan kehidupan pedesaan Bali. Tempat ini menghadirkan keseimbangan antara warisan budaya dan ketenangan alam pedesaan."
-    }
+    },
+    "footer": "&copy; 2025 Spirit of Bali. Seluruh hak cipta dilindungi undang-undang."
   },
   "mountain": {
     "navbar": {
@@ -369,9 +402,9 @@
     },
     "header": {
       "title": "Gunung di Bali",
-      "subtitle": "Petualangan mendaki dengan pemandangan menakjubkan."
+      "subtitle": "Petualangan mendaki dengan pemandangan menakjubkan"
     },
-    "filter": {
+    "filters": {
       "all": "Semua",
       "easy": "Pendakian Mudah",
       "medium": "Pendakian Sedang",
@@ -397,6 +430,7 @@
       "paragraph-1": "Gunung Batukaru dengan ketinggian 2.276 meter adalah gunung berapi tertinggi kedua di Bali dan sering dipilih oleh mereka yang mencari ketenangan. Berbeda dengan Gunung Batur yang ramai, Batukaru menawarkan pengalaman mendaki yang lebih sepi dan damai di tengah hutan hujan tropis yang rimbun.",
       "paragraph-2": "Gunung ini juga memiliki nilai spiritual penting karena di lerengnya terdapat Pura Luhur Batukaru, salah satu pura utama di Bali. Pura ini didedikasikan untuk penjaga spiritual Gunung Batukaru dan sering dikunjungi masyarakat untuk bersembahyang.",
       "paragraph-3": "Pendakian ke Gunung Batukaru tidak hanya menawarkan keindahan alam, tetapi juga wawasan budaya. Hutan lebat, udara segar, dan suasana spiritual menjadikannya destinasi istimewa bagi wisatawan yang ingin merasakan kedekatan dengan alam dan tradisi Bali."
-    }
+    },
+    "footer": "&copy; 2025 Spirit of Bali. Seluruh hak cipta dilindungi undang-undang."
   }
 }
